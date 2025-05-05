@@ -1,5 +1,5 @@
 {
-  "name": "@kepler.gl/components",
+  "name": "@soft-kepler.gl/components",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl constants used by kepler.gl components, actions and reducers",

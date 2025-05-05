@@ -1,5 +1,5 @@
 {
-  "name": "kepler.gl",
+  "name": "@soft/kepler.gl",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl is a webgl based application to visualize large scale location data in the browser",
@@ -39,7 +39,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/keplergl/kepler.gl.git"
+    "url": "https://github.com/ying-ying-wu/kepler.gl.git"
   },
   "scripts": {
     "bootstrap": "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true git submodule update --init --recursive && yarn install && yarn fix-dependencies",

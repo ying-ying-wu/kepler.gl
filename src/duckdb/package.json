@@ -1,5 +1,5 @@
 {
-  "name": "@kepler.gl/duckdb",
+  "name": "@soft-kepler.gl/duckdb",
   "author": "Shan He <heshan0131@gmail.com>",
   "version": "3.1.4",
   "description": "DuckDB plugin for Kepler.gl",
