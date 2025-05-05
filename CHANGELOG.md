@@ -15,6 +15,10 @@ Each version should:
 Ref: http://keepachangelog.com/en/0.3.0/
 -->
 
+## [3.1.4] - May 5 2025
+
+- 6a6bacb29 [Fix] website yarn lock mismatch
+
 ## [3.1.3] - May 2 2025
 
 - d5ef5f713 [Chore] remove dnd-kit from dependency of utils and reducer, remove use of withState in dnd context (#3067)
