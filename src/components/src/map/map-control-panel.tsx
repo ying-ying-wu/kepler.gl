@@ -3,12 +3,12 @@
 
 import React, {useCallback} from 'react';
 import styled from 'styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {CenterFlexbox, IconRoundSmall} from '../common/styled-components';
 import {Close, Pin} from '../common/icons';
 import Switch from '../common/switch';
-import {MapState} from '@kepler.gl/types';
-import {ActionHandler, toggleSplitMapViewport} from '@kepler.gl/actions';
+import {MapState} from '@soft-yyw/kepler.gl-types';
+import {ActionHandler, toggleSplitMapViewport} from '@soft-yyw/kepler.gl-actions';
 import classNames from 'classnames';
 
 const StyledMapControlPanel = styled.div`

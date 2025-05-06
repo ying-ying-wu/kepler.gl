@@ -8,8 +8,8 @@ import {
   capitalizeFirstLetter,
   getError,
   set
-} from '@kepler.gl/utils';
-import {toArray, arrayMove} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-utils';
+import {toArray, arrayMove} from '@soft-yyw/kepler.gl-common-utils';
 import test from 'tape';
 
 test('Utils -> set', t => {

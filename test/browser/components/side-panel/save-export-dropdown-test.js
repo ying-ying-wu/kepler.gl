@@ -10,7 +10,7 @@ import {
   SaveExportDropdownFactory,
   PanelHeaderDropdownFactory,
   ToolbarItem
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {IntlWrapper} from 'test/helpers/component-utils';
 
 test('SaveExportDropdown', t => {

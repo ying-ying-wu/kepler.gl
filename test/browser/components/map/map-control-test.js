@@ -21,10 +21,10 @@ import {
   MapControlToolbarFactory,
   Icons,
   MapViewStateContextProvider
-} from '@kepler.gl/components';
-import {LOCALE_CODES, LOCALES} from '@kepler.gl/localization';
-import {toggleMapControl} from '@kepler.gl/actions';
-import {keplerGlReducerCore} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-components';
+import {LOCALE_CODES, LOCALES} from '@soft-yyw/kepler.gl-localization';
+import {toggleMapControl} from '@soft-yyw/kepler.gl-actions';
+import {keplerGlReducerCore} from '@soft-yyw/kepler.gl-reducers';
 
 import {IntlWrapper, mountWithTheme} from '../../../helpers/component-utils';
 import {

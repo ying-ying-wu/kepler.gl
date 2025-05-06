@@ -5,8 +5,8 @@ import Layer, {LayerBaseConfig, OVERLAY_TYPE_CONST, VisualChannels} from './base
 import {createSelector} from 'reselect';
 
 import {geoJsonFromData, prefixGpuField, gpuFilterToMapboxFilter} from './mapbox-utils';
-import {default as KeplerTable} from '@kepler.gl/table';
-import {Merge, LayerColumn} from '@kepler.gl/types';
+import {default as KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {Merge, LayerColumn} from '@soft-yyw/kepler.gl-types';
 
 type MapboxLayerGLColumns = {
   lat: LayerColumn;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {getBinThresholds, histogramFromThreshold} from '@kepler.gl/utils';
+import {getBinThresholds, histogramFromThreshold} from '@soft-yyw/kepler.gl-utils';
 
 /* eslint-disable max-len */
 const data = `gps_data.utc_timestamp,gps_data.lat,gps_data.lng,gps_data.types,epoch,has_result,uid,time,begintrip_ts_utc,begintrip_ts_local,date

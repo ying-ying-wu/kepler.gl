@@ -3,9 +3,9 @@
 
 import {useSelector} from 'react-redux';
 
-import {ActionHandler, createOrUpdateFilter, setFilter, setFilterPlot} from '@kepler.gl/actions';
-import {Datasets} from '@kepler.gl/table';
-import {Filter} from '@kepler.gl/types';
+import {ActionHandler, createOrUpdateFilter, setFilter, setFilterPlot} from '@soft-yyw/kepler.gl-actions';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {Filter} from '@soft-yyw/kepler.gl-types';
 import React, {ReactNode, useEffect} from 'react';
 import {
   CallbackFunctionProps,
@@ -16,8 +16,8 @@ import {
   RegisterFunctionCallingProps
 } from '@openassistant/core';
 import {checkDatasetNotExists, checkFieldNotExists} from './utils';
-import {getDefaultFilter, getFilterProps, updateFilterPlot} from '@kepler.gl/utils';
-import {RangeFilterFactory, appInjector} from '@kepler.gl/components';
+import {getDefaultFilter, getFilterProps, updateFilterPlot} from '@soft-yyw/kepler.gl-utils';
+import {RangeFilterFactory, appInjector} from '@soft-yyw/kepler.gl-components';
 
 export function filterFunctionDefinition(
   context: CustomFunctionContext<

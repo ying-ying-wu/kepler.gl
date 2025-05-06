@@ -14,12 +14,12 @@ import {
   NewFilterPanelFactory,
   appInjector,
   AddFilterButtonFactory
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {mountWithTheme, IntlWrapper} from 'test/helpers/component-utils';
-import {keplerGlReducerCore as keplerGlReducer} from '@kepler.gl/reducers';
-import {VisStateActions} from '@kepler.gl/actions';
+import {keplerGlReducerCore as keplerGlReducer} from '@soft-yyw/kepler.gl-reducers';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
 import {testFields, testAllData} from 'test/fixtures/test-csv-data';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {assertDatasetIsTable} from '../../../helpers/comparison-utils';
 
 // components

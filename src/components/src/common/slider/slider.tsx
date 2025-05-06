@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 import SliderHandle from './slider-handle';
 import SliderBarHandle from './slider-bar-handle';
-import {normalizeSliderValue, clamp} from '@kepler.gl/utils';
+import {normalizeSliderValue, clamp} from '@soft-yyw/kepler.gl-utils';
 
 function noop() {
   return;

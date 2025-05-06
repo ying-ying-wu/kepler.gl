@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import {parseGeoJsonRawFeature, getGeojsonFeatureTypes} from '../geojson-layer/geojson-utils';
-import {DataContainerInterface, getSampleContainerData, timeToUnixMilli} from '@kepler.gl/utils';
-import {containValidTime, notNullorUndefined} from '@kepler.gl/common-utils';
+import {DataContainerInterface, getSampleContainerData, timeToUnixMilli} from '@soft-yyw/kepler.gl-utils';
+import {containValidTime, notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 import {Feature} from '@turf/helpers';
 import {GeoJsonProperties, Geometry} from 'geojson';
 

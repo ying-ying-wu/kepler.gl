@@ -6,13 +6,13 @@ import styled from 'styled-components';
 import MapPopoverContentFactory from './map-popover-content';
 import {Pin, ArrowLeft, ArrowRight, CursorPoint} from '../common/icons';
 import {injectIntl, IntlShape} from 'react-intl';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {RootContext} from '../context';
-import {parseGeoJsonRawFeature} from '@kepler.gl/layers';
-import {generateHashId, idToPolygonGeo} from '@kepler.gl/common-utils';
-import {LAYER_TYPES} from '@kepler.gl/constants';
-import {LayerHoverProp, getLayerHoverPropValue} from '@kepler.gl/reducers';
-import {Feature, FeatureSelectionContext} from '@kepler.gl/types';
+import {parseGeoJsonRawFeature} from '@soft-yyw/kepler.gl-layers';
+import {generateHashId, idToPolygonGeo} from '@soft-yyw/kepler.gl-common-utils';
+import {LAYER_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {LayerHoverProp, getLayerHoverPropValue} from '@soft-yyw/kepler.gl-reducers';
+import {Feature, FeatureSelectionContext} from '@soft-yyw/kepler.gl-types';
 import {
   FloatingPortal,
   flip,

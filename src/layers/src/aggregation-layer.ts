@@ -10,16 +10,16 @@ import Layer, {
   VisualChannelDescription,
   VisualChannels
 } from './base-layer';
-import {hexToRgb, aggregate, DataContainerInterface} from '@kepler.gl/utils';
+import {hexToRgb, aggregate, DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 import {
   HIGHLIGH_COLOR_3D,
   CHANNEL_SCALES,
   FIELD_OPTS,
   DEFAULT_AGGREGATION,
   AGGREGATION_TYPES
-} from '@kepler.gl/constants';
-import {ColorRange, Field, LayerColumn, Merge} from '@kepler.gl/types';
-import {KeplerTable, Datasets} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-constants';
+import {ColorRange, Field, LayerColumn, Merge} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable, Datasets} from '@soft-yyw/kepler.gl-table';
 
 type AggregationLayerColumns = {
   lat: LayerColumn;

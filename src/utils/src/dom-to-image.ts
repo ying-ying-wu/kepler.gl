@@ -10,7 +10,7 @@ import Window from 'global/window';
 import document from 'global/document';
 import Console from 'global/console';
 import svgToMiniDataURI from 'mini-svg-data-uri';
-import {IMAGE_EXPORT_ERRORS} from '@kepler.gl/constants';
+import {IMAGE_EXPORT_ERRORS} from '@soft-yyw/kepler.gl-constants';
 
 import {
   canvasToBlob,

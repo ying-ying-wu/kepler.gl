@@ -11,15 +11,15 @@ import Layer, {
 import {BrushingExtension} from '@deck.gl/extensions';
 import {GeoJsonLayer} from '@deck.gl/layers';
 import {H3HexagonLayer} from '@deck.gl/geo-layers';
-import {EnhancedColumnLayer} from '@kepler.gl/deckgl-layers';
+import {EnhancedColumnLayer} from '@soft-yyw/kepler.gl-deckgl-layers';
 import {
   getCentroid,
   idToPolygonGeo,
   h3IsValid,
   getHexFields,
   Centroid
-} from '@kepler.gl/common-utils';
-import {findDefaultColorField, DataContainerInterface, createDataContainer} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-common-utils';
+import {findDefaultColorField, DataContainerInterface, createDataContainer} from '@soft-yyw/kepler.gl-utils';
 import H3HexagonLayerIcon from './h3-hexagon-layer-icon';
 import {
   CHANNEL_SCALES,
@@ -27,7 +27,7 @@ import {
   DEFAULT_COLOR_UI,
   DEFAULT_TEXT_LABEL,
   LAYER_VIS_CONFIGS
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import {
   ColorRange,
@@ -37,8 +37,8 @@ import {
   VisConfigRange,
   Merge,
   LayerColumn
-} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 import {getTextOffsetByRadius, formatTextLabelData} from '../layer-text-label';
 

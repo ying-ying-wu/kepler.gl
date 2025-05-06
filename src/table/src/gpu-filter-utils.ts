@@ -2,10 +2,10 @@
 // Copyright contributors to the kepler.gl project
 
 import moment from 'moment';
-import {MAX_GPU_FILTERS, FILTER_TYPES} from '@kepler.gl/constants';
-import {Field, Filter} from '@kepler.gl/types';
-import {set, DataContainerInterface} from '@kepler.gl/utils';
-import {toArray, notNullorUndefined} from '@kepler.gl/common-utils';
+import {MAX_GPU_FILTERS, FILTER_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {Field, Filter} from '@soft-yyw/kepler.gl-types';
+import {set, DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
+import {toArray, notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 
 import {GpuFilter} from './kepler-table';
 

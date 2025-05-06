@@ -5,10 +5,10 @@ import React, {ComponentType} from 'react';
 import styled from 'styled-components';
 import classnames from 'classnames';
 
-import {FormattedMessage} from '@kepler.gl/localization';
-import {MapStyle} from '@kepler.gl/reducers';
-import {NO_BASEMAP_ICON} from '@kepler.gl/constants';
-import {MapStyles} from '@kepler.gl/types';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {MapStyle} from '@soft-yyw/kepler.gl-reducers';
+import {NO_BASEMAP_ICON} from '@soft-yyw/kepler.gl-constants';
+import {MapStyles} from '@soft-yyw/kepler.gl-types';
 
 import {ArrowDown} from '../../common/icons';
 import PanelHeaderActionFactory from '../panel-header-action';

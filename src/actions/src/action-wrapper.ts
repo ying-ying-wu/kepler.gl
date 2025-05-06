@@ -18,9 +18,9 @@ export const getActionForwardAddress = id => `${ADDRESS_PREFIX}${id.toUpperCase(
  * A forward action looks like this
  * ```js
  *  {
- *    type: "@@kepler.gl/LAYER_CONFIG_CHANGE",
+ *    type: "@@soft-yyw/kepler.gl-LAYER_CONFIG_CHANGE",
  *    payload: {
- *      type: '@@kepler.gl/LAYER_CONFIG_CHANGE',
+ *      type: '@@soft-yyw/kepler.gl-LAYER_CONFIG_CHANGE',
  *      payload: {},
  *      meta: {
  *       // id of instance

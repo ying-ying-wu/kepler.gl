@@ -4,7 +4,7 @@
 import React, {useEffect, useState, useMemo} from 'react';
 import styled, {ThemeProvider} from 'styled-components';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-import {themeLT} from '@kepler.gl/styles';
+import {themeLT} from '@soft-yyw/kepler.gl-styles';
 import ImageModalContainer, {ImageModalContainerProps} from './image-modal-container';
 
 import {
@@ -14,12 +14,12 @@ import {
   Button
 } from '../common/styled-components';
 import StatusPanel from './status-panel';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
 import {ProviderSelect} from './cloud-components/provider-select';
-import {Provider} from '@kepler.gl/cloud-providers';
-import {cleanupExportImage as cleanupExportImageAction} from '@kepler.gl/actions';
-import {dataTestIds} from '@kepler.gl/constants';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
+import {cleanupExportImage as cleanupExportImageAction} from '@soft-yyw/kepler.gl-actions';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
 
 export const StyledInputLabel = styled.label`
   font-size: 12px;

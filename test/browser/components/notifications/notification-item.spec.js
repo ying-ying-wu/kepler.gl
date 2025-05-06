@@ -4,9 +4,9 @@
 import React from 'react';
 
 import {screen} from '@testing-library/react';
-import {dataTestIds} from '@kepler.gl/constants';
-import {NotificationItemFactory, appInjector} from '@kepler.gl/components';
-import {createNotification} from '@kepler.gl/utils';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {NotificationItemFactory, appInjector} from '@soft-yyw/kepler.gl-components';
+import {createNotification} from '@soft-yyw/kepler.gl-utils';
 
 import {renderWithTheme} from '../../../helpers/component-jest-utils';
 

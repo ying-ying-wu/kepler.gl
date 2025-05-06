@@ -4,7 +4,7 @@
 import React from 'react';
 import test from 'tape';
 import sinon from 'sinon';
-import {PureFeatureActionPanelFactory} from '@kepler.gl/components';
+import {PureFeatureActionPanelFactory} from '@soft-yyw/kepler.gl-components';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 
 const FeatureActionPanel = PureFeatureActionPanelFactory();

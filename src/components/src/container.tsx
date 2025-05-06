@@ -7,9 +7,9 @@ import {connect, ConnectedProps, useDispatch} from 'react-redux';
 import {console as Console} from 'global/window';
 import {injector, provideRecipesToInjector, flattenDeps} from './injector';
 import KeplerGlFactory from './kepler-gl';
-import {registerEntry, deleteEntry, renameEntry, forwardTo} from '@kepler.gl/actions';
-import {KeplerGlState} from '@kepler.gl/reducers';
-import {getApplicationConfig} from '@kepler.gl/utils';
+import {registerEntry, deleteEntry, renameEntry, forwardTo} from '@soft-yyw/kepler.gl-actions';
+import {KeplerGlState} from '@soft-yyw/kepler.gl-reducers';
+import {getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
 export const ERROR_MSG = {
   noState:

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {KeplerGlLayers} from '@kepler.gl/layers';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
 const {PointLayer, ArcLayer, HexagonLayer, GeojsonLayer} = KeplerGlLayers;
-import {DEFAULT_TEXT_LABEL, DEFAULT_COLOR_UI, BINS} from '@kepler.gl/constants';
-import {defaultInteractionConfig} from '@kepler.gl/reducers';
-import {getBinThresholds, histogramFromThreshold, histogramFromDomain} from '@kepler.gl/utils';
+import {DEFAULT_TEXT_LABEL, DEFAULT_COLOR_UI, BINS} from '@soft-yyw/kepler.gl-constants';
+import {defaultInteractionConfig} from '@soft-yyw/kepler.gl-reducers';
+import {getBinThresholds, histogramFromThreshold, histogramFromDomain} from '@soft-yyw/kepler.gl-utils';
 
 export const savedStateV0 = {
   config: {

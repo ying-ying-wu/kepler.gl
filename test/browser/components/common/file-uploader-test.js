@@ -6,7 +6,7 @@ import test from 'tape';
 import sinon from 'sinon';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 
-import {FileUpload, WarningMsg, FileDrop, UploadButton} from '@kepler.gl/components';
+import {FileUpload, WarningMsg, FileDrop, UploadButton} from '@soft-yyw/kepler.gl-components';
 
 test('Components -> FileUploader.render', t => {
   let wrapper;

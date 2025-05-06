@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {ActionTypes} from '@kepler.gl/actions';
+import {ActionTypes} from '@soft-yyw/kepler.gl-actions';
 import * as combinedUpdaters from './combined-updaters';
 
 /**

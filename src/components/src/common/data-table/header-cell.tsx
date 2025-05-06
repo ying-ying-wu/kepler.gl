@@ -6,10 +6,10 @@ import styled from 'styled-components';
 import classnames from 'classnames';
 import Button from './button';
 import {ArrowUp, ArrowDown, VertThreeDots, Hash} from '../../common/icons';
-import {SORT_ORDER} from '@kepler.gl/constants';
+import {SORT_ORDER} from '@soft-yyw/kepler.gl-constants';
 import OptionDropdown, {FormatterDropdown} from './option-dropdown';
-import {getFieldFormatLabels} from '@kepler.gl/utils';
-import {ColMeta} from '@kepler.gl/types';
+import {getFieldFormatLabels} from '@soft-yyw/kepler.gl-utils';
+import {ColMeta} from '@soft-yyw/kepler.gl-types';
 import FieldTokenFactory, {FieldTokenProps} from '../../common/field-token';
 import {DataTableProps} from './index';
 

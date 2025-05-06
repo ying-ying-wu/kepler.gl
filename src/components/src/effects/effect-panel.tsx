@@ -6,9 +6,9 @@ import styled from 'styled-components';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 
-import {dataTestIds, LIGHT_AND_SHADOW_EFFECT} from '@kepler.gl/constants';
-import {removeEffect, updateEffect} from '@kepler.gl/actions';
-import {Effect} from '@kepler.gl/types';
+import {dataTestIds, LIGHT_AND_SHADOW_EFFECT} from '@soft-yyw/kepler.gl-constants';
+import {removeEffect, updateEffect} from '@soft-yyw/kepler.gl-actions';
+import {Effect} from '@soft-yyw/kepler.gl-types';
 
 import EffectPanelHeaderFactory from './effect-panel-header';
 import EffectConfiguratorFactory from './effect-configurator';

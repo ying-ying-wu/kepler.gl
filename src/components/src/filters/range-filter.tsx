@@ -3,7 +3,7 @@
 
 import React from 'react';
 import RangeSliderFactory from '../common/range-slider';
-import {FILTER_VIEW_TYPES} from '@kepler.gl/constants';
+import {FILTER_VIEW_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {RangeFilterProps} from './types';
 
 RangeFilterFactory.deps = [RangeSliderFactory];

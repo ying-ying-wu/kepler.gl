@@ -4,10 +4,10 @@
 import React, {useCallback, useMemo, useState} from 'react';
 import styled from 'styled-components';
 
-import {ALL_FIELD_TYPES, SCALE_TYPES} from '@kepler.gl/constants';
-import {AggregatedBin, Layer, VisualChannelDomain} from '@kepler.gl/layers';
-import {KeplerTable} from '@kepler.gl/table';
-import {ColorRange, ColorUI, Field} from '@kepler.gl/types';
+import {ALL_FIELD_TYPES, SCALE_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {AggregatedBin, Layer, VisualChannelDomain} from '@soft-yyw/kepler.gl-layers';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {ColorRange, ColorUI, Field} from '@soft-yyw/kepler.gl-types';
 import {
   getLayerColorScale,
   getLegendOfScale,
@@ -16,7 +16,7 @@ import {
   histogramFromThreshold,
   getHistogramDomain,
   hasColorMap
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
 import ColorBreaksPanelFactory, {ColorBreaksPanelProps} from './color-breaks-panel';
 import {SetColorUIFunc} from './custom-palette';

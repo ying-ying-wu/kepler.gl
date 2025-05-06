@@ -7,8 +7,8 @@ import JSONPretty from 'react-json-pretty';
 import {AutoSizer} from 'react-virtualized';
 import styled from 'styled-components';
 
-import {VectorTileIcon} from '@kepler.gl/layers';
-import {getError} from '@kepler.gl/utils';
+import {VectorTileIcon} from '@soft-yyw/kepler.gl-layers';
+import {getError} from '@soft-yyw/kepler.gl-utils';
 
 import {MetaResponse} from './common';
 import LoadDataFooter from './load-data-footer';

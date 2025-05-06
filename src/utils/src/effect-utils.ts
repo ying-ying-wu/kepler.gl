@@ -11,13 +11,13 @@ import {
   LIGHT_AND_SHADOW_EFFECT_TIME_MODES,
   FILTER_TYPES,
   FILTER_VIEW_TYPES
-} from '@kepler.gl/constants';
-import {arrayMove} from '@kepler.gl/common-utils';
-import {MapState, Effect, EffectProps, EffectDescription} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {arrayMove} from '@soft-yyw/kepler.gl-common-utils';
+import {MapState, Effect, EffectProps, EffectDescription} from '@soft-yyw/kepler.gl-types';
 import {findById} from './utils';
 import {clamp} from './data-utils';
 
-// TODO isolate types - depends on @kepler.gl/schemas
+// TODO isolate types - depends on @soft-yyw/kepler.gl-schemas
 type VisState = any;
 
 export function computeDeckEffects({

@@ -3,23 +3,23 @@
 
 import React, {MouseEvent, useCallback, useMemo} from 'react';
 import styled from 'styled-components';
-import {KEPLER_COLOR_PALETTES, PALETTE_TYPES, ColorPalette} from '@kepler.gl/constants';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {ColorRange, ColorUI, NestedPartial} from '@kepler.gl/types';
+import {KEPLER_COLOR_PALETTES, PALETTE_TYPES, ColorPalette} from '@soft-yyw/kepler.gl-constants';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {ColorRange, ColorUI, NestedPartial} from '@soft-yyw/kepler.gl-types';
 import {
   hasColorMap,
   updateColorRangeBySelectedPalette,
   paletteIsSteps,
   paletteIsType,
   paletteIsColorBlindSafe
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import ItemSelector from '../../common/item-selector/item-selector';
 import {PanelLabel, Tooltip} from '../../common/styled-components';
 import Switch from '../../common/switch';
 import ColorPalettePanel from './color-palette';
 import CustomPaletteFactory from './custom-palette';
 
-import {capitalizeFirstLetter} from '@kepler.gl/utils';
+import {capitalizeFirstLetter} from '@soft-yyw/kepler.gl-utils';
 import {range} from 'd3-array';
 
 type ColorRangeSelectorProps = {

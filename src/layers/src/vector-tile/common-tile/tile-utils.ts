@@ -3,8 +3,8 @@
 
 import {bisectLeft} from 'd3-array';
 
-import {DomainStops, Field as KeplerField, ZoomStopsConfig} from '@kepler.gl/types';
-import {DomainQuantiles} from '@kepler.gl/utils';
+import {DomainStops, Field as KeplerField, ZoomStopsConfig} from '@soft-yyw/kepler.gl-types';
+import {DomainQuantiles} from '@soft-yyw/kepler.gl-utils';
 
 // helper functions
 export function isDomainStops(domain: unknown): domain is DomainStops {

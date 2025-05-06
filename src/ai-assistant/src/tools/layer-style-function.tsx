@@ -9,8 +9,8 @@ import {
   CustomFunctionOutputProps,
   ErrorCallbackResult
 } from '@openassistant/core';
-import {ActionHandler, layerVisualChannelConfigChange} from '@kepler.gl/actions';
-import {Layer, LayerBaseConfig} from '@kepler.gl/layers';
+import {ActionHandler, layerVisualChannelConfigChange} from '@soft-yyw/kepler.gl-actions';
+import {Layer, LayerBaseConfig} from '@soft-yyw/kepler.gl-layers';
 
 export function updateLayerColorFunctionDefinition(
   context: CustomFunctionContext<ActionHandler<typeof layerVisualChannelConfigChange> | Layer[]>

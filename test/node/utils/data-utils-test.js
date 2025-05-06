@@ -14,9 +14,9 @@ import {
   defaultFormatter,
   formatNumber,
   roundToFour
-} from '@kepler.gl/utils';
-import {processLayerBounds} from '@kepler.gl/reducers';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-utils';
+import {processLayerBounds} from '@soft-yyw/kepler.gl-reducers';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 test('dataUtils -> clamp', t => {
   t.equal(clamp([0, 1], 2), 1, 'should clamp 2 to 1 for [0,1]');

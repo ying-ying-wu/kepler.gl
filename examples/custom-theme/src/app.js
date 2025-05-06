@@ -5,7 +5,7 @@ import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import Window from 'global/window';
 import {connect} from 'react-redux';
-import KeplerGl from '@kepler.gl/components';
+import KeplerGl from '@soft-yyw/kepler.gl-components';
 
 const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
 

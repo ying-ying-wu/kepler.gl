@@ -3,9 +3,9 @@
 
 import React, {ComponentType} from 'react';
 import styled, {withTheme} from 'styled-components';
-import {KEPLER_UNFOLDED_BUCKET} from '@kepler.gl/constants';
+import {KEPLER_UNFOLDED_BUCKET} from '@soft-yyw/kepler.gl-constants';
 import classNames from 'classnames';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {BaseProps} from '../../common/icons';
 
 export type LayerTypeListItemProps = {

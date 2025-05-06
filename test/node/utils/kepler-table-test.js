@@ -5,10 +5,10 @@ import test from 'tape';
 import moment from 'moment';
 import testData, {numericRangesCsv, testFields} from 'test/fixtures/test-csv-data';
 
-import {preciseRound, getFilterFunction} from '@kepler.gl/utils';
-import {findPointFieldPairs} from '@kepler.gl/table';
-import {processCsvData} from '@kepler.gl/processors';
-import {FILTER_TYPES} from '@kepler.gl/constants';
+import {preciseRound, getFilterFunction} from '@soft-yyw/kepler.gl-utils';
+import {findPointFieldPairs} from '@soft-yyw/kepler.gl-table';
+import {processCsvData} from '@soft-yyw/kepler.gl-processors';
+import {FILTER_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 import {cmpFields} from '../../helpers/comparison-utils';
 import {createNewDataEntryMock} from '../../helpers/table-utils';

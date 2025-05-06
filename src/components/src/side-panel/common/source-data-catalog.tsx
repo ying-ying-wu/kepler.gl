@@ -4,9 +4,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {openDeleteModal, VisStateActions, ActionHandler} from '@kepler.gl/actions';
-import {DataContainerInterface} from '@kepler.gl/utils';
-import {RGBColor} from '@kepler.gl/types';
+import {openDeleteModal, VisStateActions, ActionHandler} from '@soft-yyw/kepler.gl-actions';
+import {DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
 
 import {SidePanelSection} from '../../common/styled-components';
 import DatasetTitleFactory from './dataset-title';

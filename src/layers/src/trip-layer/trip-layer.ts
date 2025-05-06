@@ -6,7 +6,7 @@ import uniq from 'lodash/uniq';
 import Layer, {LayerBaseConfig, defaultGetFieldValue} from '../base-layer';
 import {TripsLayer as DeckGLTripsLayer} from '@deck.gl/geo-layers';
 
-import {GEOJSON_FIELDS, PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@kepler.gl/constants';
+import {GEOJSON_FIELDS, PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@soft-yyw/kepler.gl-constants';
 import TripLayerIcon from './trip-layer-icon';
 
 import {
@@ -29,9 +29,9 @@ import {
   VisConfigNumber,
   VisConfigRange,
   LayerColumn
-} from '@kepler.gl/types';
-import {default as KeplerTable, Datasets} from '@kepler.gl/table';
-import {DataContainerInterface} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-types';
+import {default as KeplerTable, Datasets} from '@soft-yyw/kepler.gl-table';
+import {DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 
 export type TripLayerVisConfigSettings = {
   opacity: VisConfigNumber;

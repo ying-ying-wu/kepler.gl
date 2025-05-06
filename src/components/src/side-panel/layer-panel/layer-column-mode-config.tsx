@@ -14,9 +14,9 @@ import Checkbox from '../../common/checkbox';
 import {MinimalField} from '../../common/field-selector';
 import PanelHeaderActionFactory from '../panel-header-action';
 import LayerColumnConfigFactory from './layer-column-config';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {Layer, LayerInfoModal, LayerBaseConfig} from '@kepler.gl/layers';
-import {SupportedColumnMode, FieldPair, LayerColumns} from '@kepler.gl/types';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {Layer, LayerInfoModal, LayerBaseConfig} from '@soft-yyw/kepler.gl-layers';
+import {SupportedColumnMode, FieldPair, LayerColumns} from '@soft-yyw/kepler.gl-types';
 import {BaseComponentProps} from '../../types';
 
 import {Help} from '../../common/icons';

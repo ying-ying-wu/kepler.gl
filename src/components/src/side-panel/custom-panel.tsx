@@ -3,7 +3,7 @@
 
 import React from 'react';
 import {SidePanelItem, SidePanelProps} from '../types';
-import {RGBColor} from '@kepler.gl/types';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
 
 export type CustomPanelsStaticProps<P> = {
   panels: SidePanelItem[];

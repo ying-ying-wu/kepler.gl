@@ -11,7 +11,7 @@ import {createSelector, Selector} from 'reselect';
 import {useDroppable} from '@dnd-kit/core';
 import debounce from 'lodash/debounce';
 
-import {VisStateActions, MapStateActions, UIStateActions} from '@kepler.gl/actions';
+import {VisStateActions, MapStateActions, UIStateActions} from '@soft-yyw/kepler.gl-actions';
 
 // components
 import MapPopoverFactory from './map/map-popover';
@@ -32,7 +32,7 @@ import {
   VisualChannelDomain,
   EditorLayerUtils,
   AggregatedBin
-} from '@kepler.gl/layers';
+} from '@soft-yyw/kepler.gl-layers';
 import {
   DatasetAttribution,
   MapState,
@@ -40,7 +40,7 @@ import {
   Viewport,
   SplitMap,
   SplitMapLayers
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {
   errorNotification,
   setLayerBlending,
@@ -60,8 +60,8 @@ import {
   computeDeckEffects,
   getApplicationConfig,
   GetMapRef
-} from '@kepler.gl/utils';
-import {breakPointValues} from '@kepler.gl/styles';
+} from '@soft-yyw/kepler.gl-utils';
+import {breakPointValues} from '@soft-yyw/kepler.gl-styles';
 
 // default-settings
 import {
@@ -71,14 +71,14 @@ import {
   DEFAULT_PICKING_RADIUS,
   NO_MAP_ID,
   EMPTY_MAPBOX_STYLE
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import {DROPPABLE_MAP_CONTAINER_TYPE} from './common/dnd-layer-items';
 // Contexts
 import {MapViewStateContext} from './map-view-state-context';
 
 import ErrorBoundary from './common/error-boundary';
-import {LOCALE_CODES} from '@kepler.gl/localization';
+import {LOCALE_CODES} from '@soft-yyw/kepler.gl-localization';
 import {MapView} from '@deck.gl/core';
 import {
   MapStyle,
@@ -88,8 +88,8 @@ import {
   prepareLayersForDeck,
   prepareLayersToRender,
   LayersToRender
-} from '@kepler.gl/reducers';
-import {VisState} from '@kepler.gl/schemas';
+} from '@soft-yyw/kepler.gl-reducers';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
 
 import LoadingIndicator from './loading-indicator';
 

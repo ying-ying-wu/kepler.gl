@@ -31,7 +31,7 @@ const workspaces = WebsitePackage.workspaces;
 workspaces.forEach(workspace => {
   // workspace =  "./src/types",  "./src/constants", etc
   const moduleName = workspace.split('/').pop();
-  RESOLVE_LOCAL_ALIASES[`@kepler.gl/${moduleName}`] = join(SRC_DIR, `${moduleName}/src`);
+  RESOLVE_LOCAL_ALIASES[`@soft-yyw/kepler.gl-${moduleName}`] = join(SRC_DIR, `${moduleName}/src`);
 });
 
 const config = {

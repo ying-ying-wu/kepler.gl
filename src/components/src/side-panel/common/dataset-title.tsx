@@ -3,17 +3,17 @@
 
 import React, {useCallback, useRef, useState} from 'react';
 import styled from 'styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
-import {Table} from '@kepler.gl/layers';
+import {Table} from '@soft-yyw/kepler.gl-layers';
 import {CenterFlexbox, Tooltip} from '../../common/styled-components';
 import {ArrowRight, Trash} from '../../common/icons';
 import DatasetTagFactory from './dataset-tag';
 import CustomPicker from '../layer-panel/custom-picker';
 import {Portaled} from '../..';
-import {rgbToHex} from '@kepler.gl/utils';
-import {openDeleteModal, VisStateActions, ActionHandler} from '@kepler.gl/actions';
-import {RGBColor} from '@kepler.gl/types';
+import {rgbToHex} from '@soft-yyw/kepler.gl-utils';
+import {openDeleteModal, VisStateActions, ActionHandler} from '@soft-yyw/kepler.gl-actions';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
 import {StyledDatasetTitleProps, RemoveDatasetProps, ShowDataTableProps} from './types';
 
 const StyledDatasetTitle = styled.div<StyledDatasetTitleProps>`
@@ -65,7 +65,7 @@ export type DatasetTitleProps = {
 };
 
 const ShowDataTable = ({id, showDatasetTable}: ShowDataTableProps) => (
-  <DataTagAction className="dataset-action show-data-table" data-tip data-for={`data-table-${id}`}>
+  <DataTagAction className="show-data-table dataset-action" data-tip data-for={`data-table-${id}`}>
     <Table
       height="16px"
       onClick={e => {

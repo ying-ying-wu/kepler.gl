@@ -4,9 +4,9 @@
 import React, {useCallback, useState} from 'react';
 import styled, {css} from 'styled-components';
 
-import {rgbToHex} from '@kepler.gl/utils';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {RGBColor} from '@kepler.gl/types';
+import {rgbToHex} from '@soft-yyw/kepler.gl-utils';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
 
 import {Portaled} from '../..';
 import {Tooltip} from '../../common/styled-components';

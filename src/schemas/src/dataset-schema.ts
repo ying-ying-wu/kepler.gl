@@ -5,13 +5,13 @@ import pick from 'lodash/pick';
 import {console as globalConsole} from 'global/window';
 import * as arrow from 'apache-arrow';
 
-import {ALL_FIELD_TYPES, DATASET_FORMATS} from '@kepler.gl/constants';
-import {ProtoDataset, RGBColor, JsonObject} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
+import {ALL_FIELD_TYPES, DATASET_FORMATS} from '@soft-yyw/kepler.gl-constants';
+import {ProtoDataset, RGBColor, JsonObject} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 import {VERSIONS} from './versions';
 import Schema from './schema';
-import {getFieldsFromData, getSampleForTypeAnalyze} from '@kepler.gl/common-utils';
-import {ArrowDataContainer, DataContainerInterface, FIELD_DISPLAY_FORMAT} from '@kepler.gl/utils';
+import {getFieldsFromData, getSampleForTypeAnalyze} from '@soft-yyw/kepler.gl-common-utils';
+import {ArrowDataContainer, DataContainerInterface, FIELD_DISPLAY_FORMAT} from '@soft-yyw/kepler.gl-utils';
 
 export type SavedField = {
   name: string;

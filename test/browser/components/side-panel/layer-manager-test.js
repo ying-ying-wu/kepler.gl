@@ -14,11 +14,11 @@ import {
   AddLayerButtonFactory,
   appInjector,
   Layers
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 import {mountWithTheme, IntlWrapper} from 'test/helpers/component-utils';
 
-import {VisStateActions, UIStateActions, MapStateActions} from '@kepler.gl/actions';
+import {VisStateActions, UIStateActions, MapStateActions} from '@soft-yyw/kepler.gl-actions';
 
 import {StateWMultiH3Layers} from 'test/helpers/mock-state';
 

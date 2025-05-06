@@ -4,16 +4,16 @@
 import React, {useCallback, useMemo} from 'react';
 import styled, {css} from 'styled-components';
 
-import {SCALE_TYPES} from '@kepler.gl/constants';
-import {Layer} from '@kepler.gl/layers';
-import {ColorRange, HexColor, MapState} from '@kepler.gl/types';
+import {SCALE_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {ColorRange, HexColor, MapState} from '@soft-yyw/kepler.gl-types';
 import {
   getLayerColorScale,
   getLegendOfScale,
   getVisualChannelScaleByZoom,
   colorMapToCategoricalColorBreaks,
   isObject
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
 import {Reset} from './icons';
 import {InlineInput} from './styled-components';

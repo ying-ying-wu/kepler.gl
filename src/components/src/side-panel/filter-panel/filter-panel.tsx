@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 import {createSelector} from 'reselect';
 import styled from 'styled-components';
 import get from 'lodash/get';
-import {ALL_FIELD_TYPES, FILTER_TYPES} from '@kepler.gl/constants';
+import {ALL_FIELD_TYPES, FILTER_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 import NewFilterPanelFactory from '../../filters/filter-panels/new-filter-panel';
 import TimeRangeFilterPanelFactory from '../../filters/filter-panels/time-range-filter-panel';
@@ -13,9 +13,9 @@ import SingleSelectFilterPanelFactory from '../../filters/filter-panels/single-s
 import MultiSelectFilterPanelFactory from '../../filters/filter-panels/multi-select-filter-panel';
 import RangeFilterPanelFactory from '../../filters/filter-panels/range-filter-panel';
 import PolygonFilterPanelFactory from '../../filters/filter-panels/polygon-filter-panel';
-import {Field, Filter} from '@kepler.gl/types';
+import {Field, Filter} from '@soft-yyw/kepler.gl-types';
 import {FilterPanelProps} from '../../filters/filter-panels/types';
-import {Layer} from '@kepler.gl/layers';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 
 const StyledFilterPanel = styled.div`
   margin-bottom: 12px;

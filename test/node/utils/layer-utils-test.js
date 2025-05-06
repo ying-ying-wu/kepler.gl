@@ -3,10 +3,10 @@
 
 import test from 'tape';
 import cloneDeep from 'lodash/cloneDeep';
-import {processCsvData, processGeojson} from '@kepler.gl/processors';
-import {LayerClasses, KeplerGlLayers} from '@kepler.gl/layers';
-import {GEOJSON_FIELDS} from '@kepler.gl/constants';
-import {findDefaultLayer, getLayerHoverProp, getLayerOrderFromLayers} from '@kepler.gl/reducers';
+import {processCsvData, processGeojson} from '@soft-yyw/kepler.gl-processors';
+import {LayerClasses, KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {GEOJSON_FIELDS} from '@soft-yyw/kepler.gl-constants';
+import {findDefaultLayer, getLayerHoverProp, getLayerOrderFromLayers} from '@soft-yyw/kepler.gl-reducers';
 import {StateWTripGeojson, StateWFiles} from 'test/helpers/mock-state';
 
 const {PointLayer, ArcLayer, GeojsonLayer, LineLayer} = KeplerGlLayers;
@@ -17,8 +17,8 @@ import {getNextColorMakerValue} from 'test/helpers/layer-utils';
 import {createNewDataEntryMock} from 'test/helpers/table-utils';
 import tripGeojson, {timeStampDomain, tripBounds} from 'test/fixtures/trip-geojson';
 import {geoJsonWithStyle} from 'test/fixtures/geojson';
-import {KeplerTable, findPointFieldPairs} from '@kepler.gl/table';
-import {createDataContainer} from '@kepler.gl/utils';
+import {KeplerTable, findPointFieldPairs} from '@soft-yyw/kepler.gl-table';
+import {createDataContainer} from '@soft-yyw/kepler.gl-utils';
 
 test('layerUtils -> findDefaultLayer.1', t => {
   const inputFields = [

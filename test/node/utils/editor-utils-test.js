@@ -4,10 +4,10 @@
 import test from 'tape';
 import {EditableGeoJsonLayer} from '@nebula.gl/layers';
 
-import {INITIAL_VIS_STATE} from '@kepler.gl/reducers';
-import {VisStateActions} from '@kepler.gl/actions';
-import {EDITOR_LAYER_ID, EDITOR_MODES} from '@kepler.gl/constants';
-import {EditorLayerUtils, getEditorLayer} from '@kepler.gl/layers';
+import {INITIAL_VIS_STATE} from '@soft-yyw/kepler.gl-reducers';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
+import {EDITOR_LAYER_ID, EDITOR_MODES} from '@soft-yyw/kepler.gl-constants';
+import {EditorLayerUtils, getEditorLayer} from '@soft-yyw/kepler.gl-layers';
 
 test('editorLayerUtils -> isDrawingActive', t => {
   t.equal(

@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {useMemo} from 'react';
-import {HexColor, RGBColor} from '@kepler.gl/types';
+import {HexColor, RGBColor} from '@soft-yyw/kepler.gl-types';
 import styled, {IStyledComponent} from 'styled-components';
 import classnames from 'classnames';
 import {BaseComponentProps} from '../../types';

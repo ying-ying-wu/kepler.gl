@@ -3,8 +3,8 @@
 
 import React, {Component} from 'react';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
-import {addDataToMap, wrapTo} from '@kepler.gl/actions';
-import KeplerGl from '@kepler.gl/components';
+import {addDataToMap, wrapTo} from '@soft-yyw/kepler.gl-actions';
+import KeplerGl from '@soft-yyw/kepler.gl-components';
 
 import sampleData from '../data/sample-data';
 import config from '../configurations/config';

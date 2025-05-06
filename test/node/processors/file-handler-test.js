@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {isKeplerGlMap, makeProgressIterator, filesToDataPayload} from '@kepler.gl/processors';
+import {isKeplerGlMap, makeProgressIterator, filesToDataPayload} from '@soft-yyw/kepler.gl-processors';
 import {parsedFields, parsedRows} from 'test/fixtures/row-object';
 import {
   savedStateV1InteractionCoordinate as keplerglMap,

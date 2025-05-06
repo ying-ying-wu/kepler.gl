@@ -5,7 +5,7 @@ import * as arrow from 'apache-arrow';
 import * as duckdb from '@duckdb/duckdb-wasm';
 import {AsyncDuckDB, DuckDBConfig, AsyncDuckDBConnection} from '@duckdb/duckdb-wasm';
 
-import {DatabaseAdapter, DatabaseConnection} from '@kepler.gl/utils';
+import {DatabaseAdapter, DatabaseConnection} from '@soft-yyw/kepler.gl-utils';
 
 import {logElapsedTime} from '../utils/perf';
 

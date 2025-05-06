@@ -3,7 +3,7 @@
 
 import React, {MouseEventHandler} from 'react';
 import styled from 'styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import {Button} from '../../common/styled-components';
 

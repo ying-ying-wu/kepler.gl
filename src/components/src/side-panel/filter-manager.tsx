@@ -6,12 +6,12 @@ import {useIntl} from 'react-intl';
 import {SidePanelDivider, SidePanelSection} from '../common/styled-components';
 import SourceDataCatalogFactory from './common/source-data-catalog';
 import FilterPanelFactory from './filter-panel/filter-panel';
-import {FILTER_VIEW_TYPES, PANEL_VIEW_TOGGLES} from '@kepler.gl/constants';
-import {Filter} from '@kepler.gl/types';
-import {Layer} from '@kepler.gl/layers';
-import {isSideFilter} from '@kepler.gl/utils';
-import {VisStateActions, ActionHandler, UIStateActions, ActionHandlers} from '@kepler.gl/actions';
-import {Datasets} from '@kepler.gl/table';
+import {FILTER_VIEW_TYPES, PANEL_VIEW_TOGGLES} from '@soft-yyw/kepler.gl-constants';
+import {Filter} from '@soft-yyw/kepler.gl-types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {isSideFilter} from '@soft-yyw/kepler.gl-utils';
+import {VisStateActions, ActionHandler, UIStateActions, ActionHandlers} from '@soft-yyw/kepler.gl-actions';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 import PanelViewListToggleFactory from './panel-view-list-toggle';
 import PanelTitleFactory from './panel-title';

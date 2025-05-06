@@ -4,7 +4,7 @@
 import React from 'react';
 import ItemSelector from '../common/item-selector/item-selector';
 import {PanelLabel, SidePanelSection} from '../common/styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {SingleSelectFilterProps} from './types';
 
 export default function SingleSelectFilterFactory() {

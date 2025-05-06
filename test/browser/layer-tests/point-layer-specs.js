@@ -7,12 +7,12 @@ import {getDistanceScales} from 'viewport-mercator-project';
 import {scaleQuantize} from 'd3-scale';
 import cloneDeep from 'lodash/cloneDeep';
 
-import {DEFAULT_TEXT_LABEL, PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@kepler.gl/constants';
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {processGeojson} from '@kepler.gl/processors';
-import {INITIAL_MAP_STATE} from '@kepler.gl/reducers';
-import {copyTableAndUpdate} from '@kepler.gl/table';
-import {hexToRgb} from '@kepler.gl/utils';
+import {DEFAULT_TEXT_LABEL, PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@soft-yyw/kepler.gl-constants';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {processGeojson} from '@soft-yyw/kepler.gl-processors';
+import {INITIAL_MAP_STATE} from '@soft-yyw/kepler.gl-reducers';
+import {copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
+import {hexToRgb} from '@soft-yyw/kepler.gl-utils';
 
 import {geoJsonWithStyle, geojsonData} from 'test/fixtures/geojson';
 import testArcData, {pointFromNeighbor} from 'test/fixtures/test-arc-data';

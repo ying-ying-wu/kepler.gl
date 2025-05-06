@@ -3,7 +3,7 @@
 
 import test from 'tape';
 
-import {createDataContainer, createIndexedDataContainer} from '@kepler.gl/utils';
+import {createDataContainer, createIndexedDataContainer} from '@soft-yyw/kepler.gl-utils';
 
 const data = [
   [10, 20], // 0

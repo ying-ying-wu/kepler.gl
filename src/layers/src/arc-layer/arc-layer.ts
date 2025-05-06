@@ -12,8 +12,8 @@ import Layer, {
   VisualChannel
 } from '../base-layer';
 import {BrushingExtension} from '@deck.gl/extensions';
-import {GeoArrowArcLayer} from '@kepler.gl/deckgl-arrow-layers';
-import {FilterArrowExtension} from '@kepler.gl/deckgl-layers';
+import {GeoArrowArcLayer} from '@soft-yyw/kepler.gl-deckgl-arrow-layers';
+import {FilterArrowExtension} from '@soft-yyw/kepler.gl-deckgl-layers';
 import {ArcLayer as DeckArcLayer} from '@deck.gl/layers';
 
 import {
@@ -21,14 +21,14 @@ import {
   DataContainerInterface,
   maybeHexToGeo,
   ArrowDataContainer
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import ArcLayerIcon from './arc-layer-icon';
 import {isLayerHoveredFromArrow, createGeoArrowPointVector, getFilteredIndex} from '../layer-utils';
 import {
   DEFAULT_LAYER_COLOR,
   PROJECTED_PIXEL_SIZE_MULTIPLIER,
   ALL_FIELD_TYPES
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import {
   ColorRange,
@@ -41,8 +41,8 @@ import {
   LayerColumn,
   Field,
   AnimationConfig
-} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 export type ArcLayerVisConfigSettings = {
   opacity: VisConfigNumber;
@@ -201,7 +201,7 @@ export default class ArcLayer extends Layer {
   /*
    * CPU filtering an arrow table by values and assembling a partial copy of the raw table is expensive
    * so we will use filteredIndex to create an attribute e.g. filteredIndex [0|1] for GPU filtering
-   * in deck.gl layer, see: FilterArrowExtension in @kepler.gl/deckgl-layers.
+   * in deck.gl layer, see: FilterArrowExtension in @soft-yyw/kepler.gl-deckgl-layers.
    * Note that this approach can create visible lags in case of a lot of discarted geometry.
    */
   filteredIndex: Uint8ClampedArray | null = null;

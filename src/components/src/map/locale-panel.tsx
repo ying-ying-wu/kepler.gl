@@ -8,7 +8,7 @@ import ToolbarItem from '../common/toolbar-item';
 import {MapControlButton} from '../common/styled-components';
 import MapControlTooltipFactory from './map-control-tooltip';
 import MapControlToolbarFactory from './map-control-toolbar';
-import {MapControls} from '@kepler.gl/types';
+import {MapControls} from '@soft-yyw/kepler.gl-types';
 
 LocalePanelFactory.deps = [MapControlTooltipFactory, MapControlToolbarFactory];
 

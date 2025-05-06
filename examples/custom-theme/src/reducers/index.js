@@ -4,7 +4,7 @@
 import {combineReducers} from 'redux';
 import {handleActions} from 'redux-actions';
 
-import keplerGlReducer from '@kepler.gl/reducers';
+import keplerGlReducer from '@soft-yyw/kepler.gl-reducers';
 
 import {INIT} from '../actions';
 

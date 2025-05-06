@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import React, {useEffect, useState} from 'react';
 import classNames from 'classnames';
 
-import {Icons, FieldToken} from '@kepler.gl/components';
+import {Icons, FieldToken} from '@soft-yyw/kepler.gl-components';
 
 export type TreeNodeData<T> = {
   key: string;

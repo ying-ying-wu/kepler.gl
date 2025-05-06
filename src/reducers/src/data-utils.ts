@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {Bounds} from '@kepler.gl/types';
-import {Layer} from '@kepler.gl/layers';
+import {Bounds} from '@soft-yyw/kepler.gl-types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 import {
   MAX_LATITUDE,
   MIN_LATITUDE,
@@ -10,7 +10,7 @@ import {
   MIN_LONGITUDE,
   validateLongitude,
   validateLatitude
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
 /**
  * takes a list of layer bounds and returns a single bound

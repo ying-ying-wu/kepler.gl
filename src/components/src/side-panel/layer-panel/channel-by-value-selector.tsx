@@ -3,10 +3,10 @@
 
 import React, {useCallback} from 'react';
 
-import {CHANNEL_SCALE_SUPPORTED_FIELDS} from '@kepler.gl/constants';
-import {Layer, VisualChannel} from '@kepler.gl/layers';
-import {KeplerTable} from '@kepler.gl/table';
-import {ColorUI, Field, LayerVisConfig, NestedPartial} from '@kepler.gl/types';
+import {CHANNEL_SCALE_SUPPORTED_FIELDS} from '@soft-yyw/kepler.gl-constants';
+import {Layer, VisualChannel} from '@soft-yyw/kepler.gl-layers';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {ColorUI, Field, LayerVisConfig, NestedPartial} from '@soft-yyw/kepler.gl-types';
 
 import DimensionScaleSelectorFactory from './dimension-scale-selector';
 import VisConfigByFieldSelectorFactory from './vis-config-by-field-selector';

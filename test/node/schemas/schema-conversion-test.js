@@ -3,7 +3,7 @@
 
 import test from 'tape';
 
-import SchemaManager from '@kepler.gl/schemas';
+import SchemaManager from '@soft-yyw/kepler.gl-schemas';
 import {cmpParsedAppConfigs} from 'test/helpers/comparison-utils';
 import {logStep} from '../../../scripts/log';
 

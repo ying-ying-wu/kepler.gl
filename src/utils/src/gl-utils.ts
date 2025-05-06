@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {setParameters} from '@luma.gl/core';
-import {LAYER_BLENDINGS} from '@kepler.gl/constants';
+import {LAYER_BLENDINGS} from '@soft-yyw/kepler.gl-constants';
 import GL from '@luma.gl/constants';
 
 const getGlConst = d => GL[d];

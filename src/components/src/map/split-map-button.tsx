@@ -6,7 +6,7 @@ import classnames from 'classnames';
 import {MapControlButton} from '../common/styled-components';
 import {Delete, Split} from '../common/icons';
 import MapControlTooltipFactory from './map-control-tooltip';
-import {MapControlItem, MapControls} from '@kepler.gl/types';
+import {MapControlItem, MapControls} from '@soft-yyw/kepler.gl-types';
 
 SplitMapButtonFactory.deps = [MapControlTooltipFactory];
 

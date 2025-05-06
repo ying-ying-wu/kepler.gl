@@ -3,11 +3,11 @@
 
 import React from 'react';
 import {useIntl} from 'react-intl';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {Tooltip} from './styled-components';
 import {Docs} from './icons';
 import styled from 'styled-components';
-import {camelize} from '@kepler.gl/utils';
+import {camelize} from '@soft-yyw/kepler.gl-utils';
 
 interface StyledInfoHelperProps {
   width?: number;

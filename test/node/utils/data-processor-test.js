@@ -31,20 +31,20 @@ import {
   processCsvData,
   processGeojson,
   processRowObject
-} from '@kepler.gl/processors';
+} from '@soft-yyw/kepler.gl-processors';
 
-import {validateInputData, createDataContainer} from '@kepler.gl/utils';
+import {validateInputData, createDataContainer} from '@soft-yyw/kepler.gl-utils';
 
 import {
   ACCEPTED_ANALYZER_TYPES,
   analyzerTypeToFieldType,
   getFieldsFromData,
   getSampleForTypeAnalyze
-} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-common-utils';
 
-import {formatCsv} from '@kepler.gl/reducers';
+import {formatCsv} from '@soft-yyw/kepler.gl-reducers';
 
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {cmpFields} from '../../helpers/comparison-utils';
 
 test('Processor -> getFieldsFromData', t => {

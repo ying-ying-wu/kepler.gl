@@ -3,9 +3,9 @@
 
 import React, {useCallback} from 'react';
 
-import {ColorRange} from '@kepler.gl/types';
-import {Layer} from '@kepler.gl/layers';
-import {NestedPartial, RGBColor, ColorUI} from '@kepler.gl/types';
+import {ColorRange} from '@soft-yyw/kepler.gl-types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {NestedPartial, RGBColor, ColorUI} from '@soft-yyw/kepler.gl-types';
 
 import ColorSelectorFactory from './color-selector';
 import {SidePanelSection} from '../../common/styled-components';

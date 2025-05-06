@@ -4,7 +4,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import LoadingSpinner from '../common/loading-spinner';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 const StyledSpinner = styled.div`
   text-align: center;

@@ -3,8 +3,8 @@
 
 import React from 'react';
 import {Tooltip} from '../common/styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {SYNC_TIMELINE_MODES} from '@kepler.gl/constants';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {SYNC_TIMELINE_MODES} from '@soft-yyw/kepler.gl-constants';
 import IconButton from './icon-button';
 
 export type SyncTimelineAnimationItem = {

@@ -6,8 +6,8 @@
 import {drainTasksForTesting, succeedTaskWithValues} from 'react-palm/tasks';
 import test from 'tape';
 
-import {registerEntry} from '@kepler.gl/actions';
-import {processCsvData} from '@kepler.gl/processors';
+import {registerEntry} from '@soft-yyw/kepler.gl-actions';
+import {processCsvData} from '@soft-yyw/kepler.gl-processors';
 import keplerGlReducer, {
   addDataToMapUpdater,
   replaceDataInMapUpdater,
@@ -15,8 +15,8 @@ import keplerGlReducer, {
   INITIAL_UI_STATE,
   visStateReducer,
   mapStateReducer
-} from '@kepler.gl/reducers';
-import {getTimeBins} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-reducers';
+import {getTimeBins} from '@soft-yyw/kepler.gl-utils';
 
 import testCsvData, {sampleConfig, dataWithNulls} from 'test/fixtures/test-csv-data';
 import testHexIdData, {

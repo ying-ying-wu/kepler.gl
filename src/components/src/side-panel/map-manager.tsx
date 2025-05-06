@@ -11,9 +11,9 @@ import PanelTitleFactory from '../side-panel/panel-title';
 import {Add, Trash} from '../common/icons';
 import {PanelMeta} from './common/types';
 import {injectIntl, WrappedComponentProps} from 'react-intl';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {MapStyle} from '@kepler.gl/reducers';
-import {MapStyleActions} from '@kepler.gl/actions';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {MapStyle} from '@soft-yyw/kepler.gl-reducers';
+import {MapStyleActions} from '@soft-yyw/kepler.gl-actions';
 
 export type MapManagerProps = {
   mapStyle: MapStyle;

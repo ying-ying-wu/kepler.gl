@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {layerVisualChannelConfigChange} from '@kepler.gl/actions';
+import {layerVisualChannelConfigChange} from '@soft-yyw/kepler.gl-actions';
 import {
   ColorBreaksDisplay,
   ColorBreaksPanelFactory,
@@ -12,9 +12,9 @@ import {
   HISTOGRAM_HEIGHT,
   HISTOGRAM_WIDTH,
   appInjector
-} from '@kepler.gl/components';
-import {keplerGlReducerCore as coreReducer} from '@kepler.gl/reducers';
-import {getLayerColorScale, getLegendOfScale} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-components';
+import {keplerGlReducerCore as coreReducer} from '@soft-yyw/kepler.gl-reducers';
+import {getLayerColorScale, getLegendOfScale} from '@soft-yyw/kepler.gl-utils';
 import {scaleLinear} from 'd3-scale';
 import cloneDeep from 'lodash/cloneDeep';
 import React from 'react';
@@ -22,7 +22,7 @@ import sinon from 'sinon';
 import test from 'tape';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 import {StateWFilesFiltersLayerColor} from 'test/helpers/mock-state';
-import {histogramFromThreshold, histogramFromValues, getHistogramDomain} from '@kepler.gl/utils';
+import {histogramFromThreshold, histogramFromValues, getHistogramDomain} from '@soft-yyw/kepler.gl-utils';
 
 const ColorBreaksPanel = appInjector.get(ColorBreaksPanelFactory);
 const ColumnStatsChart = appInjector.get(ColumnStatsChartFactory);

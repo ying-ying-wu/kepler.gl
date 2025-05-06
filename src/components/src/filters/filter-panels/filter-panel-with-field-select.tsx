@@ -9,7 +9,7 @@ import SourceDataSelectorFactory from '../../side-panel/common/source-data-selec
 import FieldSelectorFactory from '../../common/field-selector';
 import {getSupportedFilterFields} from './new-filter-panel';
 import {FilterPanelWithFieldSelectComponent} from './types';
-import {KeplerTable} from '@kepler.gl/table';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 FieldPanelWithFieldSelectFactory.deps = [
   FilterPanelHeaderFactory,

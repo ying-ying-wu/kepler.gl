@@ -3,7 +3,7 @@
 
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {addDataToMap, wrapTo} from '@kepler.gl/actions';
+import {addDataToMap, wrapTo} from '@soft-yyw/kepler.gl-actions';
 
 import Modal from 'react-modal';
 import {showModal} from './app-reducer';

@@ -11,9 +11,9 @@ import {
   ImagePreview,
   appInjector,
   SelectionButton
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
-import {INITIAL_UI_STATE} from '@kepler.gl/reducers';
+import {INITIAL_UI_STATE} from '@soft-yyw/kepler.gl-reducers';
 
 const ExportImageModal = appInjector.get(ExportImageModalFactory);
 

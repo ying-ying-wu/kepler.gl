@@ -2,13 +2,13 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {Component, ReactNode, PropsWithChildren} from 'react';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import styled, {css} from 'styled-components';
 import Modal from 'react-modal';
 import {Delete} from './icons';
 import {Button} from './styled-components';
-import {media} from '@kepler.gl/styles';
+import {media} from '@soft-yyw/kepler.gl-styles';
 
 type CssStyleType = ReturnType<typeof css>;
 

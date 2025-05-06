@@ -4,7 +4,7 @@
 import Layer, {OVERLAY_TYPE_CONST} from './base-layer';
 import {Feature} from 'geojson';
 
-import {findById} from '@kepler.gl/utils';
+import {findById} from '@soft-yyw/kepler.gl-utils';
 
 /**
  * This function will convert layers to mapbox layers

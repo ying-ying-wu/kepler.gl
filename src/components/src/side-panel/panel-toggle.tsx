@@ -4,7 +4,7 @@
 import React, {useCallback} from 'react';
 import styled from 'styled-components';
 import PanelTabFactory, {PanelItem} from './panel-tab';
-import {toggleSidePanel, ActionHandler} from '@kepler.gl/actions';
+import {toggleSidePanel, ActionHandler} from '@soft-yyw/kepler.gl-actions';
 
 type PanelToggleProps = {
   panels: PanelItem[];

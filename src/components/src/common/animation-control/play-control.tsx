@@ -3,7 +3,7 @@
 
 import React from 'react';
 import classnames from 'classnames';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import IconButton from '../icon-button';
 import TippyTooltip from '../tippy-tooltip';
 

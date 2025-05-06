@@ -4,9 +4,9 @@
 import React, {useMemo} from 'react';
 
 import DatasetLayerSectionFactory from './dataset-layer-section';
-import {Layer, LayerClassesType} from '@kepler.gl/layers';
-import {UIStateActions, VisStateActions, ActionHandler, MapStateActions} from '@kepler.gl/actions';
-import {KeplerTable, Datasets} from '@kepler.gl/table';
+import {Layer, LayerClassesType} from '@soft-yyw/kepler.gl-layers';
+import {UIStateActions, VisStateActions, ActionHandler, MapStateActions} from '@soft-yyw/kepler.gl-actions';
+import {KeplerTable, Datasets} from '@soft-yyw/kepler.gl-table';
 
 type DatasetLayerGroupProps = {
   datasets: Datasets;

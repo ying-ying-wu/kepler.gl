@@ -4,7 +4,7 @@
 import test from 'tape';
 import moment from 'moment';
 
-import {getDatasetFieldIndexForFilter} from '@kepler.gl/table';
+import {getDatasetFieldIndexForFilter} from '@soft-yyw/kepler.gl-table';
 
 import {
   isValidFilterValue,
@@ -19,9 +19,9 @@ import {
   scaleSourceDomainToDestination,
   mergeFilterWithTimeline,
   createDataContainer
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
-import {FILTER_TYPES} from '@kepler.gl/constants';
+import {FILTER_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {mockPolygonFeature, mockPolygonData} from '../../fixtures/polygon';
 
 /* eslint-disable max-statements */

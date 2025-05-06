@@ -7,7 +7,7 @@ import {Clock, Close, LineChart, ArrowDown, ArrowUp} from '../common/icons';
 import FieldSelectorFactory from '../common/field-selector';
 import {SelectTextBold, IconRoundSmall, CenterFlexbox} from '../common/styled-components';
 import {TimeWidgetTopProps, TopSectionWrapperProps} from './types';
-import {Field} from '@kepler.gl/types';
+import {Field} from '@soft-yyw/kepler.gl-types';
 
 const TOP_SECTION_HEIGHT = '36px';
 

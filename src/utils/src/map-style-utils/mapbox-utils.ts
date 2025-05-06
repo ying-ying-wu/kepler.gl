@@ -3,7 +3,7 @@
 
 // import {isMapboxURL, transformMapboxUrl} from 'maplibregl-mapbox-request-transformer';
 
-import {MAP_LIB_OPTIONS, BaseMapLibraryType} from '@kepler.gl/constants';
+import {MAP_LIB_OPTIONS, BaseMapLibraryType} from '@soft-yyw/kepler.gl-constants';
 
 /**
  * Determines whether a Map Style is using Mapbox Tiles

@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {toArray} from '@kepler.gl/common-utils';
-import {SCALE_TYPES} from '@kepler.gl/constants';
-import {KeplerTable} from '@kepler.gl/table';
-import {Bin, ColorMap, ColorUI, Field} from '@kepler.gl/types';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
+import {SCALE_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {Bin, ColorMap, ColorUI, Field} from '@soft-yyw/kepler.gl-types';
 import {
   ColorBreak,
   ColorBreakOrdinal,
   colorBreaksToColorMap,
   colorMapToColorBreaks,
   isNumericColorBreaks as notOrdinalColorBreaks
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import React, {useCallback, useMemo} from 'react';
 import styled from 'styled-components';
 import ColumnStatsChartFactory from '../../common/column-stats-chart';

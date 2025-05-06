@@ -2,10 +2,10 @@
 // Copyright contributors to the kepler.gl project
 
 import {FunctionComponent, ComponentType, ReactNode} from 'react';
-import {Filter, PolygonFilter, TimeRangeFilter, Field} from '@kepler.gl/types';
-import {Layer} from '@kepler.gl/layers';
-import {Datasets} from '@kepler.gl/table';
-import {setFilter, setFilterPlot, syncTimeFilterWithLayerTimeline} from '@kepler.gl/actions';
+import {Filter, PolygonFilter, TimeRangeFilter, Field} from '@soft-yyw/kepler.gl-types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {setFilter, setFilterPlot, syncTimeFilterWithLayerTimeline} from '@soft-yyw/kepler.gl-actions';
 
 interface PanelAction {
   id: string;

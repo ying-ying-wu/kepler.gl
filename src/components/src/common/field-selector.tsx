@@ -6,8 +6,8 @@ import React, {Component, ComponentType} from 'react';
 import styled from 'styled-components';
 import {createSelector} from 'reselect';
 
-import {Field, TooltipField} from '@kepler.gl/types';
-import {notNullorUndefined, toArray} from '@kepler.gl/common-utils';
+import {Field, TooltipField} from '@soft-yyw/kepler.gl-types';
+import {notNullorUndefined, toArray} from '@soft-yyw/kepler.gl-common-utils';
 
 import ItemSelector from './item-selector/item-selector';
 import {classList} from './item-selector/dropdown-list';

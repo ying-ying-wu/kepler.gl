@@ -10,8 +10,8 @@ import KeplerGlLogo from '../common/logo';
 import {Save, DataTable, Save2, Picture, Db, BaseMap, Share} from '../common/icons';
 import Toolbar, {ToolbarProps} from '../common/toolbar';
 import ToolbarItem, {ToolbarItemProps} from '../common/toolbar-item';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {UiState} from '@kepler.gl/types';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {UiState} from '@soft-yyw/kepler.gl-types';
 import {BaseProps} from '../common/icons';
 import useOnClickOutside from '../hooks/use-on-click-outside';
 

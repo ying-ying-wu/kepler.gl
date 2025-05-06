@@ -18,12 +18,12 @@ import {DndContext, useDraggable} from '@dnd-kit/core';
 import {CSS} from '@dnd-kit/utilities';
 import {useMergeRefs} from '@floating-ui/react';
 
-import {ActionHandler, setMapControlSettings, toggleSplitMapViewport} from '@kepler.gl/actions';
-import {Layer} from '@kepler.gl/layers';
-import {breakPointValues} from '@kepler.gl/styles';
-import {LayerVisConfig, MapControlMapLegend, MapControls, MapState} from '@kepler.gl/types';
-import {hasPortableWidth} from '@kepler.gl/utils';
-import {MapLegendControlSettings} from '@kepler.gl/types';
+import {ActionHandler, setMapControlSettings, toggleSplitMapViewport} from '@soft-yyw/kepler.gl-actions';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {breakPointValues} from '@soft-yyw/kepler.gl-styles';
+import {LayerVisConfig, MapControlMapLegend, MapControls, MapState} from '@soft-yyw/kepler.gl-types';
+import {hasPortableWidth} from '@soft-yyw/kepler.gl-utils';
+import {MapLegendControlSettings} from '@soft-yyw/kepler.gl-types';
 
 import {Legend, DraggableDots, HorizontalResizeHandle} from '../common/icons';
 import {MapControlButton} from '../common/styled-components';

@@ -8,9 +8,9 @@ import {
   removeCustomPaletteColor,
   sortCustomPaletteColor,
   updateCustomPaletteColor
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import test from 'tape';
-import {KEPLER_COLOR_PALETTES, colorPaletteToColorRange} from '@kepler.gl/constants';
+import {KEPLER_COLOR_PALETTES, colorPaletteToColorRange} from '@soft-yyw/kepler.gl-constants';
 
 test('createLinearGradient', t => {
   let colors = [[100, 100, 100]];

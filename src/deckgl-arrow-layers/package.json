@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/deckgl-arrow-layers",
+  "name": "@soft-yyw/kepler.gl-deckgl-arrow-layers",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "Deck.gl layers with GeoArrow and GeoParquet support",
@@ -31,10 +31,10 @@
   ],
   "dependencies": {
     "@geoarrow/geoarrow-js": "^0.3.0",
-    "@kepler.gl/constants": "^3.1.4",
     "@math.gl/core": "^4.0.0",
     "@math.gl/polygon": "^4.0.0",
     "@math.gl/types": "^4.0.0",
+    "@soft-yyw/kepler.gl-constants": "^3.1.4",
     "apache-arrow": ">=15",
     "threads": "^1.7.0"
   },

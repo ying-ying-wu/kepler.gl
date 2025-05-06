@@ -10,7 +10,7 @@ import {
   ALL_FIELD_TYPES,
   ALTITUDE_FIELDS,
   SCALE_TYPES
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   RGBColor,
   Field,
@@ -24,7 +24,7 @@ import {
   SelectFieldDomain,
   MultiSelectFieldDomain,
   TimeRangeFieldDomain
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 import {getGpuFilterProps, getDatasetFieldIndexForFilter} from './gpu-filter-utils';
 
@@ -47,10 +47,10 @@ import {
   getQuantileDomain,
   DataContainerInterface,
   FilterChanged
-} from '@kepler.gl/utils';
-import {generateHashId, notNullorUndefined} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-utils';
+import {generateHashId, notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 
-// TODO isolate layer type, depends on @kepler.gl/layers
+// TODO isolate layer type, depends on @soft-yyw/kepler.gl-layers
 type Layer = any;
 
 export type GpuFilter = {

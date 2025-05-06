@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {ReactElement, JSXElementConstructor} from 'react';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import TippyTooltip from '../common/tippy-tooltip';
 
 export type MapControlTooltipProps = {

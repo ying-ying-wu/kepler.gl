@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {DEFAULT_TEXT_LABEL, DEFAULT_COLOR_RANGE, DEFAULT_LAYER_OPACITY} from '@kepler.gl/constants';
+import {DEFAULT_TEXT_LABEL, DEFAULT_COLOR_RANGE, DEFAULT_LAYER_OPACITY} from '@soft-yyw/kepler.gl-constants';
 
 const gps = `timestamp,location-lng,location-lat,ground-speed,heading,name,location-alt
 2014-08-01 00:00:23.000,90.2266981,27.6162803,0.22,0.0,Thuub,3217.0

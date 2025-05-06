@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {createDataContainer, histogramFromDomain} from '@kepler.gl/utils';
-import {DEFAULT_COLOR_UI, BINS} from '@kepler.gl/constants';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {createDataContainer, histogramFromDomain} from '@soft-yyw/kepler.gl-utils';
+import {DEFAULT_COLOR_UI, BINS} from '@soft-yyw/kepler.gl-constants';
 const {H3Layer} = KeplerGlLayers;
 
 export default `hex_id,value

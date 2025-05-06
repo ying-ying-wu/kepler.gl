@@ -3,7 +3,7 @@
 
 import React from 'react';
 import {connect} from 'react-redux';
-import KeplerGl from '@kepler.gl/components';
+import KeplerGl from '@soft-yyw/kepler.gl-components';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 
 const localeMessages = {

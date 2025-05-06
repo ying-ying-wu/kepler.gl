@@ -3,7 +3,7 @@
 
 import {useMemo, useRef, useCallback, useEffect} from 'react';
 
-import {MapLegendControlSettings} from '@kepler.gl/types';
+import {MapLegendControlSettings} from '@soft-yyw/kepler.gl-types';
 
 type Params = {
   legendContentRef: React.MutableRefObject<HTMLElement | null>;

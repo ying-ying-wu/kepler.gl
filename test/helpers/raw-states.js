@@ -3,9 +3,9 @@
 
 import cloneDeep from 'lodash/cloneDeep';
 
-import {keplerGlReducer} from '@kepler.gl/reducers';
-import {addDataToMap} from '@kepler.gl/actions';
-import {processCsvData} from '@kepler.gl/processors';
+import {keplerGlReducer} from '@soft-yyw/kepler.gl-reducers';
+import {addDataToMap} from '@soft-yyw/kepler.gl-actions';
+import {processCsvData} from '@soft-yyw/kepler.gl-processors';
 
 import {dataId as csvDataId} from '../fixtures/test-csv-data';
 import testLayerData from '../fixtures/test-layer-data';

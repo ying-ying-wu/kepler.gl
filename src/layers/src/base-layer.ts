@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {COORDINATE_SYSTEM} from '@deck.gl/core';
-import {GeoArrowTextLayer} from '@kepler.gl/deckgl-arrow-layers';
+import {GeoArrowTextLayer} from '@soft-yyw/kepler.gl-deckgl-arrow-layers';
 import {DataFilterExtension} from '@deck.gl/extensions';
 import {TextLayer} from '@deck.gl/layers';
 import {console as Console} from 'global/window';
@@ -30,7 +30,7 @@ import {
   SCALE_TYPES,
   TEXT_OUTLINE_MULTIPLIER,
   UNKNOWN_COLOR_KEY
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   DataContainerInterface,
   DomainQuantiles,
@@ -42,9 +42,9 @@ import {
   isPlainObject,
   isDomainStops,
   updateColorRangeByMatchingPalette
-} from '@kepler.gl/utils';
-import {generateHashId, toArray, notNullorUndefined} from '@kepler.gl/common-utils';
-import {Datasets, GpuFilter, KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-utils';
+import {generateHashId, toArray, notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
+import {Datasets, GpuFilter, KeplerTable} from '@soft-yyw/kepler.gl-table';
 import {
   AggregatedBin,
   ColorRange,
@@ -71,20 +71,20 @@ import {
   VisualChannelDomain,
   VisualChannelField,
   VisualChannelScale
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {
   getScaleFunction,
   initializeLayerColorMap,
   getCategoricalColorScale,
   updateCustomColorRangeByColorUI
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import memoize from 'lodash/memoize';
 import {
   initializeCustomPalette,
   isDomainQuantile,
   getDomainStepsbyZoom,
   getThresholdsFromQuantiles
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
 export type {
   AggregatedBin,

@@ -6,7 +6,7 @@ import test from 'tape';
 import sinon from 'sinon';
 import {act} from 'react-dom/test-utils';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
-import {ItemSelector, Typeahead, DropdownList, ListItem} from '@kepler.gl/components';
+import {ItemSelector, Typeahead, DropdownList, ListItem} from '@soft-yyw/kepler.gl-components';
 
 test('Components -> ItemSelector.render', t => {
   let wrapper;

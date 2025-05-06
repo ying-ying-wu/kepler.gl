@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {Effect as EffectInterface, EffectPropsPartial} from '@kepler.gl/types';
-import {LIGHT_AND_SHADOW_EFFECT} from '@kepler.gl/constants';
+import {Effect as EffectInterface, EffectPropsPartial} from '@soft-yyw/kepler.gl-types';
+import {LIGHT_AND_SHADOW_EFFECT} from '@soft-yyw/kepler.gl-constants';
 
 import LightingEffect from './lighting-effect';
 import PostProcessEffect from './post-processing-effect';

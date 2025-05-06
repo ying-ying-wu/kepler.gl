@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {BASE_MAP_COLOR_MODES, DEFAULT_LAYER_GROUPS} from '@kepler.gl/constants';
+import {BASE_MAP_COLOR_MODES, DEFAULT_LAYER_GROUPS} from '@soft-yyw/kepler.gl-constants';
 
-/** @type {import('@kepler.gl/reducers').BaseMapStyle} */
+/** @type {import('@soft-yyw/kepler.gl-reducers').BaseMapStyle} */
 export const MOCK_MAP_STYLE = {
   id: 'dark-matter',
   label: 'DarkMatter',
@@ -56,7 +56,7 @@ export const MOCK_MAP_STYLE = {
   }
 };
 
-/** @type {import('@kepler.gl/reducers').BaseMapStyle} */
+/** @type {import('@soft-yyw/kepler.gl-reducers').BaseMapStyle} */
 export const MOCK_MAP_STYLE_LIGHT = {
   id: 'positron',
   label: 'Positron',
@@ -110,7 +110,7 @@ export const MOCK_MAP_STYLE_LIGHT = {
   }
 };
 
-/** @type {import('@kepler.gl/reducers').MapStyles} */
+/** @type {import('@soft-yyw/kepler.gl-reducers').MapStyles} */
 export const MOCK_MAP_STYLES = {
   [MOCK_MAP_STYLE.id]: MOCK_MAP_STYLE,
   [MOCK_MAP_STYLE_LIGHT.id]: MOCK_MAP_STYLE_LIGHT

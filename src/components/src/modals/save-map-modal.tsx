@@ -12,7 +12,7 @@ import {
   MAP_INFO_CHARACTER,
   ExportImage,
   dataTestIds
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import {
   StyledModalContent,
@@ -23,10 +23,10 @@ import {
   StyledModalInputFootnote
 } from '../common/styled-components';
 import ImagePreview from '../common/image-preview';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {MapInfo} from '@kepler.gl/types';
-import {Provider} from '@kepler.gl/cloud-providers';
-import {setMapInfo, cleanupExportImage as cleanupExportImageAction} from '@kepler.gl/actions';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {MapInfo} from '@soft-yyw/kepler.gl-types';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
+import {setMapInfo, cleanupExportImage as cleanupExportImageAction} from '@soft-yyw/kepler.gl-actions';
 import {ModalFooter} from '../common/modal';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
 

@@ -5,8 +5,8 @@ import React from 'react';
 import styled from 'styled-components';
 import classnames from 'classnames';
 
-import {media} from '@kepler.gl/styles';
-import {Timeline, Filter} from '@kepler.gl/types';
+import {media} from '@soft-yyw/kepler.gl-styles';
+import {Timeline, Filter} from '@soft-yyw/kepler.gl-types';
 
 import TimelineSliderFactory from '../timeline-slider';
 import PlaybackControlsFactory from './playback-controls';

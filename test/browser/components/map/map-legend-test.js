@@ -18,7 +18,7 @@ import {
   LegendRowFactory,
   ResetColorLabelFactory,
   appInjector
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {
   StateWFilesFiltersLayerColor,
   expectedSavedLayer1 as pointLayer,
@@ -26,7 +26,7 @@ import {
   expectedSavedLayer2 as geojsonLayer
 } from 'test/helpers/mock-state';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
-import {KeplerGlLayers} from '@kepler.gl/layers';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
 const {PointLayer} = KeplerGlLayers;
 
 const MapLegend = appInjector.get(MapLegendFactory);

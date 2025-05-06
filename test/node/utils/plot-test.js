@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {histogramFromThreshold, histogramFromValues} from '@kepler.gl/utils';
+import {histogramFromThreshold, histogramFromValues} from '@soft-yyw/kepler.gl-utils';
 
 const values1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 

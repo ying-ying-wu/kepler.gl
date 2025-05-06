@@ -3,15 +3,15 @@
 
 import React, {useCallback, useMemo} from 'react';
 
-import {LayerBaseConfig} from '@kepler.gl/layers';
+import {LayerBaseConfig} from '@soft-yyw/kepler.gl-layers';
 import {
   FieldPair,
   ColumnPairs,
   LayerColumns,
   ColumnLabels,
   EnhancedFieldPair
-} from '@kepler.gl/types';
-import {toArray} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-types';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
 
 import ColumnSelectorFactory from './column-selector';
 import {MinimalField} from '../../common/field-selector';

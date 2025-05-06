@@ -5,7 +5,7 @@ import React, {useCallback, useEffect, useState} from 'react';
 import styled, {IStyledComponent} from 'styled-components';
 import {Logout, Login} from '../common/icons';
 import {CenterVerticalFlexbox, Button, CheckMark} from '../common/styled-components';
-import {Provider, CloudUser} from '@kepler.gl/cloud-providers';
+import {Provider, CloudUser} from '@soft-yyw/kepler.gl-cloud-providers';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
 import {BaseComponentProps} from '../types';
 

@@ -9,9 +9,9 @@ import {
   tripDefaultLineWidth as defaultLineWidth,
   parseTripGeoJsonTimestamp,
   KeplerGlLayers
-} from '@kepler.gl/layers';
+} from '@soft-yyw/kepler.gl-layers';
 
-import {copyTableAndUpdate} from '@kepler.gl/table';
+import {copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
 const {TripLayer} = KeplerGlLayers;
 
 import {

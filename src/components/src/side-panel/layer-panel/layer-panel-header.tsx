@@ -25,9 +25,9 @@ import {
 } from '../../common/icons';
 
 import {InlineInput, StyledPanelHeader} from '../../common/styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {dataTestIds} from '@kepler.gl/constants';
-import {RGBColor} from '@kepler.gl/types';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
 import {BaseProps} from '../../common/icons';
 
 export type LayerLabelEditorProps = {

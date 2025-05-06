@@ -1,5 +1,5 @@
 {
-  "name": "@soft/kepler.gl",
+  "name": "@soft-yyw/kepler.gl",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl is a webgl based application to visualize large scale location data in the browser",
@@ -14,7 +14,6 @@
     "visualization",
     "deck.gl"
   ],
-  "private": true,
   "workspaces": [
     "./src/types",
     "./src/constants",
@@ -81,7 +80,7 @@
     "analyze:bundle": "NODE_OPTIONS=--openssl-legacy-provider webpack --config ./webpack/bundle.js --progress --env.prod",
     "check-licence": "babel-node ./scripts/license-header/bin --license ./FILE-HEADER --dry",
     "add-licence": "babel-node ./scripts/license-header/bin --license ./FILE-HEADER",
-    "prepublishOnly": "yarn workspaces foreach -At run stab && yarn workspaces foreach -At run prepublishOnly && yarn add-licence && yarn build:umd && yarn build:types",
+    "prepublishOnly": "yarn build:umd && yarn build:types",
     "docs": "babel-node ./scripts/documentation.js",
     "typedoc": "typedoc --theme markdown --out typedoc --inputFiles ./src/reducers --inputFiles ./src/actions --excludeExternals --excludeNotExported --excludePrivate",
     "example-version": "babel-node ./scripts/edit-version.js",
@@ -104,8 +103,8 @@
     "@deck.gl/mapbox": "^8.9.27",
     "@hubble.gl/core": "1.4.0",
     "@hubble.gl/react": "1.4.0",
-    "@kepler.gl/components": "3.1.4",
     "@loaders.gl/polyfills": "^4.3.2",
+    "@soft-yyw/kepler.gl-components": "3.1.4",
     "@types/mapbox__geo-viewport": "^0.4.1",
     "html-webpack-plugin": "^4.3.0",
     "monaco-editor": "^0.52.0",

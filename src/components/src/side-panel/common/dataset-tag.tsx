@@ -2,12 +2,12 @@
 // Copyright contributors to the kepler.gl project
 
 import React from 'react';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import styled from 'styled-components';
 import {DatasetSquare, Tooltip} from '../..';
 import {UpdateTableColorTypes} from './types';
-import {RGBColor} from '@kepler.gl/types';
-import {VisStateActions, ActionHandler} from '@kepler.gl/actions';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
+import {VisStateActions, ActionHandler} from '@soft-yyw/kepler.gl-actions';
 
 function nop() {
   return;

@@ -17,8 +17,8 @@ import {
   Field,
   ValueOf,
   LineDatum
-} from '@kepler.gl/types';
-import {notNullorUndefined} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-types';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 import {
   ANIMATION_WINDOW,
   BINS,
@@ -27,7 +27,7 @@ import {
   AGGREGATION_TYPES,
   PLOT_TYPES,
   AggregationTypes
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import {isNumber, roundValToStep} from './data-utils';
 import {aggregate, AGGREGATION_NAME} from './aggregation';

@@ -18,8 +18,8 @@ jest.mock('mapbox-gl/dist/mapbox-gl', () => ({
   Map: () => ({})
 }));
 
-jest.mock('@kepler.gl/utils', () => ({
-  ...jest.requireActual('@kepler.gl/utils'),
+jest.mock('@soft-yyw/kepler.gl-utils', () => ({
+  ...jest.requireActual('@soft-yyw/kepler.gl-utils'),
   hasPortableWidth: jest.fn(),
   hasMobileWidth: jest.fn()
 }));

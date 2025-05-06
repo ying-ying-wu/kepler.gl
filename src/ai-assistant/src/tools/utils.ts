@@ -3,11 +3,11 @@
 
 import interpolate from 'color-interpolate';
 
-import {Layer} from '@kepler.gl/layers';
-import {Datasets, KeplerTable} from '@kepler.gl/table';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {Datasets, KeplerTable} from '@soft-yyw/kepler.gl-table';
 import {SpatialJoinGeometries} from '@openassistant/geoda';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
-import {AddDataToMapPayload, ProtoDataset, ProtoDatasetField} from '@kepler.gl/types';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {AddDataToMapPayload, ProtoDataset, ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
 
 /**
  * Check if the dataset exists

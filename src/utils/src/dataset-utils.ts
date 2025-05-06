@@ -7,12 +7,12 @@ import {
   FIELD_OPTS,
   TOOLTIP_FORMATS,
   TOOLTIP_FORMAT_TYPES
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   getSampleForTypeAnalyze,
   getSampleForTypeAnalyzeArrow,
   getFieldsFromData
-} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-common-utils';
 import {Analyzer} from 'type-analyzer';
 import assert from 'assert';
 
@@ -24,9 +24,9 @@ import {
   TimeLabelFormat,
   TooltipFields,
   ProtoDataset
-} from '@kepler.gl/types';
-import {TooltipFormat} from '@kepler.gl/constants';
-import {notNullorUndefined, h3IsValid} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-types';
+import {TooltipFormat} from '@soft-yyw/kepler.gl-constants';
+import {notNullorUndefined, h3IsValid} from '@soft-yyw/kepler.gl-common-utils';
 
 import {isPlainObject} from './utils';
 import {getFormatter} from './data-utils';

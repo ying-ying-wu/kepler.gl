@@ -13,7 +13,7 @@ import {
   MapContainerFactory,
   mapFieldsSelector,
   MapViewStateContextProvider
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {mockKeplerProps} from '../../helpers/mock-state';
 
 const MapContainer = appInjector.get(MapContainerFactory);

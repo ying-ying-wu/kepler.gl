@@ -6,12 +6,12 @@ import React from 'react';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
 import {renderWithTheme} from 'test/helpers/component-jest-utils';
 import ShareMapUrlModalFactory from './share-map-modal';
-import {dataTestIds} from '@kepler.gl/constants';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
 import {act} from '@testing-library/react';
 import {ThemeProvider} from 'styled-components';
 import {IntlProvider} from 'react-intl';
-import {theme} from '@kepler.gl/styles';
-import {messages} from '@kepler.gl/localization';
+import {theme} from '@soft-yyw/kepler.gl-styles';
+import {messages} from '@soft-yyw/kepler.gl-localization';
 
 jest.mock('../hooks/use-cloud-list-provider', () => ({
   useCloudListProvider: jest.fn().mockImplementation(() => ({

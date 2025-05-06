@@ -19,7 +19,7 @@ import type {ScatterplotLayerProps} from '@deck.gl/layers/typed';
 import * as arrow from 'apache-arrow';
 import * as ga from '@geoarrow/geoarrow-js';
 
-import {GEOARROW_EXTENSIONS} from '@kepler.gl/constants';
+import {GEOARROW_EXTENSIONS} from '@soft-yyw/kepler.gl-constants';
 
 import {
   assignAccessor,

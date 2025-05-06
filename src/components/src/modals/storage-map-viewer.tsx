@@ -5,7 +5,7 @@ import React from 'react';
 import styled from 'styled-components';
 import moment from 'moment';
 import {LeftArrow} from '../common/icons';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 const imageH = 108;
 

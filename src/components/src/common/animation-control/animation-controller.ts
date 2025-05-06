@@ -5,8 +5,8 @@ import React, {Component} from 'react';
 import {bisectLeft} from 'd3-array';
 import {requestAnimationFrame, cancelAnimationFrame} from 'global/window';
 import Console from 'global/console';
-import {BASE_SPEED, FPS, ANIMATION_WINDOW} from '@kepler.gl/constants';
-import {Timeline} from '@kepler.gl/types';
+import {BASE_SPEED, FPS, ANIMATION_WINDOW} from '@soft-yyw/kepler.gl-constants';
+import {Timeline} from '@soft-yyw/kepler.gl-types';
 
 interface AnimationControllerProps<T extends number | number[]> {
   isAnimating?: boolean;

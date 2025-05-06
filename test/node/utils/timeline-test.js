@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {getTimelineFromFilter, getTimelineFromAnimationConfig} from '@kepler.gl/utils';
+import {getTimelineFromFilter, getTimelineFromAnimationConfig} from '@soft-yyw/kepler.gl-utils';
 
 test('#timeline -> getTimelineFromFilter', t => {
   const filter = {

@@ -10,11 +10,11 @@
 import React from 'react';
 import sinon from 'sinon';
 import {mount} from 'enzyme';
-import {theme} from '@kepler.gl/styles';
+import {theme} from '@soft-yyw/kepler.gl-styles';
 import {ThemeProvider} from 'styled-components';
 import {IntlProvider} from 'react-intl';
-import {messages} from '@kepler.gl/localization';
-import {Typeahead} from '@kepler.gl/components';
+import {messages} from '@soft-yyw/kepler.gl-localization';
+import {Typeahead} from '@soft-yyw/kepler.gl-components';
 
 export function mountWithTheme(node, options) {
   return mount(node, {

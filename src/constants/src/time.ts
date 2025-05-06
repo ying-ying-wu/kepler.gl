@@ -13,7 +13,7 @@ import {
   utcYear
 } from 'd3-time';
 
-import {ValueOf} from '@kepler.gl/types';
+import {ValueOf} from '@soft-yyw/kepler.gl-types';
 
 import {AGGREGATION_TYPES, PLOT_TYPES} from './';
 

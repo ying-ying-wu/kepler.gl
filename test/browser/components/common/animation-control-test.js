@@ -5,8 +5,8 @@ import React from 'react';
 import test from 'tape';
 import sinon from 'sinon';
 import moment from 'moment';
-import {setLayerAnimationTimeConfig} from '@kepler.gl/actions';
-import {getTimelineFromAnimationConfig} from '@kepler.gl/utils';
+import {setLayerAnimationTimeConfig} from '@soft-yyw/kepler.gl-actions';
+import {getTimelineFromAnimationConfig} from '@soft-yyw/kepler.gl-utils';
 
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 import {
@@ -15,10 +15,10 @@ import {
   FloatingTimeDisplayFactory,
   appInjector,
   IconButton
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {StateWTripGeojson} from 'test/helpers/mock-state';
 
-import {visStateReducer as reducer} from '@kepler.gl/reducers';
+import {visStateReducer as reducer} from '@soft-yyw/kepler.gl-reducers';
 
 const AnimationControl = appInjector.get(AnimationControlFactory);
 const PlaybackControls = appInjector.get(PlaybackControlsFactory);

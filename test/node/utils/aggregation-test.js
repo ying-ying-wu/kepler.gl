@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {getFrequency, getMode, aggregate} from '@kepler.gl/utils';
-import {AGGREGATION_TYPES} from '@kepler.gl/constants';
+import {getFrequency, getMode, aggregate} from '@soft-yyw/kepler.gl-utils';
+import {AGGREGATION_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 test('Aggregate - GetFrequency', t => {
   t.deepEqual(

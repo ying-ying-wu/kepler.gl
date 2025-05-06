@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {defaultElevation, defaultLineWidth, defaultRadius, KeplerGlLayers} from '@kepler.gl/layers';
-import {copyTableAndUpdate} from '@kepler.gl/table';
+import {defaultElevation, defaultLineWidth, defaultRadius, KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
 
 const {GeojsonLayer} = KeplerGlLayers;
 
@@ -25,7 +25,7 @@ import {
   geoStyleDataToFeature,
   geoStyleMeta
 } from 'test/fixtures/geojson';
-import {processGeojson} from '@kepler.gl/processors';
+import {processGeojson} from '@soft-yyw/kepler.gl-processors';
 
 test('#GeojsonLayer -> constructor', t => {
   const TEST_CASES = {

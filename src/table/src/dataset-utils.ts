@@ -3,16 +3,16 @@
 
 import uniq from 'lodash/uniq';
 import KeplerTable, {Datasets} from './kepler-table';
-import {ProtoDataset, RGBColor} from '@kepler.gl/types';
+import {ProtoDataset, RGBColor} from '@soft-yyw/kepler.gl-types';
 import Task from 'react-palm/tasks';
 
-import {DatasetType, RemoteTileFormat, VectorTileDatasetMetadata} from '@kepler.gl/constants';
+import {DatasetType, RemoteTileFormat, VectorTileDatasetMetadata} from '@soft-yyw/kepler.gl-constants';
 import {
   hexToRgb,
   validateInputData,
   datasetColorMaker,
   getApplicationConfig
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import {PMTilesSource, PMTilesMetadata} from '@loaders.gl/pmtiles';
 import {/* MVTSource,*/ TileJSON} from '@loaders.gl/mvt';
 

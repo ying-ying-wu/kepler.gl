@@ -12,10 +12,10 @@ import LayerSelectorPanelFactory from './layer-selector-panel';
 import MapLegendPanelFactory from './map-legend-panel';
 import MapDrawPanelFactory from './map-draw-panel';
 import LocalePanelFactory from './locale-panel';
-import {Layer} from '@kepler.gl/layers';
-import {Editor, LayerVisConfig, MapControls, MapState} from '@kepler.gl/types';
-import {Datasets} from '@kepler.gl/table';
-import {MapStateActions, UIStateActions} from '@kepler.gl/actions';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {Editor, LayerVisConfig, MapControls, MapState} from '@soft-yyw/kepler.gl-types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {MapStateActions, UIStateActions} from '@soft-yyw/kepler.gl-actions';
 
 interface StyledMapControlProps {
   $top?: number;

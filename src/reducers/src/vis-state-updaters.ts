@@ -19,7 +19,7 @@ import {
   LOAD_FILE_TASK,
   PROCESS_FILE_DATA,
   UNWRAP_TASK
-} from '@kepler.gl/tasks';
+} from '@soft-yyw/kepler.gl-tasks';
 // Actions
 import {
   addNotification,
@@ -45,7 +45,7 @@ import {
   setLoadingIndicator,
   toggleLayerForMap,
   applyFilterConfig
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 
 // Utils
 import {
@@ -76,8 +76,8 @@ import {
   isLayerAnimatable,
   isSideFilter,
   getApplicationConfig
-} from '@kepler.gl/utils';
-import {generateHashId, toArray} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-utils';
+import {generateHashId, toArray} from '@soft-yyw/kepler.gl-common-utils';
 // Mergers
 import {
   ANIMATION_WINDOW,
@@ -95,8 +95,8 @@ import {
   SYNC_TIMELINE_MODES,
   CHANNEL_SCALES,
   SCALE_TYPES
-} from '@kepler.gl/constants';
-import {LAYER_ID_LENGTH, Layer, LayerClasses} from '@kepler.gl/layers';
+} from '@soft-yyw/kepler.gl-constants';
+import {LAYER_ID_LENGTH, Layer, LayerClasses} from '@soft-yyw/kepler.gl-layers';
 import {
   apply_,
   compose_,
@@ -117,7 +117,7 @@ import {
   validateLayerWithData
 } from './vis-state-merger';
 
-import KeplerGLSchema, {Merger, PostMergerPayload, VisState} from '@kepler.gl/schemas';
+import KeplerGLSchema, {Merger, PostMergerPayload, VisState} from '@soft-yyw/kepler.gl-schemas';
 
 import {
   Filter,
@@ -127,7 +127,7 @@ import {
   Editor,
   Field,
   TimeRangeFilter
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {Loader} from '@loaders.gl/loader-utils';
 
 import {
@@ -138,7 +138,7 @@ import {
   pinTableColumns,
   setFilterGpuMode,
   sortDatasetByColumn
-} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-table';
 import {findFieldsToShow} from './interaction-utils';
 import {calculateLayerData, findDefaultLayer, getLayerOrderFromLayers} from './layer-utils';
 import {getPropValueToMerger, hasPropsToMerge} from './merger-handler';
@@ -155,8 +155,8 @@ import {
   TIME_INTERVALS_ORDERED,
   mergeFilterDomain,
   initCustomPaletteByCustomScale
-} from '@kepler.gl/utils';
-import {createEffect} from '@kepler.gl/effects';
+} from '@soft-yyw/kepler.gl-utils';
+import {createEffect} from '@soft-yyw/kepler.gl-effects';
 import {PayloadAction} from '@reduxjs/toolkit';
 
 import {findMapBounds} from './data-utils';

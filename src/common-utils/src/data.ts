@@ -3,7 +3,7 @@
 
 import {Analyzer, DATA_TYPES} from 'type-analyzer';
 
-import {Field} from '@kepler.gl/types';
+import {Field} from '@soft-yyw/kepler.gl-types';
 
 export function notNullorUndefined<T extends NonNullable<any>>(d: T | null | undefined): d is T {
   return d !== undefined && d !== null;

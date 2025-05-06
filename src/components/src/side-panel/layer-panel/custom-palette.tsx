@@ -26,9 +26,9 @@ import Typeahead from '../../common/item-selector/typeahead';
 import ChickletedInput from '../../common/item-selector/chickleted-input';
 import DropdownList, {ListItem} from '../../common/item-selector/dropdown-list';
 import {shouldForwardProp} from '../../common/styled-components';
-import {toArray} from '@kepler.gl/common-utils';
-import {KeyEvent} from '@kepler.gl/constants';
-import {ColorMap, ColorUI, HexColor, NestedPartial} from '@kepler.gl/types';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
+import {KeyEvent} from '@soft-yyw/kepler.gl-constants';
+import {ColorMap, ColorUI, HexColor, NestedPartial} from '@soft-yyw/kepler.gl-types';
 import {
   addCategoricalValuesToColorMap,
   addCustomPaletteColor,
@@ -41,8 +41,8 @@ import {
   selectRestCategoricalColorMapByIndex,
   sortCustomPaletteColor,
   updateCustomPaletteColor
-} from '@kepler.gl/utils';
-import {ColorBreak, ColorBreakOrdinal} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
+import {ColorBreak, ColorBreakOrdinal} from '@soft-yyw/kepler.gl-utils';
 import {Add, Trash, VertDots} from '../../common/icons';
 import {Button, Input} from '../../common/styled-components';
 import CustomPicker from './custom-picker';

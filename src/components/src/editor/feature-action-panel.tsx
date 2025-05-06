@@ -8,11 +8,11 @@ import {useDismiss, useFloating, useInteractions} from '@floating-ui/react';
 import classnames from 'classnames';
 import styled from 'styled-components';
 
-import {Layer} from '@kepler.gl/layers';
-import {Filter} from '@kepler.gl/types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {Filter} from '@soft-yyw/kepler.gl-types';
 import {Feature} from '@nebula.gl/edit-modes';
-import {Datasets} from '@kepler.gl/table';
-import {canApplyFeatureFilter} from '@kepler.gl/utils';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {canApplyFeatureFilter} from '@soft-yyw/kepler.gl-utils';
 
 import ActionPanel, {ActionPanelItem} from '../common/action-panel';
 import {Trash, Layers, Copy, Checkmark} from '../common/icons';

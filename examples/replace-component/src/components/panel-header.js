@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {PanelHeaderFactory} from '@kepler.gl/components';
+import {PanelHeaderFactory} from '@soft-yyw/kepler.gl-components';
 
 // Custom Panel Header renders default panel header, changing its default props
 // to avoid rendering any action items on the top right

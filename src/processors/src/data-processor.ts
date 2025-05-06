@@ -15,14 +15,14 @@ import {
   GEOARROW_EXTENSIONS,
   GEOARROW_METADATA_KEY,
   GUIDES_FILE_FORMAT_DOC
-} from '@kepler.gl/constants';
-import {ProcessorResult, Field} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {ProcessorResult, Field} from '@soft-yyw/kepler.gl-types';
 import {
   arrowDataTypeToAnalyzerDataType,
   arrowDataTypeToFieldType,
   hasOwnProperty,
   isPlainObject
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import {
   analyzerTypeToFieldType,
   getSampleForTypeAnalyze,
@@ -31,8 +31,8 @@ import {
   h3IsValid,
   notNullorUndefined,
   toArray
-} from '@kepler.gl/common-utils';
-import {KeplerGlSchema, ParsedDataset, SavedMap, LoadedMap} from '@kepler.gl/schemas';
+} from '@soft-yyw/kepler.gl-common-utils';
+import {KeplerGlSchema, ParsedDataset, SavedMap, LoadedMap} from '@soft-yyw/kepler.gl-schemas';
 import {Feature} from '@nebula.gl/edit-modes';
 
 // if any of these value occurs in csv, parse it to null;

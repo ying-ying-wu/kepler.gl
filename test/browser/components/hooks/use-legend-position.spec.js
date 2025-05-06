@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {renderHook} from '@testing-library/react';
-import {useLegendPosition} from '@kepler.gl/components';
+import {useLegendPosition} from '@soft-yyw/kepler.gl-components';
 
 const THEME = {
   sidePanel: {width: 100}

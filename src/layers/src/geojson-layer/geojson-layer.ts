@@ -40,7 +40,7 @@ import {
   CHANNEL_SCALES,
   LAYER_VIS_CONFIGS,
   DEFAULT_COLOR_UI
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   ColorRange,
   VisConfigNumber,
@@ -52,10 +52,10 @@ import {
   RGBColor,
   ProtoDatasetField,
   LayerColumn
-} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
-import {DataContainerInterface, ArrowDataContainer} from '@kepler.gl/utils';
-import {FilterArrowExtension} from '@kepler.gl/deckgl-layers';
+} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {DataContainerInterface, ArrowDataContainer} from '@soft-yyw/kepler.gl-utils';
+import {FilterArrowExtension} from '@soft-yyw/kepler.gl-deckgl-layers';
 import GeojsonInfoModalFactory from './geojson-info-modal';
 
 const SUPPORTED_ANALYZER_TYPES = {
@@ -467,7 +467,7 @@ export default class GeoJsonLayer extends Layer {
       // TODO add columnMode logic here for ArrowDataContainer?
       // filter geojson/arrow table by values and make a partial copy of the raw table are expensive
       // so we will use filteredIndex to create an attribute e.g. filteredIndex [0|1] for GPU filtering
-      // in deck.gl layer, see: FilterArrowExtension in @kepler.gl/deckgl-layers
+      // in deck.gl layer, see: FilterArrowExtension in @soft-yyw/kepler.gl-deckgl-layers
       if (!this.filteredIndex || this.filteredIndex.length !== dataContainer.numRows()) {
         // for incremental data loading, we need to update filteredIndex
         this.filteredIndex = new Uint8ClampedArray(dataContainer.numRows());

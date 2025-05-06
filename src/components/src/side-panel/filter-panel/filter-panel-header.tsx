@@ -6,10 +6,10 @@ import styled from 'styled-components';
 import classnames from 'classnames';
 import PanelHeaderActionFactory from '../../side-panel/panel-header-action';
 import {Trash} from '../../common/icons';
-import {createLinearGradient} from '@kepler.gl/utils';
+import {createLinearGradient} from '@soft-yyw/kepler.gl-utils';
 import {StyledPanelHeader, StyledPanelHeaderProps} from '../../common/styled-components';
-import {RGBColor, Filter, Field} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
+import {RGBColor, Filter, Field} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 interface StyledFilterHeaderProps extends StyledPanelHeaderProps {
   $labelRCGColorValues: RGBColor[];

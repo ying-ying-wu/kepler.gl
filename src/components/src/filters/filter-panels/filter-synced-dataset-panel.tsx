@@ -4,9 +4,9 @@
 import React, {useCallback, useMemo} from 'react';
 import styled, {withTheme} from 'styled-components';
 
-import {FormattedMessage} from '@kepler.gl/localization';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
-import {getAnimatableVisibleLayers} from '@kepler.gl/utils';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {getAnimatableVisibleLayers} from '@soft-yyw/kepler.gl-utils';
 
 import {Button} from '../../common/styled-components';
 import {Add, Trash} from '../../common/icons';

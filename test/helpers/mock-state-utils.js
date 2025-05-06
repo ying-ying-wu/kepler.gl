@@ -3,7 +3,7 @@
 
 import {drainTasksForTesting, succeedTaskWithValues} from 'react-palm/tasks';
 
-import {KeplerTable} from '@kepler.gl/table';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 /**
  * Applies actions one by one using the reducer.

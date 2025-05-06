@@ -5,8 +5,8 @@ import React from 'react';
 import styled, {withTheme} from 'styled-components';
 import classNames from 'classnames';
 
-import {KEPLER_UNFOLDED_BUCKET} from '@kepler.gl/constants';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {KEPLER_UNFOLDED_BUCKET} from '@soft-yyw/kepler.gl-constants';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import {Add} from '../common/icons';
 

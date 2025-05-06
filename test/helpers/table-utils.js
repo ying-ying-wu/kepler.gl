@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {createNewDataEntry} from '@kepler.gl/table';
+import {createNewDataEntry} from '@soft-yyw/kepler.gl-table';
 
 /**
  * A test function to execute the task from createNewDataEntry with await syntax.

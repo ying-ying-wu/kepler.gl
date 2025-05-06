@@ -6,7 +6,7 @@ import classnames from 'classnames';
 import {Cube3d} from '../common/icons';
 import {MapControlButton} from '../common/styled-components';
 import MapControlTooltipFactory from './map-control-tooltip';
-import {MapControls} from '@kepler.gl/types';
+import {MapControls} from '@soft-yyw/kepler.gl-types';
 
 Toggle3dButtonFactory.deps = [MapControlTooltipFactory];
 

@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import FSQIcon from './foursquare-icon';
-import {Provider, KEPLER_FORMAT} from '@kepler.gl/cloud-providers';
+import {Provider, KEPLER_FORMAT} from '@soft-yyw/kepler.gl-cloud-providers';
 import {Auth0Client} from '@auth0/auth0-spa-js';
 
 const NAME = 'foursquare';

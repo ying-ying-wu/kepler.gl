@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {visStateReducer as reducer} from '@kepler.gl/reducers';
+import {visStateReducer as reducer} from '@soft-yyw/kepler.gl-reducers';
 import CloneDeep from 'lodash/cloneDeep';
 import test from 'tape-catch';
 import {StateWFiles, testCsvDataId, testGeoJsonDataId} from 'test/helpers/mock-state';
-import {VisStateActions} from '@kepler.gl/actions';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
 
 test('#visStateReducer -> COPY_TABLE_COLUMN', t => {
   const initialState = CloneDeep(StateWFiles.visState);

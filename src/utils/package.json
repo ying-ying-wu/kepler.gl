@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/utils",
+  "name": "@soft-yyw/kepler.gl-utils",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl constants used by kepler.gl components, actions and reducers",
@@ -31,13 +31,13 @@
   ],
   "dependencies": {
     "@deck.gl/core": "^8.9.27",
-    "@kepler.gl/common-utils": "3.1.4",
-    "@kepler.gl/constants": "3.1.4",
-    "@kepler.gl/types": "3.1.4",
     "@loaders.gl/arrow": "^4.3.2",
     "@luma.gl/constants": "^8.5.20",
     "@luma.gl/core": "^8.5.20",
     "@mapbox/geo-viewport": "^0.4.1",
+    "@soft-yyw/kepler.gl-common-utils": "3.1.4",
+    "@soft-yyw/kepler.gl-constants": "3.1.4",
+    "@soft-yyw/kepler.gl-types": "3.1.4",
     "@turf/boolean-within": "^6.0.1",
     "@turf/helpers": "^6.1.4",
     "@types/d3-array": "^2.8.0",

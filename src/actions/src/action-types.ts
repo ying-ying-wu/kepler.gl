@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-export const ACTION_PREFIX = '@@kepler.gl/';
+export const ACTION_PREFIX = '@@soft-yyw/kepler.gl-';
 
 /**
  * Kepler.gl action types, can be listened by reducers to perform additional tasks whenever an action is called in kepler.gl

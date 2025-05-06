@@ -9,11 +9,11 @@ import {
   getFieldsFromData,
   generateHashId,
   notNullorUndefined
-} from '@kepler.gl/common-utils';
-import {ProtoDatasetField} from '@kepler.gl/types';
-import {ALL_FIELD_TYPES, GUIDES_FILE_FORMAT_DOC} from '@kepler.gl/constants';
-import {processKeplerglJSON} from '@kepler.gl/processors';
-import {getApplicationConfig} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-common-utils';
+import {ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
+import {ALL_FIELD_TYPES, GUIDES_FILE_FORMAT_DOC} from '@soft-yyw/kepler.gl-constants';
+import {processKeplerglJSON} from '@soft-yyw/kepler.gl-processors';
+import {getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
 export const CSV_NULLS = /^(null|NULL|Null|NaN|\/N||)$/;
 
@@ -222,7 +222,7 @@ async function sniffCsvSchema(sample: RowData) {
 
   // https://duckdb.org/docs/data/csv/auto_detection.html
   const result = await c.query(`
-        FROM sniff_csv('${fileName}-${generateHashId}.csv', 
+        FROM sniff_csv('${fileName}-${generateHashId}.csv',
         sample_size = 500,
         auto_type_candidates = ['FLOAT', 'INTEGER', 'TIMESTAMP', 'DATE', 'TIME', 'VARCHAR', 'BOOLEAN']);
     `);

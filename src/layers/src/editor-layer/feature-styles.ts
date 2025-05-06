@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {RGBAColor} from '@deck.gl/core';
-import {Feature} from '@kepler.gl/types';
+import {Feature} from '@soft-yyw/kepler.gl-types';
 
 import {COLORS} from './constants';
 

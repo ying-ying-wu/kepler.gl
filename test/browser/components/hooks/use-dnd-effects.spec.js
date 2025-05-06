@@ -3,13 +3,13 @@
 
 import {renderHook, act} from '@testing-library/react';
 import {useDispatch} from 'react-redux';
-import {useDndEffects} from '@kepler.gl/components';
-import {reorderEffect, updateEffect} from '@kepler.gl/actions';
+import {useDndEffects} from '@soft-yyw/kepler.gl-components';
+import {reorderEffect, updateEffect} from '@soft-yyw/kepler.gl-actions';
 import {
   SORTABLE_EFFECT_PANEL_TYPE,
   SORTABLE_EFFECT_TYPE
-} from '@kepler.gl/components/common/dnd-layer-items';
-import {reorderEffectOrder} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-components/common/dnd-layer-items';
+import {reorderEffectOrder} from '@soft-yyw/kepler.gl-utils';
 
 // Mock useDispatch hook
 jest.mock('react-redux', () => ({
@@ -18,14 +18,14 @@ jest.mock('react-redux', () => ({
 }));
 
 // Mock dependencies
-jest.mock('@kepler.gl/actions', () => ({
-  ...jest.requireActual('@kepler.gl/actions'),
+jest.mock('@soft-yyw/kepler.gl-actions', () => ({
+  ...jest.requireActual('@soft-yyw/kepler.gl-actions'),
   reorderEffect: jest.fn(),
   updateEffect: jest.fn()
 }));
 
-jest.mock('@kepler.gl/utils', () => ({
-  ...jest.requireActual('@kepler.gl/utils'),
+jest.mock('@soft-yyw/kepler.gl-utils', () => ({
+  ...jest.requireActual('@soft-yyw/kepler.gl-utils'),
   reorderEffectOrder: jest.fn()
 }));
 

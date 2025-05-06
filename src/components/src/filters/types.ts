@@ -10,8 +10,8 @@ import {
   TimeRangeFilter,
   Timeline,
   AnimationConfig
-} from '@kepler.gl/types';
-import {Layer} from '@kepler.gl/layers';
+} from '@soft-yyw/kepler.gl-types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 import {
   ActionHandler,
   setFilterAnimationTime,
@@ -20,8 +20,8 @@ import {
   setFilterPlot,
   toggleFilterAnimation,
   updateFilterAnimationSpeed
-} from '@kepler.gl/actions';
-import {Datasets} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-actions';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 import {BaseComponentProps} from '../types';
 
 export type PolygonFilterProps = {

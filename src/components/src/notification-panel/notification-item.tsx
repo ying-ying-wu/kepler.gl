@@ -5,8 +5,8 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 import {Delete, Info, Warning, Checkmark} from '../common/icons';
 import ReactMarkdown from 'react-markdown';
-import {dataTestIds} from '@kepler.gl/constants';
-import {ActionHandler, removeNotification as removeNotificationActions} from '@kepler.gl/actions';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {ActionHandler, removeNotification as removeNotificationActions} from '@soft-yyw/kepler.gl-actions';
 
 interface NotificationItemContentBlockProps {
   isExpanded?: boolean;

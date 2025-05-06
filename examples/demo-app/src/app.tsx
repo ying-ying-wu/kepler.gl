@@ -15,12 +15,12 @@ import {
   messages as aiAssistantMessages,
   setStartScreenCapture,
   setScreenCaptured
-} from '@kepler.gl/ai-assistant';
-import {panelBorderColor, theme} from '@kepler.gl/styles';
+} from '@soft-yyw/kepler.gl-ai-assistant';
+import {panelBorderColor, theme} from '@soft-yyw/kepler.gl-styles';
 import {useSelector} from 'react-redux';
-import {ParsedConfig} from '@kepler.gl/types';
-import {getApplicationConfig} from '@kepler.gl/utils';
-import {SqlPanel} from '@kepler.gl/duckdb';
+import {ParsedConfig} from '@soft-yyw/kepler.gl-types';
+import {getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
+import {SqlPanel} from '@soft-yyw/kepler.gl-duckdb';
 import Banner from './components/banner';
 import Announcement, {FormLink} from './components/announcement';
 import {replaceLoadDataModal} from './factories/load-data-modal';
@@ -42,11 +42,11 @@ import {
   replaceDataInMap,
   toggleMapControl,
   toggleModal
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {CLOUD_PROVIDERS} from './cloud-providers';
 import {Panel, PanelGroup, PanelResizeHandle} from 'react-resizable-panels';
 
-const KeplerGl = require('@kepler.gl/components').injectComponents([
+const KeplerGl = require('@soft-yyw/kepler.gl-components').injectComponents([
   replaceLoadDataModal(),
   replaceMapControl(),
   replacePanelHeader()
@@ -70,7 +70,7 @@ import sampleAnimateTrip, {
 import sampleIconCsv from './data/sample-icon-csv';
 import sampleGpsData from './data/sample-gps-data';
 import sampleRowData, {config as rowDataConfig} from './data/sample-row-data';
-import {processCsvData, processGeojson, processRowObject} from '@kepler.gl/processors';
+import {processCsvData, processGeojson, processRowObject} from '@soft-yyw/kepler.gl-processors';
 
 /* eslint-enable no-unused-vars */
 

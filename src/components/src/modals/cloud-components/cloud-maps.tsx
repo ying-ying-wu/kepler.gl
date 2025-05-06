@@ -4,7 +4,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import LoadingDialog from '../loading-dialog';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {CloudItem} from './cloud-item';
 import {FlexContainer} from '../../common/flex-container';
 

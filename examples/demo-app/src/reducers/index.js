@@ -5,16 +5,16 @@ import {combineReducers} from 'redux';
 import {handleActions} from 'redux-actions';
 import Task, {withTask} from 'react-palm/tasks';
 
-import {aiAssistantReducer} from '@kepler.gl/ai-assistant';
-import {EXPORT_MAP_FORMATS} from '@kepler.gl/constants';
-import {processGeojson, processRowObject, processArrowTable} from '@kepler.gl/processors';
-import keplerGlReducer, {combinedUpdaters, uiStateUpdaters} from '@kepler.gl/reducers';
-import KeplerGlSchema from '@kepler.gl/schemas';
-import {KeplerTable} from '@kepler.gl/table';
-import {getApplicationConfig} from '@kepler.gl/utils';
+import {aiAssistantReducer} from '@soft-yyw/kepler.gl-ai-assistant';
+import {EXPORT_MAP_FORMATS} from '@soft-yyw/kepler.gl-constants';
+import {processGeojson, processRowObject, processArrowTable} from '@soft-yyw/kepler.gl-processors';
+import keplerGlReducer, {combinedUpdaters, uiStateUpdaters} from '@soft-yyw/kepler.gl-reducers';
+import KeplerGlSchema from '@soft-yyw/kepler.gl-schemas';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
-// import {getApplicationConfig, initApplicationConfig} from '@kepler.gl/utils';
-// import keplerGlDuckdbPlugin, {KeplerGlDuckDbTable, DuckDBWasmAdapter} from '@kepler.gl/duckdb';
+// import {getApplicationConfig, initApplicationConfig} from '@soft-yyw/kepler.gl-utils';
+// import keplerGlDuckdbPlugin, {KeplerGlDuckDbTable, DuckDBWasmAdapter} from '@soft-yyw/kepler.gl-duckdb';
 
 import {
   INIT,

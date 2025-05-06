@@ -9,7 +9,7 @@ import {
   EFFECT_DESCRIPTIONS,
   LIGHT_AND_SHADOW_EFFECT,
   POSTPROCESSING_EFFECTS
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import PanelHeaderActionFactory, {PanelHeaderActionIcon} from '../side-panel/panel-header-action';
 import {

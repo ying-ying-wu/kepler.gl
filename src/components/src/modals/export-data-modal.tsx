@@ -4,9 +4,9 @@
 import React, {Component} from 'react';
 import {injectIntl, IntlShape} from 'react-intl';
 
-import {DatasetType, EXPORT_DATA_TYPE_OPTIONS} from '@kepler.gl/constants';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {Datasets} from '@kepler.gl/table';
+import {DatasetType, EXPORT_DATA_TYPE_OPTIONS} from '@soft-yyw/kepler.gl-constants';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 import {FileType} from '../common/icons';
 import {

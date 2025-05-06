@@ -6,15 +6,15 @@ import {css} from 'styled-components';
 import get from 'lodash/get';
 import document from 'global/document';
 
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {
   exportData,
   getFileFormatNames,
   getFileExtensions,
   MapStyle,
   ProviderState
-} from '@kepler.gl/reducers';
-import {exportHtml, exportMap, exportJson, exportImage} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-reducers';
+import {exportHtml, exportMap, exportJson, exportImage} from '@soft-yyw/kepler.gl-utils';
 
 import ModalDialogFactory from './modals/modal-dialog';
 
@@ -31,7 +31,7 @@ import SaveMapModalFactory from './modals/save-map-modal';
 import ShareMapModalFactory from './modals/share-map-modal';
 
 // Breakpoints
-import {media} from '@kepler.gl/styles';
+import {media} from '@soft-yyw/kepler.gl-styles';
 
 // Template
 import {
@@ -48,19 +48,19 @@ import {
   SAVE_MAP_ID,
   SHARE_MAP_ID,
   OVERWRITE_MAP_ID
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
-import {MapState, UiState, OnSuccessCallBack, OnErrorCallBack} from '@kepler.gl/types';
+import {MapState, UiState, OnSuccessCallBack, OnErrorCallBack} from '@soft-yyw/kepler.gl-types';
 
 import {
   VisStateActions,
   UIStateActions,
   MapStyleActions,
   ProviderActions
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {ModalDialogProps} from './common/modal';
-import {Provider} from '@kepler.gl/cloud-providers';
-import {VisState} from '@kepler.gl/schemas';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
 
 const DataTableModalStyle = css`
   top: 70px;

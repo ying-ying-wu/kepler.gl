@@ -3,7 +3,7 @@
 
 import React, {useCallback, ComponentType} from 'react';
 
-import {MapControls} from '@kepler.gl/types';
+import {MapControls} from '@soft-yyw/kepler.gl-types';
 
 import {MagicWand} from '../../common/icons';
 import {MapControlButton} from '../../common/styled-components';

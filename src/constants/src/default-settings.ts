@@ -10,7 +10,7 @@ import {
   SyncTimelineMode,
   BaseMapColorModes,
   Merge
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {
   scaleLinear,
   scaleLog,
@@ -23,7 +23,7 @@ import {
 } from 'd3-scale';
 import {TOOLTIP_FORMAT_TYPES} from './tooltip';
 
-export const ACTION_PREFIX = '@@kepler.gl/';
+export const ACTION_PREFIX = '@@soft-yyw/kepler.gl-';
 export const KEPLER_UNFOLDED_BUCKET = 'https://studio-public-data.foursquare.com/statics/keplergl';
 export const BASEMAP_ICON_PREFIX = `${KEPLER_UNFOLDED_BUCKET}/geodude`;
 export const DEFAULT_MAPBOX_API_URL = 'https://api.mapbox.com';

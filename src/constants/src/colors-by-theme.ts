@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {HexColor} from '@kepler.gl/types';
+import {HexColor} from '@soft-yyw/kepler.gl-types';
 
 /* eslint-disable quote-props */
 const COLORS: {

@@ -7,7 +7,7 @@ import {hcl} from 'd3-color';
 import {min, max} from 'd3-array';
 import styled from 'styled-components';
 
-import {Bins} from '@kepler.gl/types';
+import {Bins} from '@soft-yyw/kepler.gl-types';
 
 // clipping mask constants
 export const HISTOGRAM_MASK_MODE = {

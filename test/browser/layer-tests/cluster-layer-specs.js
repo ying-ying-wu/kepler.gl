@@ -14,8 +14,8 @@ import {
   pointLayerMeta
 } from 'test/helpers/layer-utils';
 
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {INITIAL_MAP_STATE} from '@kepler.gl/reducers';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {INITIAL_MAP_STATE} from '@soft-yyw/kepler.gl-reducers';
 
 const {ClusterLayer} = KeplerGlLayers;
 

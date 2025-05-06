@@ -13,21 +13,21 @@ import {
   getCenterAndZoomFromBounds,
   convertToPng,
   getScaleFromImageSize
-} from '@kepler.gl/utils';
-import {findMapBounds} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-utils';
+import {findMapBounds} from '@soft-yyw/kepler.gl-reducers';
 import MapContainerFactory from './map-container';
 import MapsLayoutFactory from './maps-layout';
 import {MapViewStateContextProvider} from './map-view-state-context';
 
-import {GEOCODER_LAYER_ID, ExportImage} from '@kepler.gl/constants';
-import {SplitMap} from '@kepler.gl/types';
+import {GEOCODER_LAYER_ID, ExportImage} from '@soft-yyw/kepler.gl-constants';
+import {SplitMap} from '@soft-yyw/kepler.gl-types';
 import {
   ActionHandler,
   addNotification,
   setExportImageDataUri,
   setExportImageError,
   setExportImageSetting
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {mapFieldsSelector} from './kepler-gl';
 
 const CLASS_FILTER = [

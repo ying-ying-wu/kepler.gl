@@ -6,11 +6,11 @@ import styled from 'styled-components';
 
 import {PanelLabel, SidePanelSection} from '../../common/styled-components';
 import RangeSliderFactory from '../../common/range-slider';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {KeyEvent} from '@kepler.gl/constants';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {KeyEvent} from '@soft-yyw/kepler.gl-constants';
 import {Checkbox} from '../..';
-import {Layer, LayerBaseConfig} from '@kepler.gl/layers';
-import {isInRange, clamp} from '@kepler.gl/utils';
+import {Layer, LayerBaseConfig} from '@soft-yyw/kepler.gl-layers';
+import {isInRange, clamp} from '@soft-yyw/kepler.gl-utils';
 
 type LazyInputProps = {
   value: string | [string, string];

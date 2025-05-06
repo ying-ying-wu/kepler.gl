@@ -4,18 +4,18 @@
 import React, {useCallback} from 'react';
 import styled, {IStyledComponent} from 'styled-components';
 import classnames from 'classnames';
-import {processRowObject} from '@kepler.gl/processors';
+import {processRowObject} from '@soft-yyw/kepler.gl-processors';
 import {FlyToInterpolator} from '@deck.gl/core/typed';
-import {getCenterAndZoomFromBounds} from '@kepler.gl/utils';
+import {getCenterAndZoomFromBounds} from '@soft-yyw/kepler.gl-utils';
 import {
   GEOCODER_DATASET_NAME,
   GEOCODER_LAYER_ID,
   GEOCODER_GEO_OFFSET,
   GEOCODER_ICON_COLOR,
   GEOCODER_ICON_SIZE
-} from '@kepler.gl/constants';
-import {AddDataToMapOptions, MapState, ProtoDataset, UiState, Viewport} from '@kepler.gl/types';
-import {ActionHandler, removeDataset, updateMap, updateVisData} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-constants';
+import {AddDataToMapOptions, MapState, ProtoDataset, UiState, Viewport} from '@soft-yyw/kepler.gl-types';
+import {ActionHandler, removeDataset, updateMap, updateVisData} from '@soft-yyw/kepler.gl-actions';
 
 import Geocoder, {Result} from './geocoder/geocoder';
 import {MapViewState} from '@deck.gl/core/typed';

@@ -4,9 +4,9 @@
 import React from 'react';
 import {useIntl} from 'react-intl';
 
-import {InteractionConfig} from '@kepler.gl/types';
-import {VisStateActions} from '@kepler.gl/actions';
-import {Datasets} from '@kepler.gl/table';
+import {InteractionConfig} from '@soft-yyw/kepler.gl-types';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 import InteractionPanelFactory from './interaction-panel/interaction-panel';
 import PanelTitleFactory from './panel-title';

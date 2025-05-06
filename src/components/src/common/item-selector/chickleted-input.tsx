@@ -8,8 +8,8 @@ import {DndContext, DragOverlay, pointerWithin} from '@dnd-kit/core';
 import {SortableContext, useSortable} from '@dnd-kit/sortable';
 import {restrictToParentElement} from '@dnd-kit/modifiers';
 
-import {FormattedMessage} from '@kepler.gl/localization';
-import {arrayMove} from '@kepler.gl/common-utils';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {arrayMove} from '@soft-yyw/kepler.gl-common-utils';
 
 import Delete from '../icons/delete';
 import {BaseComponentProps} from '../../types';

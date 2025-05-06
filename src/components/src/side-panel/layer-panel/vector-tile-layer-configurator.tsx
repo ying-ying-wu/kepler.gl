@@ -5,8 +5,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 import styled from 'styled-components';
 
-import {VectorTileLayer} from '@kepler.gl/layers';
-import {KeplerTable as KeplerDataset} from '@kepler.gl/table';
+import {VectorTileLayer} from '@soft-yyw/kepler.gl-layers';
+import {KeplerTable as KeplerDataset} from '@soft-yyw/kepler.gl-table';
 
 import SourceDataSelectorFactory from '../common/source-data-selector';
 import ChannelByValueSelectorFactory from './channel-by-value-selector';

@@ -5,7 +5,7 @@ import React, {useMemo} from 'react';
 import styled, {withTheme} from 'styled-components';
 import {SketchPicker, ColorChangeHandler} from 'react-color';
 
-import {HexColor} from '@kepler.gl/types';
+import {HexColor} from '@soft-yyw/kepler.gl-types';
 
 import {BaseComponentProps} from '../../types';
 

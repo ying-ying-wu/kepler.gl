@@ -10,7 +10,7 @@ import {
 } from '@nebula.gl/edit-modes';
 import {Viewport} from '@deck.gl/core';
 
-import {EDITOR_LAYER_PICKING_RADIUS} from '@kepler.gl/constants';
+import {EDITOR_LAYER_PICKING_RADIUS} from '@soft-yyw/kepler.gl-constants';
 
 const RIGHT_BUTTON = 2;
 

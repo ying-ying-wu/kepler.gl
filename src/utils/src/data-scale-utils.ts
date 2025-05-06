@@ -5,9 +5,9 @@ import {bisectLeft, quantileSorted as d3Quantile, extent} from 'd3-array';
 import uniq from 'lodash/uniq';
 import moment from 'moment';
 
-import {notNullorUndefined, toArray} from '@kepler.gl/common-utils';
-import {ALL_FIELD_TYPES, SCALE_FUNC, SCALE_TYPES, NO_VALUE_COLOR} from '@kepler.gl/constants';
-// import {FilterProps, KeplerTable} from '@kepler.gl/layers';
+import {notNullorUndefined, toArray} from '@soft-yyw/kepler.gl-common-utils';
+import {ALL_FIELD_TYPES, SCALE_FUNC, SCALE_TYPES, NO_VALUE_COLOR} from '@soft-yyw/kepler.gl-constants';
+// import {FilterProps, KeplerTable} from '@soft-yyw/kepler.gl-layers';
 import {
   AggregatedBin,
   ColorMap,
@@ -21,7 +21,7 @@ import {
   RGBAColor,
   ColorUI,
   Field
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 import {isRgbColor, rgbToHex, hexToRgb} from './color-utils';
 import {DataContainerInterface} from './data-container-interface';
@@ -42,7 +42,7 @@ export type ColorBreakOrdinal = {
 
 export type D3ScaleFunction = Record<string, any> & ((x: any) => any);
 
-// TODO isolate types - depends on @kepler.gl/layers
+// TODO isolate types - depends on @soft-yyw/kepler.gl-layers
 type FilterProps = any;
 type KeplerTable = any;
 

@@ -8,8 +8,8 @@ import sinon from 'sinon';
 import moment from 'moment';
 
 import {IntlWrapper, mountWithTheme, mockHTMLElementClientSize} from 'test/helpers/component-utils';
-import {setFilterAnimationTimeConfig} from '@kepler.gl/actions';
-import {visStateReducer as reducer, DEFAULT_ANIMATION_CONFIG} from '@kepler.gl/reducers';
+import {setFilterAnimationTimeConfig} from '@soft-yyw/kepler.gl-actions';
+import {visStateReducer as reducer, DEFAULT_ANIMATION_CONFIG} from '@soft-yyw/kepler.gl-reducers';
 
 import {
   TimeWidgetFactory,
@@ -26,7 +26,7 @@ import {
   SliderHandle,
   Typeahead,
   appInjector
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 const TimeWidget = appInjector.get(TimeWidgetFactory);
 const TimeRangeSlider = appInjector.get(TimeRangeSliderFactory);

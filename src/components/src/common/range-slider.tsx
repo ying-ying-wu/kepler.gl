@@ -15,10 +15,10 @@ import {
   roundValToStep,
   clamp,
   scaleSourceDomainToDestination
-} from '@kepler.gl/utils';
-import {LineChart, Filter, Bins} from '@kepler.gl/types';
-import {Datasets} from '@kepler.gl/table';
-import {ActionHandler, setFilterPlot} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-utils';
+import {LineChart, Filter, Bins} from '@soft-yyw/kepler.gl-types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {ActionHandler, setFilterPlot} from '@soft-yyw/kepler.gl-actions';
 
 interface SliderInputProps {
   $flush?: boolean;

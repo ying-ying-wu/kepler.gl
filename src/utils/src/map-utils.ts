@@ -3,8 +3,8 @@
 
 import WebMercatorViewport from 'viewport-mercator-project';
 
-import {TRANSITION_DURATION} from '@kepler.gl/constants';
-import {SplitMapLayers, SplitMap, Viewport, MapState} from '@kepler.gl/types';
+import {TRANSITION_DURATION} from '@soft-yyw/kepler.gl-constants';
+import {SplitMapLayers, SplitMap, Viewport, MapState} from '@soft-yyw/kepler.gl-types';
 
 import {validateLatitude, validateLongitude} from './data-utils';
 

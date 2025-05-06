@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import Upload from './upload';
-import {MapData, ExportFileOptions, Millisecond, SavedMap} from '@kepler.gl/types';
+import {MapData, ExportFileOptions, Millisecond, SavedMap} from '@soft-yyw/kepler.gl-types';
 import {ComponentType} from 'react';
 
 export type MapItemLoadParams = {

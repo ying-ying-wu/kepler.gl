@@ -13,11 +13,11 @@ import {
   generateHashIdFromString,
   getApplicationConfig,
   getError
-} from '@kepler.gl/utils';
-import {generateHashId} from '@kepler.gl/common-utils';
-import {DATASET_FORMATS} from '@kepler.gl/constants';
-import {AddDataToMapPayload, Feature, LoadedMap, ProcessorResult} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-utils';
+import {generateHashId} from '@soft-yyw/kepler.gl-common-utils';
+import {DATASET_FORMATS} from '@soft-yyw/kepler.gl-constants';
+import {AddDataToMapPayload, Feature, LoadedMap, ProcessorResult} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 import {FeatureCollection} from '@turf/helpers';
 
 import {

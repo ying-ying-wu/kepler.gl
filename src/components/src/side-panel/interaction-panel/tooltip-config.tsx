@@ -4,7 +4,7 @@
 import React, {useCallback} from 'react';
 import styled from 'styled-components';
 import {injectIntl, IntlShape} from 'react-intl';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import {
   SidePanelSection,
@@ -16,9 +16,9 @@ import DatasetTagFactory from '../common/dataset-tag';
 import TooltipChickletFactory from './tooltip-config/tooltip-chicklet';
 import Switch from '../../common/switch';
 import ItemSelector from '../../common/item-selector/item-selector';
-import {COMPARE_TYPES, GEOCODER_DATASET_NAME} from '@kepler.gl/constants';
+import {COMPARE_TYPES, GEOCODER_DATASET_NAME} from '@soft-yyw/kepler.gl-constants';
 import FieldSelectorFactory from '../../common/field-selector';
-import KeplerTable, {Datasets} from '@kepler.gl/table';
+import KeplerTable, {Datasets} from '@soft-yyw/kepler.gl-table';
 
 const TooltipConfigWrapper = styled.div`
   .item-selector > div > div {

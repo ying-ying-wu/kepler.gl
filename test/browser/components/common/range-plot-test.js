@@ -6,7 +6,7 @@
 import React from 'react';
 import test from 'tape';
 import {mountWithTheme} from 'test/helpers/component-utils';
-import {appInjector, RangePlotFactory, LoadingSpinner} from '@kepler.gl/components';
+import {appInjector, RangePlotFactory, LoadingSpinner} from '@soft-yyw/kepler.gl-components';
 import sinon from 'sinon';
 
 const RangePlot = appInjector.get(RangePlotFactory);

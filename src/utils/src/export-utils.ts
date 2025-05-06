@@ -12,8 +12,8 @@ import {
   FourByThreeRatioOption,
   OneXResolutionOption,
   ExportImage
-} from '@kepler.gl/constants';
-import {generateHashId} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-constants';
+import {generateHashId} from '@soft-yyw/kepler.gl-common-utils';
 import domtoimage from './dom-to-image';
 import {set} from './utils';
 import {exportMapToHTML} from './export-map-html';

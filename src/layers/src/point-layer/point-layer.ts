@@ -6,8 +6,8 @@ import * as arrow from 'apache-arrow';
 import {BrushingExtension} from '@deck.gl/extensions';
 import {ScatterplotLayer} from '@deck.gl/layers';
 
-import {GeoArrowScatterplotLayer} from '@kepler.gl/deckgl-arrow-layers';
-import {FilterArrowExtension} from '@kepler.gl/deckgl-layers';
+import {GeoArrowScatterplotLayer} from '@soft-yyw/kepler.gl-deckgl-arrow-layers';
+import {FilterArrowExtension} from '@soft-yyw/kepler.gl-deckgl-layers';
 
 import Layer, {
   LayerBaseConfig,
@@ -21,8 +21,8 @@ import {
   findDefaultColorField,
   DataContainerInterface,
   ArrowDataContainer
-} from '@kepler.gl/utils';
-import {default as KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-utils';
+import {default as KeplerTable} from '@soft-yyw/kepler.gl-table';
 import PointLayerIcon from './point-layer-icon';
 import {
   DatasetType,
@@ -30,7 +30,7 @@ import {
   DEFAULT_LAYER_COLOR,
   CHANNEL_SCALES,
   DEFAULT_COLOR_UI
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {getTextOffsetByRadius, formatTextLabelData} from '../layer-text-label';
 import {
   assignPointPairToLayerColumn,
@@ -56,7 +56,7 @@ import {
   LayerColumn,
   Field,
   AnimationConfig
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 export type PointLayerVisConfigSettings = {
   radius: VisConfigNumber;
@@ -228,7 +228,7 @@ export default class PointLayer extends Layer {
   /*
    * CPU filtering an arrow table by values and assembling a partial copy of the raw table is expensive
    * so we will use filteredIndex to create an attribute e.g. filteredIndex [0|1] for GPU filtering
-   * in deck.gl layer, see: FilterArrowExtension in @kepler.gl/deckgl-layers.
+   * in deck.gl layer, see: FilterArrowExtension in @soft-yyw/kepler.gl-deckgl-layers.
    * Note that this approach can create visible lags in case of a lot of discarted geometry.
    */
   filteredIndex: Uint8ClampedArray | null = null;

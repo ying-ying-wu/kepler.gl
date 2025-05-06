@@ -5,16 +5,16 @@ import Window from 'global/window';
 import {BrushingExtension} from '@deck.gl/extensions';
 import GL from '@luma.gl/constants';
 
-import {SvgIconLayer} from '@kepler.gl/deckgl-layers';
+import {SvgIconLayer} from '@soft-yyw/kepler.gl-deckgl-layers';
 import IconLayerIcon from './icon-layer-icon';
-import {ICON_FIELDS, KEPLER_UNFOLDED_BUCKET} from '@kepler.gl/constants';
+import {ICON_FIELDS, KEPLER_UNFOLDED_BUCKET} from '@soft-yyw/kepler.gl-constants';
 import IconInfoModalFactory from './icon-info-modal';
 import Layer, {LayerBaseConfig, LayerBaseConfigPartial} from '../base-layer';
 import {assignPointPairToLayerColumn, FindDefaultLayerPropsReturnValue} from '../layer-utils';
-import {isTest} from '@kepler.gl/utils';
+import {isTest} from '@soft-yyw/kepler.gl-utils';
 import {getTextOffsetByRadius, formatTextLabelData} from '../layer-text-label';
-import {default as KeplerTable} from '@kepler.gl/table';
-import {DataContainerInterface} from '@kepler.gl/utils';
+import {default as KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 import {
   ColorRange,
   VisConfigBoolean,
@@ -23,7 +23,7 @@ import {
   VisConfigRange,
   Merge,
   LayerColumn
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 export type IconLayerColumnsConfig = {
   lat: LayerColumn;

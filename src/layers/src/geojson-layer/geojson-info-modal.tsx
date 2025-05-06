@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
 import {useIntl} from 'react-intl';
 
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import Table from '../example-table';
 

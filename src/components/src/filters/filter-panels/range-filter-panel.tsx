@@ -3,7 +3,7 @@
 
 import React, {useCallback} from 'react';
 import RangeFilterFactory from '../range-filter';
-import {RangeFilter} from '@kepler.gl/types';
+import {RangeFilter} from '@soft-yyw/kepler.gl-types';
 import FieldPanelWithFieldSelectFactory from './filter-panel-with-field-select';
 import {FilterPanelComponent} from './types';
 

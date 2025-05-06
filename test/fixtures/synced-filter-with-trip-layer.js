@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {processKeplerglJSON} from '@kepler.gl/processors';
+import {processKeplerglJSON} from '@soft-yyw/kepler.gl-processors';
 import CloneDeep from 'lodash/cloneDeep';
-import {keplerGlReducerCore as coreReducer} from '@kepler.gl/reducers';
-import {addDataToMap} from '@kepler.gl/actions';
+import {keplerGlReducerCore as coreReducer} from '@soft-yyw/kepler.gl-reducers';
+import {addDataToMap} from '@soft-yyw/kepler.gl-actions';
 import {InitialState, applyActions} from '../helpers/mock-state';
 
 export const syncedFilterWithTripLayerMap = {

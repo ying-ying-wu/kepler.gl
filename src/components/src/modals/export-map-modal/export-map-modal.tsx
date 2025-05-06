@@ -5,12 +5,12 @@ import React from 'react';
 
 import {FileType} from '../../common/icons';
 import {StyledModalContent, StyledType, CheckMark} from '../../common/styled-components';
-import {EXPORT_MAP_FORMATS, EXPORT_MAP_FORMAT_OPTIONS} from '@kepler.gl/constants';
+import {EXPORT_MAP_FORMATS, EXPORT_MAP_FORMAT_OPTIONS} from '@soft-yyw/kepler.gl-constants';
 import {StyledExportMapSection} from './components';
 import ExportHtmlMapFactory from './export-html-map';
 import ExportJsonMapFactory from './export-json-map';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {ActionHandler, setExportHTMLMapMode, setUserMapboxAccessToken} from '@kepler.gl/actions';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {ActionHandler, setExportHTMLMapMode, setUserMapboxAccessToken} from '@soft-yyw/kepler.gl-actions';
 
 interface ExportMapModalFactoryProps {
   options?: {format: string};

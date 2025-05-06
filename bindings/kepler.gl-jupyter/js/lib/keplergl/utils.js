@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {tableFromIPC} from 'apache-arrow';
-import {processCsvData, processGeojson, processArrowBatches} from '@kepler.gl/processors';
+import {processCsvData, processGeojson, processArrowBatches} from '@soft-yyw/kepler.gl-processors';
 import log from '../log';
 import console from 'global/console';
 

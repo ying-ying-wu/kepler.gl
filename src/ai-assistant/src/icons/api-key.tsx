@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {Component} from 'react';
-import {Icons} from '@kepler.gl/components';
+import {Icons} from '@soft-yyw/kepler.gl-components';
 
 export default class ApiKey extends Component<Partial<Icons.BaseProps>> {
   static defaultProps = {

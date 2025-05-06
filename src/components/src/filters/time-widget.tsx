@@ -3,7 +3,7 @@
 
 import React, {useCallback, useMemo} from 'react';
 import styled from 'styled-components';
-import {FILTER_VIEW_TYPES} from '@kepler.gl/constants';
+import {FILTER_VIEW_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {BottomWidgetInner} from '../common/styled-components';
 import TimeRangeSliderFactory from '../common/time-range-slider';
 import FloatingTimeDisplayFactory from '../common/animation-control/floating-time-display';

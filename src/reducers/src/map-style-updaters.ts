@@ -16,8 +16,8 @@ import {
   isPlainObject,
   hexToRgb,
   colorMaybeToRGB
-} from '@kepler.gl/utils';
-import {generateHashId} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-utils';
+import {generateHashId} from '@soft-yyw/kepler.gl-common-utils';
 import {
   DEFAULT_MAP_STYLES,
   DEFAULT_LAYER_GROUPS,
@@ -27,8 +27,8 @@ import {
   DEFAULT_BACKGROUND_COLOR,
   BASE_MAP_BACKGROUND_LAYER_IDS,
   DEFAULT_BASE_MAP_STYLE
-} from '@kepler.gl/constants';
-import {ACTION_TASK, LOAD_MAP_STYLE_TASK} from '@kepler.gl/tasks';
+} from '@soft-yyw/kepler.gl-constants';
+import {ACTION_TASK, LOAD_MAP_STYLE_TASK} from '@soft-yyw/kepler.gl-tasks';
 import {rgb} from 'd3-color';
 
 import {
@@ -38,7 +38,7 @@ import {
   MapStyles,
   InputStyle,
   VisibleLayerGroups
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {
   ActionTypes,
   ReceiveMapConfigPayload,
@@ -46,7 +46,7 @@ import {
   MapStyleActions,
   loadMapStyles,
   loadMapStyleErr
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 
 export type MapboxStyleUrl = string;
 

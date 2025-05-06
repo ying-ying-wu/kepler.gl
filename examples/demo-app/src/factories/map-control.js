@@ -4,13 +4,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {AiAssistantControlFactory, AiAssistantManagerFactory} from '@kepler.gl/ai-assistant';
+import {AiAssistantControlFactory, AiAssistantManagerFactory} from '@soft-yyw/kepler.gl-ai-assistant';
 import {
   withState,
   MapControlFactory,
   EffectControlFactory,
   EffectManagerFactory
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 import {BannerMapPanel, SampleMapPanel} from '../components/map-control/map-control';
 import SqlPanelControlFactory from '../components/map-control/sql-panel-control';

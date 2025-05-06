@@ -2,9 +2,9 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {useCallback, ComponentType} from 'react';
-import {MapControls} from '@kepler.gl/types';
+import {MapControls} from '@soft-yyw/kepler.gl-types';
 import AiStar from '../icons/ai-star';
-import {MapControlButton, MapControlTooltipFactory} from '@kepler.gl/components';
+import {MapControlButton, MapControlTooltipFactory} from '@soft-yyw/kepler.gl-components';
 
 type AiAssistantControlIcons = {
   aiAssistantIcon: ComponentType<{

@@ -4,12 +4,12 @@
 // @ts-nocheck
 
 import cloneDeep from 'lodash/cloneDeep';
-import {colorPaletteToColorRange} from '@kepler.gl/constants';
+import {colorPaletteToColorRange} from '@soft-yyw/kepler.gl-constants';
 import {
   getInitialInputStyle,
   keplerGlReducerCore as keplerGlReducer,
   syncTimeFilterWithLayerTimelineUpdater
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 import {
   KEPLER_COLOR_PALETTES,
   COMPARE_TYPES,
@@ -18,8 +18,8 @@ import {
   DEFAULT_COLOR_RANGE,
   DEFAULT_HIGHLIGHT_COLOR,
   DEFAULT_LAYER_LABEL
-} from '@kepler.gl/constants';
-import {DEFAULT_KEPLER_GL_PROPS, getUpdateVisDataPayload} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-constants';
+import {DEFAULT_KEPLER_GL_PROPS, getUpdateVisDataPayload} from '@soft-yyw/kepler.gl-components';
 import {
   addDataToMap,
   VisStateActions,
@@ -27,7 +27,7 @@ import {
   MapStyleActions,
   UIStateActions,
   ProviderActions
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 
 // fixtures
 import {
@@ -55,7 +55,7 @@ import tripCsvData, {
 } from '../fixtures/test-trip-csv-data';
 import testArcData, {arcDataInfo, config as arcDataConfig} from '../fixtures/test-arc-data';
 import tripGeojson, {tripDataInfo} from '../fixtures/trip-geojson';
-import {processCsvData, processGeojson, processRowObject} from '@kepler.gl/processors';
+import {processCsvData, processGeojson, processRowObject} from '@soft-yyw/kepler.gl-processors';
 import {MOCK_MAP_STYLE} from './mock-map-styles';
 import {
   applyActions,

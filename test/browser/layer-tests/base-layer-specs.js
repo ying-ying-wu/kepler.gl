@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape-catch';
-import {Layer, AggregationLayer} from '@kepler.gl/layers';
-import {KeplerTable} from '@kepler.gl/table';
+import {Layer, AggregationLayer} from '@soft-yyw/kepler.gl-layers';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 test('#BaseLayer -> updateLayerDomain', t => {
   const rows = [

@@ -4,7 +4,7 @@
 import React from 'react';
 import styled, {IStyledComponent} from 'styled-components';
 import {Minus} from './icons';
-import {datetimeFormatter} from '@kepler.gl/utils';
+import {datetimeFormatter} from '@soft-yyw/kepler.gl-utils';
 import {BaseComponentProps} from '../types';
 
 export type TimeValueWrapperProps = BaseComponentProps & {

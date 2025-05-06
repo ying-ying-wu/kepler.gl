@@ -5,10 +5,10 @@ import React, {useCallback, useEffect, useState} from 'react';
 import {useSelector} from 'react-redux';
 import styled from 'styled-components';
 
-import {LoadingSpinner, Icons} from '@kepler.gl/components';
-import {arrowSchemaToFields} from '@kepler.gl/processors';
-import {VisState} from '@kepler.gl/schemas';
-import {getApplicationConfig, DatabaseConnection} from '@kepler.gl/utils';
+import {LoadingSpinner, Icons} from '@soft-yyw/kepler.gl-components';
+import {arrowSchemaToFields} from '@soft-yyw/kepler.gl-processors';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
+import {getApplicationConfig, DatabaseConnection} from '@soft-yyw/kepler.gl-utils';
 
 import {Tree, DatasetNode, ColumnNode, TreeNodeData} from './tree';
 import {getDuckDBColumnTypes, getDuckDBColumnTypesMap} from '../table/duckdb-table-utils';

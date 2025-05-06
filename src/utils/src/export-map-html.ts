@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 // @ts-nocheck
-import {EXPORT_HTML_MAP_MODES, KEPLER_GL_VERSION} from '@kepler.gl/constants';
+import {EXPORT_HTML_MAP_MODES, KEPLER_GL_VERSION} from '@soft-yyw/kepler.gl-constants';
 
 /**
  * This method is used to create an html file which will inlcude kepler and map data

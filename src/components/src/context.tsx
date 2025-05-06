@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {createContext, RefObject, ReactNode, ReactElement} from 'react';
-import {Provider} from '@kepler.gl/cloud-providers';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 const identity = state => state;
 // New Context API only supported after 16.3

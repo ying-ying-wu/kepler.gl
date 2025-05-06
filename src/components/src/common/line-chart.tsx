@@ -13,9 +13,9 @@ import {
   LineSeriesPoint,
   RVNearestXData
 } from 'react-vis';
-import {LineChart} from '@kepler.gl/types';
+import {LineChart} from '@soft-yyw/kepler.gl-types';
 import styled from 'styled-components';
-import {datetimeFormatter} from '@kepler.gl/utils';
+import {datetimeFormatter} from '@soft-yyw/kepler.gl-utils';
 
 const LineChartWrapper = styled.div`
   .rv-xy-plot {

@@ -9,7 +9,7 @@ import {
   INITIAL_MAP_STYLE,
   loadMapStylesUpdater,
   getInitialInputStyle
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 import {
   keplerGlInit,
   receiveMapConfig,
@@ -19,9 +19,9 @@ import {
   inputMapStyle,
   editCustomMapStyle,
   removeCustomMapStyle
-} from '@kepler.gl/actions';
-import SchemaManager from '@kepler.gl/schemas';
-import {DEFAULT_MAP_STYLES, DEFAULT_MAPBOX_API_URL, NO_MAP_ID} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-actions';
+import SchemaManager from '@soft-yyw/kepler.gl-schemas';
+import {DEFAULT_MAP_STYLES, DEFAULT_MAPBOX_API_URL, NO_MAP_ID} from '@soft-yyw/kepler.gl-constants';
 
 // helpers
 import {

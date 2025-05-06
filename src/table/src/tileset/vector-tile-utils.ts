@@ -16,11 +16,11 @@ import {
   notNullorUndefined as notNullOrUndefined,
   parseUri,
   getFieldsFromData
-} from '@kepler.gl/common-utils';
-import {DatasetType, ALL_FIELD_TYPES, FILTER_TYPES, RemoteTileFormat} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-common-utils';
+import {DatasetType, ALL_FIELD_TYPES, FILTER_TYPES, RemoteTileFormat} from '@soft-yyw/kepler.gl-constants';
 
-import {Feature, Field as KeplerField, KeplerLayer} from '@kepler.gl/types';
-import {clamp, formatNumberByStep, getNumericStepSize, timeToUnixMilli} from '@kepler.gl/utils';
+import {Feature, Field as KeplerField, KeplerLayer} from '@soft-yyw/kepler.gl-types';
+import {clamp, formatNumberByStep, getNumericStepSize, timeToUnixMilli} from '@soft-yyw/kepler.gl-utils';
 
 import {
   FilterProps,

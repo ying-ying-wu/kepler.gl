@@ -6,12 +6,12 @@ import styled, {withTheme} from 'styled-components';
 import RangeBrushFactory, {OnBrush, RangeBrushProps} from './range-brush';
 import HistogramPlotFactory from './histogram-plot';
 import LineChartFactory, {HoverDP} from './line-chart';
-import {hasMobileWidth, isTest} from '@kepler.gl/utils';
-import {PLOT_TYPES} from '@kepler.gl/constants';
+import {hasMobileWidth, isTest} from '@soft-yyw/kepler.gl-utils';
+import {PLOT_TYPES} from '@soft-yyw/kepler.gl-constants';
 import LoadingSpinner from './loading-spinner';
-import {breakPointValues} from '@kepler.gl/styles';
-import {LineChart as LineChartType, Filter, Bins} from '@kepler.gl/types';
-import {Datasets} from '@kepler.gl/table';
+import {breakPointValues} from '@soft-yyw/kepler.gl-styles';
+import {LineChart as LineChartType, Filter, Bins} from '@soft-yyw/kepler.gl-types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 const StyledRangePlot = styled.div`
   margin-bottom: ${props => props.theme.sliderBarHeight}px;

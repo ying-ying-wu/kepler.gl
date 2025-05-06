@@ -11,7 +11,7 @@ import {
   UiState,
   ParsedConfig,
   ProtoDataset
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 type Handler = (...args: any) => any;
 

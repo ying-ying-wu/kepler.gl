@@ -9,11 +9,11 @@ import {CSS, Transform} from '@dnd-kit/utilities';
 import {ChickletButton} from '../../../common/item-selector/chickleted-input';
 import {Hash, Delete, VertDots} from '../../../common/icons';
 import DropdownList from '../../../common/item-selector/dropdown-list';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {TimeLabelFormat, TooltipFields} from '@kepler.gl/types';
-import {getFormatValue, getFormatLabels} from '@kepler.gl/utils';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {TimeLabelFormat, TooltipFields} from '@soft-yyw/kepler.gl-types';
+import {getFormatValue, getFormatLabels} from '@soft-yyw/kepler.gl-utils';
 import TippyTooltip from '../../../common/tippy-tooltip';
-import {TooltipFormat} from '@kepler.gl/constants';
+import {TooltipFormat} from '@soft-yyw/kepler.gl-constants';
 import useOnClickOutside from '../../../hooks/use-on-click-outside';
 import {BaseComponentProps} from '../../../types';
 

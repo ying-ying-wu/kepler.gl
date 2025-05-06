@@ -11,8 +11,8 @@ import {providerStateReducerFactory} from './provider-state';
 
 import composers from './composers';
 
-import {VisState} from '@kepler.gl/schemas';
-import {MapState, UiState} from '@kepler.gl/types';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
+import {MapState, UiState} from '@soft-yyw/kepler.gl-types';
 import {MapStyle} from './map-style-updaters';
 import {ProviderState} from './provider-state-updaters';
 

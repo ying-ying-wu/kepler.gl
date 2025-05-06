@@ -3,9 +3,9 @@
 
 /* eslint-disable max-statements */
 
-import {layerColorUIChange, layerVisualChannelConfigChange} from '@kepler.gl/actions';
-import {keplerGlReducerCore as coreReducer} from '@kepler.gl/reducers';
-import {ColorBreaksDisplay} from '@kepler.gl/components';
+import {layerColorUIChange, layerVisualChannelConfigChange} from '@soft-yyw/kepler.gl-actions';
+import {keplerGlReducerCore as coreReducer} from '@soft-yyw/kepler.gl-reducers';
+import {ColorBreaksDisplay} from '@soft-yyw/kepler.gl-components';
 import cloneDeep from 'lodash/cloneDeep';
 import React from 'react';
 import sinon from 'sinon';
@@ -28,7 +28,7 @@ import {
   ColorPaletteItem,
   ColorSwatch,
   EditableColorRange
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 import {StateWFilesFiltersLayerColor, expectedColorRangeInLayer} from 'test/helpers/mock-state';
 

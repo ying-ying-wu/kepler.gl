@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import {deviation, min, max, mean, median, sum, variance} from 'd3-array';
-import {ValueOf} from '@kepler.gl/types';
-import {AGGREGATION_TYPES, AggregationTypes} from '@kepler.gl/constants';
+import {ValueOf} from '@soft-yyw/kepler.gl-types';
+import {AGGREGATION_TYPES, AggregationTypes} from '@soft-yyw/kepler.gl-constants';
 const identity = d => d;
 
 export const getFrequency = (

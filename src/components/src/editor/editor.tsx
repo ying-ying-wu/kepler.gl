@@ -15,11 +15,11 @@ import {
   EDITOR_MODES,
   GEOCODER_LAYER_ID,
   KeyEvent
-} from '@kepler.gl/constants';
-import {Layer, EditorLayerUtils} from '@kepler.gl/layers';
-import {Filter, FeatureSelectionContext, Feature} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {Layer, EditorLayerUtils} from '@soft-yyw/kepler.gl-layers';
+import {Filter, FeatureSelectionContext, Feature} from '@soft-yyw/kepler.gl-types';
 import {FeatureOf, Polygon} from '@nebula.gl/edit-modes';
-import {Datasets} from '@kepler.gl/table';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 import {RootContext} from '../context';
 

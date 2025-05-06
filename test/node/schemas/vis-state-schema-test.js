@@ -4,7 +4,7 @@
 import test from 'tape';
 import cloneDeep from 'lodash/cloneDeep';
 import {cmpFilters, cmpSavedLayers} from 'test/helpers/comparison-utils';
-import SchemaManager, {CURRENT_VERSION, visStateSchema} from '@kepler.gl/schemas';
+import SchemaManager, {CURRENT_VERSION, visStateSchema} from '@soft-yyw/kepler.gl-schemas';
 
 import {
   StateWArcNeighbors,
@@ -26,8 +26,8 @@ import {
   testCsvDataId,
   testGeoJsonDataId
 } from 'test/helpers/mock-state';
-import {keplerGlReducerCore as keplerGlReducer} from '@kepler.gl/reducers';
-import {VisStateActions} from '@kepler.gl/actions';
+import {keplerGlReducerCore as keplerGlReducer} from '@soft-yyw/kepler.gl-reducers';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
 
 const expectedVisStateEntries = [
   'filters',

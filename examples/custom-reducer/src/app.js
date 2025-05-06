@@ -4,10 +4,10 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
-import KeplerGl from '@kepler.gl/components';
+import KeplerGl from '@soft-yyw/kepler.gl-components';
 import {createAction} from 'redux-actions';
 
-import {addDataToMap, wrapTo} from '@kepler.gl/actions';
+import {addDataToMap, wrapTo} from '@soft-yyw/kepler.gl-actions';
 import sampleData from './data/sample-data';
 import config from './configurations/config';
 

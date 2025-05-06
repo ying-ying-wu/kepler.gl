@@ -3,9 +3,9 @@
 
 import React, {useState} from 'react';
 
-import {Button, Icons, TextArea, withState} from '@kepler.gl/components';
-import {KeplerGlSchema} from '@kepler.gl/schemas';
-import {visStateLens, mapStateLens, mapStyleLens} from '@kepler.gl/reducers';
+import {Button, Icons, TextArea, withState} from '@soft-yyw/kepler.gl-components';
+import {KeplerGlSchema} from '@soft-yyw/kepler.gl-schemas';
+import {visStateLens, mapStateLens, mapStyleLens} from '@soft-yyw/kepler.gl-reducers';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import styled from 'styled-components';
 

@@ -8,8 +8,8 @@ import {
   DEFAULT_MAPBOX_API_URL,
   NO_MAP_ID,
   EMPTY_MAPBOX_STYLE
-} from '@kepler.gl/constants';
-import {BaseMapStyle, LayerGroup, MapState} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {BaseMapStyle, LayerGroup, MapState} from '@soft-yyw/kepler.gl-types';
 
 export function getDefaultLayerGroupVisibility({layerGroups = []}: {layerGroups: LayerGroup[]}) {
   return layerGroups.reduce(

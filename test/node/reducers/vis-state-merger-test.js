@@ -22,14 +22,14 @@ import keplerGlReducer, {
   getLayerOrderFromLayers,
   setFilterAnimationTimeUpdater,
   syncTimeFilterWithLayerTimelineUpdater
-} from '@kepler.gl/reducers';
-import {SYNC_TIMELINE_MODES} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-reducers';
+import {SYNC_TIMELINE_MODES} from '@soft-yyw/kepler.gl-constants';
 
-import SchemaManager, {CURRENT_VERSION, visStateSchema} from '@kepler.gl/schemas';
-import {processKeplerglJSON} from '@kepler.gl/processors';
-import {updateVisData, receiveMapConfig, addDataToMap, registerEntry} from '@kepler.gl/actions';
+import SchemaManager, {CURRENT_VERSION, visStateSchema} from '@soft-yyw/kepler.gl-schemas';
+import {processKeplerglJSON} from '@soft-yyw/kepler.gl-processors';
+import {updateVisData, receiveMapConfig, addDataToMap, registerEntry} from '@soft-yyw/kepler.gl-actions';
 
-import {createDataContainer, findById} from '@kepler.gl/utils';
+import {createDataContainer, findById} from '@soft-yyw/kepler.gl-utils';
 
 // fixtures
 import {

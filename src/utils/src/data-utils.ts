@@ -14,9 +14,9 @@ import {
   TOOLTIP_FORMAT_TYPES,
   TOOLTIP_KEY,
   TooltipFormat
-} from '@kepler.gl/constants';
-import {notNullorUndefined} from '@kepler.gl/common-utils';
-import {Field, Millisecond, ProtoDatasetField} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
+import {Field, Millisecond, ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
 
 import {snapToMarks} from './plot';
 import {isPlainObject} from './utils';

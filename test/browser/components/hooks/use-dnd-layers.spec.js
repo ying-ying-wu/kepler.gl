@@ -3,14 +3,14 @@
 
 import {renderHook, act} from '@testing-library/react';
 import {useDispatch} from 'react-redux';
-import {useDndLayers} from '@kepler.gl/components';
-import {layerConfigChange, reorderLayer, toggleLayerForMap} from '@kepler.gl/actions';
+import {useDndLayers} from '@soft-yyw/kepler.gl-components';
+import {layerConfigChange, reorderLayer, toggleLayerForMap} from '@soft-yyw/kepler.gl-actions';
 import {
   DROPPABLE_MAP_CONTAINER_TYPE,
   SORTABLE_LAYER_TYPE,
   SORTABLE_SIDE_PANEL_TYPE
-} from '@kepler.gl/components/common/dnd-layer-items';
-import {reorderLayerOrder} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-components/common/dnd-layer-items';
+import {reorderLayerOrder} from '@soft-yyw/kepler.gl-reducers';
 
 // Mock useDispatch hook
 jest.mock('react-redux', () => ({
@@ -19,14 +19,14 @@ jest.mock('react-redux', () => ({
 }));
 
 // Mock dependencies
-jest.mock('@kepler.gl/actions', () => ({
-  ...jest.requireActual('@kepler.gl/actions'),
+jest.mock('@soft-yyw/kepler.gl-actions', () => ({
+  ...jest.requireActual('@soft-yyw/kepler.gl-actions'),
   layerConfigChange: jest.fn(),
   reorderLayer: jest.fn(),
   toggleLayerForMap: jest.fn()
 }));
 
-jest.mock('@kepler.gl/reducers', () => ({
+jest.mock('@soft-yyw/kepler.gl-reducers', () => ({
   reorderLayerOrder: jest.fn()
 }));
 

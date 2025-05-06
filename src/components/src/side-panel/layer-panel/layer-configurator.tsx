@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 /* eslint-disable complexity */
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import React, {Component, Fragment} from 'react';
 import styled from 'styled-components';
 
@@ -27,13 +27,13 @@ import VisConfigSliderFactory from './vis-config-slider';
 import VisConfigSwitchFactory from './vis-config-switch';
 import VectorTileLayerConfiguratorFactory from './vector-tile-layer-configurator';
 
-import {ActionHandler, toggleModal} from '@kepler.gl/actions';
-import {AGGREGATION_TYPE_OPTIONS, LAYER_TYPES} from '@kepler.gl/constants';
-import {AggregationLayer, Layer, LayerBaseConfig, VisualChannel} from '@kepler.gl/layers';
+import {ActionHandler, toggleModal} from '@soft-yyw/kepler.gl-actions';
+import {AGGREGATION_TYPE_OPTIONS, LAYER_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {AggregationLayer, Layer, LayerBaseConfig, VisualChannel} from '@soft-yyw/kepler.gl-layers';
 
-import {matchDatasetType, Datasets} from '@kepler.gl/table';
-import {ColorUI, LayerVisConfig, NestedPartial} from '@kepler.gl/types';
-import {capitalizeFirstLetter} from '@kepler.gl/utils';
+import {matchDatasetType, Datasets} from '@soft-yyw/kepler.gl-table';
+import {ColorUI, LayerVisConfig, NestedPartial} from '@soft-yyw/kepler.gl-types';
+import {capitalizeFirstLetter} from '@soft-yyw/kepler.gl-utils';
 
 type LayerConfiguratorProps = {
   layer: Layer;

@@ -17,7 +17,7 @@ import {
   Typeahead,
   Icons,
   appInjector
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 import {StateWFiles, StateWithGeocoderDataset} from 'test/helpers/mock-state';
 

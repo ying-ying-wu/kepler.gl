@@ -24,9 +24,9 @@ import {
   mapStyleChangeUpdater,
   receiveMapConfigUpdater as styleMapConfigUpdater
 } from './map-style-updaters';
-import {filesToDataPayload} from '@kepler.gl/processors';
+import {filesToDataPayload} from '@soft-yyw/kepler.gl-processors';
 import {payload_, apply_, with_, if_, compose_, merge_, pick_} from './composer-helpers';
-import {MapState, UiState, AddDataToMapPayload, ParsedConfig} from '@kepler.gl/types';
+import {MapState, UiState, AddDataToMapPayload, ParsedConfig} from '@soft-yyw/kepler.gl-types';
 import {MapStyle} from './map-style-updaters';
 import {ProviderState} from './provider-state-updaters';
 import {
@@ -35,12 +35,12 @@ import {
   LayerTypeChangeUpdaterAction,
   ToggleSplitMapUpdaterAction,
   ReplaceDataInMapPayload
-} from '@kepler.gl/actions';
-import {VisState} from '@kepler.gl/schemas';
-import {Layer} from '@kepler.gl/layers';
-import {isPlainObject} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-actions';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {isPlainObject} from '@soft-yyw/kepler.gl-utils';
 import {findMapBounds} from './data-utils';
-import {BASE_MAP_COLOR_MODES, OVERLAY_BLENDINGS} from '@kepler.gl/constants';
+import {BASE_MAP_COLOR_MODES, OVERLAY_BLENDINGS} from '@soft-yyw/kepler.gl-constants';
 
 export type KeplerGlState = {
   visState: VisState;

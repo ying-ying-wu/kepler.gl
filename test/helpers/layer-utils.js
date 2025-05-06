@@ -18,12 +18,12 @@ import {
   mapStateReducer as mapState,
   visStateReducer,
   keplerGlReducerCore
-} from '@kepler.gl/reducers';
-import {getGpuFilterProps} from '@kepler.gl/table';
-import {VisStateActions, addDataToMap} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-reducers';
+import {getGpuFilterProps} from '@soft-yyw/kepler.gl-table';
+import {VisStateActions, addDataToMap} from '@soft-yyw/kepler.gl-actions';
 
-import {colorMaker, layerColors, LayerClasses as KeplerLayerClasses} from '@kepler.gl/layers';
-import {processCsvData, processGeojson} from '@kepler.gl/processors';
+import {colorMaker, layerColors, LayerClasses as KeplerLayerClasses} from '@soft-yyw/kepler.gl-layers';
+import {processCsvData, processGeojson} from '@soft-yyw/kepler.gl-processors';
 import {applyActions, InitialState} from '../helpers/mock-state';
 // Fixtures
 import csvData, {wktCsv} from '../fixtures/test-csv-data';

@@ -5,10 +5,10 @@ import React, {useMemo} from 'react';
 import styled, {IStyledComponent} from 'styled-components';
 import throttle from 'lodash/throttle';
 import classnames from 'classnames';
-import {clamp, datetimeFormatter} from '@kepler.gl/utils';
-import {media} from '@kepler.gl/styles';
-import {DEFAULT_TIME_FORMAT, ANIMATION_WINDOW} from '@kepler.gl/constants';
-import {Timeline} from '@kepler.gl/types';
+import {clamp, datetimeFormatter} from '@soft-yyw/kepler.gl-utils';
+import {media} from '@soft-yyw/kepler.gl-styles';
+import {DEFAULT_TIME_FORMAT, ANIMATION_WINDOW} from '@soft-yyw/kepler.gl-constants';
+import {Timeline} from '@soft-yyw/kepler.gl-types';
 import Slider from './slider/slider';
 import {BaseComponentProps} from '../types';
 

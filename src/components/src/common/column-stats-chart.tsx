@@ -6,15 +6,15 @@ import {scaleLinear} from 'd3-scale';
 import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import styled from 'styled-components';
 
-import {KeplerTable} from '@kepler.gl/table';
-import {Bin, Field} from '@kepler.gl/types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {Bin, Field} from '@soft-yyw/kepler.gl-types';
 import {
   ColorBreak,
   ColorBreakOrdinal,
   isNumber,
   isNumericColorBreaks,
   useDimensions
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
 import ColorPalette from '../side-panel/layer-panel/color-palette';
 import HistogramPlotFactory, {HISTOGRAM_MASK_MODE} from './histogram-plot';

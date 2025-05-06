@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import {Analyzer, DATA_TYPES as AnalyzerDATA_TYPES} from 'type-analyzer';
-import {ArrowTableInterface, ApacheVectorInterface, RowData, Field} from '@kepler.gl/types';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ArrowTableInterface, ApacheVectorInterface, RowData, Field} from '@soft-yyw/kepler.gl-types';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {console as globalConsole} from 'global/window';
 import {range} from 'd3-array';
 import {isHexWkb, notNullorUndefined} from './data';

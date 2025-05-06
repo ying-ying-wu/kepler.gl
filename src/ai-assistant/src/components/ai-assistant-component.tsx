@@ -14,10 +14,10 @@ import {AiAssistant} from '@openassistant/ui';
 import '@openassistant/echarts/dist/index.css';
 import '@openassistant/ui/dist/index.css';
 
-import {textColorLT} from '@kepler.gl/styles';
-import {ActionHandler} from '@kepler.gl/actions';
-import {MapStyle} from '@kepler.gl/reducers';
-import {VisState} from '@kepler.gl/schemas';
+import {textColorLT} from '@soft-yyw/kepler.gl-styles';
+import {ActionHandler} from '@soft-yyw/kepler.gl-actions';
+import {MapStyle} from '@soft-yyw/kepler.gl-reducers';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
 
 import {basemapFunctionDefinition} from '../tools/basemap-functions';
 import {loadUrlFunctionDefinition} from '../tools/loadurl-function';

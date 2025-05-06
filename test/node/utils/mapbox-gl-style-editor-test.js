@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {mergeLayerGroupVisibility} from '@kepler.gl/utils';
+import {mergeLayerGroupVisibility} from '@soft-yyw/kepler.gl-utils';
 
 test('mapbox.gl Style Editor -> mergeLayerGroupVisibility', t => {
   const defaultLG = {

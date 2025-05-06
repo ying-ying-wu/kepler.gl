@@ -16,16 +16,16 @@ import {
   injectComponents,
   PanelHeaderFactory,
   provideRecipesToInjector
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
-import {keplerGlInit} from '@kepler.gl/actions';
+import {keplerGlInit} from '@soft-yyw/kepler.gl-actions';
 import {
   keplerGlReducerCore as coreReducer,
   visStateLens,
   uiStateLens,
   mapStateLens,
   mapStyleLens
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 
 const mockStore = configureStore();
 const initialCoreState = coreReducer(undefined, keplerGlInit({}));

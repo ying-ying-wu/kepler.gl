@@ -6,8 +6,8 @@ import {
   ColorPalette,
   DEFAULT_CUSTOM_PALETTE,
   colorPaletteToColorRange
-} from '@kepler.gl/constants';
-import {arrayMove} from '@kepler.gl/common-utils';
+} from '@soft-yyw/kepler.gl-constants';
+import {arrayMove} from '@soft-yyw/kepler.gl-common-utils';
 import {
   ColorMap,
   ColorRange,
@@ -15,12 +15,12 @@ import {
   HexColor,
   RGBAColor,
   RGBColor
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {rgb as d3Rgb} from 'd3-color';
 import {interpolate} from 'd3-interpolate';
 import {arrayInsert} from './utils';
 import Console from 'global/console';
-import {KEPLER_COLOR_PALETTES, PALETTE_TYPES, SCALE_TYPES} from '@kepler.gl/constants';
+import {KEPLER_COLOR_PALETTES, PALETTE_TYPES, SCALE_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 /**
  * get r g b from hex code

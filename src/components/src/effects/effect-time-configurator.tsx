@@ -7,15 +7,15 @@ import styled from 'styled-components';
 import moment from 'moment-timezone';
 import SunCalc from 'suncalc';
 
-import {MapState} from '@kepler.gl/types';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {clamp} from '@kepler.gl/utils';
+import {MapState} from '@soft-yyw/kepler.gl-types';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {clamp} from '@soft-yyw/kepler.gl-utils';
 import {
   LIGHT_AND_SHADOW_EFFECT_TIME_MODES,
   LightAndShadowEffectTimeMode,
   DEFAULT_TIMEZONE
-} from '@kepler.gl/constants';
-import {mapStateLens} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-constants';
+import {mapStateLens} from '@soft-yyw/kepler.gl-reducers';
 
 import {withState} from '../injector';
 import {StyledDatePicker as DatePicker, Tooltip} from '../common/styled-components';

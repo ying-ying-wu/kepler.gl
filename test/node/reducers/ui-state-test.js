@@ -20,18 +20,18 @@ import {
   loadFiles,
   loadFilesErr,
   keplerGlInit
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {
   uiStateReducer as reducer,
   uiStateReducerFactory,
   INITIAL_UI_STATE
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 import {
   EXPORT_DATA_TYPE,
   RESOLUTIONS,
   DEFAULT_NOTIFICATION_TOPICS,
   DEFAULT_NOTIFICATION_TYPES
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 test('#uiStateReducer', t => {
   t.deepEqual(

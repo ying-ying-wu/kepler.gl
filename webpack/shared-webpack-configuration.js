@@ -26,7 +26,7 @@ const workspaces = KeplerPackage.workspaces;
 workspaces.forEach(workspace => {
   // workspace =  "./src/types",  "./src/constants", etc
   const moduleName = workspace.split('/').pop();
-  resolveAlias[`@kepler.gl/${moduleName}`] = join(SRC_DIR, `${moduleName}/src`);
+  resolveAlias[`@soft-yyw/kepler.gl-${moduleName}`] = join(SRC_DIR, `${moduleName}/src`);
 });
 
 const ENV_VARIABLES_WITH_INSTRUCTIONS = {

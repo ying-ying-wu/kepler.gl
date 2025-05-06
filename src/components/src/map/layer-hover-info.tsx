@@ -3,22 +3,22 @@
 
 import React, {useMemo} from 'react';
 import styled from 'styled-components';
-import {CompareType, Field, Merge, TooltipField} from '@kepler.gl/types';
+import {CompareType, Field, Merge, TooltipField} from '@soft-yyw/kepler.gl-types';
 import {CenterFlexbox} from '../common/styled-components';
 import {Layers} from '../common/icons';
 import PropTypes from 'prop-types';
-import {notNullorUndefined} from '@kepler.gl/common-utils';
-import {DataRow} from '@kepler.gl/utils';
-import {Layer} from '@kepler.gl/layers';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
+import {DataRow} from '@soft-yyw/kepler.gl-utils';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 import {
   AggregationLayerHoverData,
   LayerHoverProp,
   getTooltipDisplayDeltaValue,
   getTooltipDisplayValue
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 import {useIntl} from 'react-intl';
-import {VisState} from '@kepler.gl/schemas';
-import {capitalizeFirstLetter} from '@kepler.gl/utils';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
+import {capitalizeFirstLetter} from '@soft-yyw/kepler.gl-utils';
 
 export const StyledLayerName = styled(CenterFlexbox)`
   color: ${props => props.theme.textColorHl};

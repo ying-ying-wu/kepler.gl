@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React from 'react';
-import {SidebarFactory, Icons} from '@kepler.gl/components';
+import {SidebarFactory, Icons} from '@soft-yyw/kepler.gl-components';
 import styled from 'styled-components';
 
 const StyledSideBarContainer = styled.div`

@@ -4,14 +4,14 @@
 import {useCallback, useState} from 'react';
 import {useDispatch} from 'react-redux';
 import {DragEndEvent, DragStartEvent} from '@dnd-kit/core';
-import {layerConfigChange, reorderLayer, toggleLayerForMap} from '@kepler.gl/actions';
+import {layerConfigChange, reorderLayer, toggleLayerForMap} from '@soft-yyw/kepler.gl-actions';
 import {
   DROPPABLE_MAP_CONTAINER_TYPE,
   SORTABLE_LAYER_TYPE,
   SORTABLE_SIDE_PANEL_TYPE
 } from '../common/dnd-layer-items';
-import {reorderLayerOrder} from '@kepler.gl/reducers';
-import {Layer} from '@kepler.gl/layers';
+import {reorderLayerOrder} from '@soft-yyw/kepler.gl-reducers';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 
 type DndEffectsHook = {
   activeLayer: Layer | undefined;

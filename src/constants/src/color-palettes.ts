@@ -6,7 +6,7 @@ import {range} from 'd3-array';
 import chroma from 'chroma-js';
 import Console from 'global/console';
 import {color as d3Color} from 'd3-color';
-import {HexColor, MiniColorRange, ValueOf} from '@kepler.gl/types';
+import {HexColor, MiniColorRange, ValueOf} from '@soft-yyw/kepler.gl-types';
 
 type GetColors = (steps: number) => HexColor[];
 // linear interpolator

@@ -4,9 +4,9 @@
 import React from 'react';
 import {FormattedMessage, injectIntl, WrappedComponentProps} from 'react-intl';
 
-import {Field} from '@kepler.gl/types';
+import {Field} from '@soft-yyw/kepler.gl-types';
 
-import {camelize} from '@kepler.gl/utils';
+import {camelize} from '@soft-yyw/kepler.gl-utils';
 import FieldSelectorFactory from '../../common/field-selector';
 import InfoHelperFactory from '../../common/info-helper';
 import {PanelLabel, PanelLabelWrapper, SidePanelSection} from '../../common/styled-components';

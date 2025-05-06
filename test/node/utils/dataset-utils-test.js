@@ -2,9 +2,9 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {findDefaultColorField, createNewDataEntry} from '@kepler.gl/utils';
+import {findDefaultColorField, createNewDataEntry} from '@soft-yyw/kepler.gl-utils';
 
-import {processCsvData} from '@kepler.gl/processors';
+import {processCsvData} from '@soft-yyw/kepler.gl-processors';
 
 import csvData from 'test/fixtures/test-layer-data';
 

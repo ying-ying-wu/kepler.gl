@@ -5,9 +5,9 @@ import React, {useState, useEffect, createContext} from 'react';
 import isEqual from 'lodash/isEqual';
 import pick from 'lodash/pick';
 import {MapViewState} from '@deck.gl/core/typed';
-import {pickViewportPropsFromMapState} from '@kepler.gl/reducers';
+import {pickViewportPropsFromMapState} from '@soft-yyw/kepler.gl-reducers';
 
-import {MapState} from '@kepler.gl/types';
+import {MapState} from '@soft-yyw/kepler.gl-types';
 
 export type MapViewStateContextType = {
   getInternalViewState: (index?: number) => MapViewState;

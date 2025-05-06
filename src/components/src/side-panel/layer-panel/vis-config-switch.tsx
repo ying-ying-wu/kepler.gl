@@ -6,9 +6,9 @@ import styled from 'styled-components';
 import InfoHelperFactory from '../../common/info-helper';
 import Switch from '../../common/switch';
 import {SidePanelSection, PanelLabel} from '../../common/styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {capitalizeFirstLetter} from '@kepler.gl/utils';
-import {Layer} from '@kepler.gl/layers';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {capitalizeFirstLetter} from '@soft-yyw/kepler.gl-utils';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 
 type VisConfigSwitchProps = {
   layer: Layer;

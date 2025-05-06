@@ -3,7 +3,7 @@
 
 import Window from 'global/window';
 import {combineReducers, createStore, applyMiddleware, compose} from 'redux';
-import {enhanceReduxMiddleware} from '@kepler.gl/reducers';
+import {enhanceReduxMiddleware} from '@soft-yyw/kepler.gl-reducers';
 
 import demoReducer from './reducers/index';
 

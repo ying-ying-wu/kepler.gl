@@ -5,7 +5,7 @@ import React, {useCallback} from 'react';
 
 import {injectIntl, WrappedComponentProps} from 'react-intl';
 import styled from 'styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import LayerListFactory from './layer-panel/layer-list';
 import DatasetLayerGroupFactory from './layer-panel/dataset-layer-group';
@@ -18,12 +18,12 @@ import ItemSelector from '../common/item-selector/item-selector';
 import {PanelLabel, SidePanelDivider, SidePanelSection} from '../common/styled-components';
 import InfoHelperFactory from '../common/info-helper';
 
-import {LAYER_BLENDINGS, OVERLAY_BLENDINGS, PANEL_VIEW_TOGGLES} from '@kepler.gl/constants';
-import {Layer, LayerClassesType} from '@kepler.gl/layers';
-import {UIStateActions, VisStateActions, MapStateActions, ActionHandler} from '@kepler.gl/actions';
+import {LAYER_BLENDINGS, OVERLAY_BLENDINGS, PANEL_VIEW_TOGGLES} from '@soft-yyw/kepler.gl-constants';
+import {Layer, LayerClassesType} from '@soft-yyw/kepler.gl-layers';
+import {UIStateActions, VisStateActions, MapStateActions, ActionHandler} from '@soft-yyw/kepler.gl-actions';
 import {SidePanelItem} from '../types';
-import {PanelListView} from '@kepler.gl/types';
-import {Datasets} from '@kepler.gl/table';
+import {PanelListView} from '@soft-yyw/kepler.gl-types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 type LayerBlendingSelectorProps = {
   layerBlending: string;

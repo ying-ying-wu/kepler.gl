@@ -16,8 +16,8 @@ import {
   PLOT_TYPES,
   LAYER_TYPES,
   FILTER_VIEW_TYPES
-} from '@kepler.gl/constants';
-// import {VisState} from '@kepler.gl/schemas';
+} from '@soft-yyw/kepler.gl-constants';
+// import {VisState} from '@soft-yyw/kepler.gl-schemas';
 import * as ScaleUtils from './data-scale-utils';
 import {h3IsValid} from 'h3-js';
 
@@ -39,9 +39,9 @@ import {
   FilterDatasetOpt,
   FilterRecord,
   AnimationConfig
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
-import {generateHashId, toArray, notNullorUndefined, getCentroid} from '@kepler.gl/common-utils';
+import {generateHashId, toArray, notNullorUndefined, getCentroid} from '@soft-yyw/kepler.gl-common-utils';
 import {DataContainerInterface} from './data-container-interface';
 import {set} from './utils';
 import {timeToUnixMilli, unique} from './data-utils';
@@ -55,7 +55,7 @@ export const durationDay = durationHour * 24;
 export const durationWeek = durationDay * 7;
 export const durationYear = durationDay * 365;
 
-// TODO isolate types - depends on @kepler.gl/schemas
+// TODO isolate types - depends on @soft-yyw/kepler.gl-schemas
 type VisState = any;
 
 export type FilterResult = {

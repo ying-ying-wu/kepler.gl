@@ -7,8 +7,8 @@ import {
   getTooltipDisplayValue,
   getTooltipDisplayDeltaValue,
   TOOLTIP_MINUS_SIGN
-} from '@kepler.gl/reducers';
-import {DEFAULT_TOOLTIP_FIELDS, COMPARE_TYPES} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-reducers';
+import {DEFAULT_TOOLTIP_FIELDS, COMPARE_TYPES} from '@soft-yyw/kepler.gl-constants';
 import {StateWTooltipFormat, testGeoJsonDataId} from 'test/helpers/mock-state';
 
 const fields = [

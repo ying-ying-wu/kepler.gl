@@ -12,13 +12,13 @@ import {
   validateFiltersUpdateDatasets,
   findById,
   aggregate
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
-import {Layer} from '@kepler.gl/layers';
-import {createEffect} from '@kepler.gl/effects';
-import {notNullorUndefined} from '@kepler.gl/common-utils';
-import {AGGREGATION_TYPES, LAYER_BLENDINGS, OVERLAY_BLENDINGS} from '@kepler.gl/constants';
-import {CURRENT_VERSION, VisState, VisStateMergers, KeplerGLSchemaClass} from '@kepler.gl/schemas';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {createEffect} from '@soft-yyw/kepler.gl-effects';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
+import {AGGREGATION_TYPES, LAYER_BLENDINGS, OVERLAY_BLENDINGS} from '@soft-yyw/kepler.gl-constants';
+import {CURRENT_VERSION, VisState, VisStateMergers, KeplerGLSchemaClass} from '@soft-yyw/kepler.gl-schemas';
 
 import {
   ParsedLayer,
@@ -35,8 +35,8 @@ import {
   ParsedFilter,
   NestedPartial,
   SavedAnimationConfig
-} from '@kepler.gl/types';
-import {KeplerTable, Datasets, assignGpuChannels, resetFilterGpuMode} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable, Datasets, assignGpuChannels, resetFilterGpuMode} from '@soft-yyw/kepler.gl-table';
 
 import {getLayerOrderFromLayers} from './layer-utils';
 

@@ -3,7 +3,7 @@
 
 import {h3ToGeo} from 'h3-js';
 
-import {LayerColumn} from '@kepler.gl/types';
+import {LayerColumn} from '@soft-yyw/kepler.gl-types';
 
 import {DataContainerInterface} from './data-container-interface';
 

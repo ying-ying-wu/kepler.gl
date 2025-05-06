@@ -2,17 +2,17 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {HTMLAttributes, PropsWithChildren} from 'react';
-import {MapStyle} from '@kepler.gl/reducers';
-import {Layer, LayerClassesType} from '@kepler.gl/layers';
-import {Filter, InteractionConfig, UiState} from '@kepler.gl/types';
+import {MapStyle} from '@soft-yyw/kepler.gl-reducers';
+import {Layer, LayerClassesType} from '@soft-yyw/kepler.gl-layers';
+import {Filter, InteractionConfig, UiState} from '@soft-yyw/kepler.gl-types';
 
 import {
   MapStyleActions,
   VisStateActions,
   MapStateActions,
   UIStateActions
-} from '@kepler.gl/actions';
-import {Datasets} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-actions';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 export type BaseComponentProps = PropsWithChildren<HTMLAttributes<unknown>>;
 

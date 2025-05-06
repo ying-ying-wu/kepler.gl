@@ -12,10 +12,10 @@ import {parseSync} from '@loaders.gl/core';
 import {WKBLoader, WKTLoader} from '@loaders.gl/wkt';
 import {binaryToGeometry} from '@loaders.gl/gis';
 import {BinaryFeatureCollection} from '@loaders.gl/schema';
-import {DataContainerInterface, getSampleData} from '@kepler.gl/utils';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
-import {LayerColumns, ProtoDatasetField} from '@kepler.gl/types';
-import {KeplerTable} from '@kepler.gl/table';
+import {DataContainerInterface, getSampleData} from '@soft-yyw/kepler.gl-utils';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {LayerColumns, ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 import {GeojsonLayerMetaProps, assignPointPairToLayerColumn} from '../layer-utils';
 import {LayerBaseConfig} from '../base-layer';

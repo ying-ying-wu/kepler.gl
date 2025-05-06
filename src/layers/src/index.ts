@@ -45,7 +45,7 @@ import {default as VectorTileLayer} from './vector-tile/vector-tile-layer';
 export {default as VectorTileIcon} from './vector-tile/vector-tile-icon';
 export {default as VectorTileLayer} from './vector-tile/vector-tile-layer';
 
-import {LAYER_TYPES} from '@kepler.gl/constants';
+import {LAYER_TYPES} from '@soft-yyw/kepler.gl-constants';
 export {parseGeoJsonRawFeature} from './geojson-layer/geojson-utils';
 // base layer
 // eslint-disable-next-line prettier/prettier

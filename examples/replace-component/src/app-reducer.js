@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {createAction, handleActions} from 'redux-actions';
-import KeplerGlSchema from '@kepler.gl/schemas';
+import KeplerGlSchema from '@soft-yyw/kepler.gl-schemas';
 
 // CONSTANTS
 export const INIT = 'INIT';

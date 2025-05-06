@@ -7,11 +7,11 @@ import classnames from 'classnames';
 import geocoderService from '@mapbox/mapbox-sdk/services/geocoding';
 import {injectIntl, IntlShape} from 'react-intl';
 import {WebMercatorViewport} from 'viewport-mercator-project';
-import {KeyEvent} from '@kepler.gl/constants';
+import {KeyEvent} from '@soft-yyw/kepler.gl-constants';
 import {Input} from '../common/styled-components';
 import {Search, Delete} from '../common/icons';
-import {Viewport} from '@kepler.gl/types';
-import {isTest} from '@kepler.gl/utils';
+import {Viewport} from '@soft-yyw/kepler.gl-types';
+import {isTest} from '@soft-yyw/kepler.gl-utils';
 
 type StyledContainerProps = {
   width?: number;

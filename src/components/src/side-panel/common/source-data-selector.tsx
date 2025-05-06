@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import {PanelLabel, SidePanelSection} from '../../common/styled-components';
 import SourceDataSelectorContentFactory from './source-data-selector-content';

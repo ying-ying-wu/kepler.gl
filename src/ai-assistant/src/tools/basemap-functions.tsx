@@ -2,10 +2,10 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {ReactNode, useEffect, useState} from 'react';
-import {MapStyleSelectorFactory, appInjector} from '@kepler.gl/components';
-import {MapStyle} from '@kepler.gl/reducers';
-import {mapStyleChange, ActionHandler} from '@kepler.gl/actions';
-import {DEFAULT_MAP_STYLES} from '@kepler.gl/constants';
+import {MapStyleSelectorFactory, appInjector} from '@soft-yyw/kepler.gl-components';
+import {MapStyle} from '@soft-yyw/kepler.gl-reducers';
+import {mapStyleChange, ActionHandler} from '@soft-yyw/kepler.gl-actions';
+import {DEFAULT_MAP_STYLES} from '@soft-yyw/kepler.gl-constants';
 import {
   CallbackFunctionProps,
   CustomFunctionCall,

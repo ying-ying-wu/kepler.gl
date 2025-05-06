@@ -3,8 +3,8 @@
 
 import React, {useCallback, ComponentType} from 'react';
 
-import {MapControlButton, MapControlTooltipFactory} from '@kepler.gl/components';
-import {MapControls} from '@kepler.gl/types';
+import {MapControlButton, MapControlTooltipFactory} from '@soft-yyw/kepler.gl-components';
+import {MapControls} from '@soft-yyw/kepler.gl-types';
 
 interface SQLControlIcons {
   sqlPanelIcon: ComponentType<any>;

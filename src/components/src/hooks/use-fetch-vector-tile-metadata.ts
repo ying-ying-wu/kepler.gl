@@ -6,8 +6,8 @@ import {useEffect, useState} from 'react';
 import {TileJSON} from '@loaders.gl/mvt';
 import {PMTilesSource, PMTilesMetadata} from '@loaders.gl/pmtiles';
 
-import {RemoteTileFormat} from '@kepler.gl/constants';
-import {getMVTMetadata, VectorTileMetadata, getFieldsFromTile} from '@kepler.gl/table';
+import {RemoteTileFormat} from '@soft-yyw/kepler.gl-constants';
+import {getMVTMetadata, VectorTileMetadata, getFieldsFromTile} from '@soft-yyw/kepler.gl-table';
 
 type FetchVectorTileMetadataProps = {
   metadataUrl: string | null;

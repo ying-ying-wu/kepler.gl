@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {Component} from 'react';
-import {Icons} from '@kepler.gl/components';
+import {Icons} from '@soft-yyw/kepler.gl-components';
 import PropTypes from 'prop-types';
 
 class CartoIcon extends Component {

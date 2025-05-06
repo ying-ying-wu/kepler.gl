@@ -6,9 +6,9 @@ import styled from 'styled-components';
 
 import SourceDataCatalogFactory from '../common/source-data-catalog';
 import LayerListFactory from './layer-list';
-import {Layer, LayerClassesType} from '@kepler.gl/layers';
-import {UIStateActions, ActionHandler, VisStateActions, MapStateActions} from '@kepler.gl/actions';
-import {KeplerTable, Datasets} from '@kepler.gl/table';
+import {Layer, LayerClassesType} from '@soft-yyw/kepler.gl-layers';
+import {UIStateActions, ActionHandler, VisStateActions, MapStateActions} from '@soft-yyw/kepler.gl-actions';
+import {KeplerTable, Datasets} from '@soft-yyw/kepler.gl-table';
 
 type DatasetLayerSectionProps = {
   datasets: Datasets;

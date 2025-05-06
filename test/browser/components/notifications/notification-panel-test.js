@@ -6,9 +6,9 @@ import React from 'react';
 import test from 'tape';
 import sinon from 'sinon';
 import {shallow} from 'enzyme';
-import {NotificationItemFactory, NotificationPanelFactory} from '@kepler.gl/components';
-import {createNotification} from '@kepler.gl/utils';
-import {theme} from '@kepler.gl/styles';
+import {NotificationItemFactory, NotificationPanelFactory} from '@soft-yyw/kepler.gl-components';
+import {createNotification} from '@soft-yyw/kepler.gl-utils';
+import {theme} from '@soft-yyw/kepler.gl-styles';
 
 const NotificationItem = NotificationItemFactory();
 const NotificationPanel = NotificationPanelFactory(NotificationItem);

@@ -10,11 +10,11 @@ import React, {
 } from 'react';
 import styled from 'styled-components';
 
-import {ActionHandler, MapStateActions, VisStateActions, toggleModal} from '@kepler.gl/actions';
-import {dataTestIds} from '@kepler.gl/constants';
-import {Layer, LayerBaseConfig} from '@kepler.gl/layers';
-import {Datasets} from '@kepler.gl/table';
-import {ColorUI, LayerVisConfig, NestedPartial, SplitMap} from '@kepler.gl/types';
+import {ActionHandler, MapStateActions, VisStateActions, toggleModal} from '@soft-yyw/kepler.gl-actions';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {Layer, LayerBaseConfig} from '@soft-yyw/kepler.gl-layers';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {ColorUI, LayerVisConfig, NestedPartial, SplitMap} from '@soft-yyw/kepler.gl-types';
 import LayerConfiguratorFactory from './layer-configurator';
 import LayerPanelHeaderFactory from './layer-panel-header';
 

@@ -3,7 +3,7 @@
 
 import Console from 'global/console';
 
-import {GEOCODER_LAYER_ID} from '@kepler.gl/constants';
+import {GEOCODER_LAYER_ID} from '@soft-yyw/kepler.gl-constants';
 import {Layer as DeckLayer, LayerProps as DeckLayerProps} from '@deck.gl/core/typed';
 import {
   Field,
@@ -16,7 +16,7 @@ import {
   BindedLayerCallbacks,
   LayerCallbacks,
   Viewport
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {
   FindDefaultLayerPropsReturnValue,
   FindDefaultLayerProps,
@@ -24,14 +24,14 @@ import {
   LayerClassesType,
   OVERLAY_TYPE_CONST,
   getEditorLayer
-} from '@kepler.gl/layers';
+} from '@soft-yyw/kepler.gl-layers';
 
-import KeplerTable from '@kepler.gl/table';
-import {VisState} from '@kepler.gl/schemas';
-import {isFunction, getMapLayersFromSplitMaps, DataRow} from '@kepler.gl/utils';
-import {arrayMove} from '@kepler.gl/common-utils';
+import KeplerTable from '@soft-yyw/kepler.gl-table';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
+import {isFunction, getMapLayersFromSplitMaps, DataRow} from '@soft-yyw/kepler.gl-utils';
+import {arrayMove} from '@soft-yyw/kepler.gl-common-utils';
 
-import {ThreeDBuildingLayer} from '@kepler.gl/deckgl-layers';
+import {ThreeDBuildingLayer} from '@soft-yyw/kepler.gl-deckgl-layers';
 
 export type LayersToRender = {
   [layerId: string]: boolean;

@@ -3,7 +3,7 @@
 
 import React, {PropsWithChildren, useCallback, useContext, useMemo, useRef, useState} from 'react';
 import {CloudProviderContext} from '../context';
-import {Provider} from '@kepler.gl/cloud-providers';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 type CloudListProviderProps = PropsWithChildren<{
   providers: Provider[];

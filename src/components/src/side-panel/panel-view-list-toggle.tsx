@@ -6,9 +6,9 @@ import styled from 'styled-components';
 import OrderByList from '../common/icons/order-by-list';
 import OrderByDataset from '../common/icons/order-by-dataset';
 import {Tooltip} from '../common/styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {PanelListView} from '@kepler.gl/types';
-import {PANEL_VIEW_TOGGLES} from '@kepler.gl/constants';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {PanelListView} from '@soft-yyw/kepler.gl-types';
+import {PANEL_VIEW_TOGGLES} from '@soft-yyw/kepler.gl-constants';
 
 type ToggleOptionProps = {
   isActive: boolean;

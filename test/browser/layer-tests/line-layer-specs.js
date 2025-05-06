@@ -14,9 +14,9 @@ import {
   arcLayerMeta
 } from 'test/helpers/layer-utils';
 
-import {PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@kepler.gl/constants';
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {copyTable, copyTableAndUpdate} from '@kepler.gl/table';
+import {PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@soft-yyw/kepler.gl-constants';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {copyTable, copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
 
 const {LineLayer} = KeplerGlLayers;
 const columns = {

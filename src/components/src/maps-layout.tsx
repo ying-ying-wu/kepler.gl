@@ -4,7 +4,7 @@
 import styled from 'styled-components';
 import React from 'react';
 
-import {MapState} from '@kepler.gl/types';
+import {MapState} from '@soft-yyw/kepler.gl-types';
 
 import {MapViewStateContextProvider} from './map-view-state-context';
 

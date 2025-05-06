@@ -3,14 +3,14 @@
 
 import throttle from 'lodash/throttle';
 
-import {notNullorUndefined} from '@kepler.gl/common-utils';
-import {SCALE_TYPES, ALL_FIELD_TYPES, LAYER_VIS_CONFIGS} from '@kepler.gl/constants';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
+import {SCALE_TYPES, ALL_FIELD_TYPES, LAYER_VIS_CONFIGS} from '@soft-yyw/kepler.gl-constants';
 import {
   isTileDataset,
   KeplerTable as KeplerDataset,
   Datasets as KeplerDatasets,
   GpuFilter
-} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-table';
 import {
   AnimationConfig,
   Field,
@@ -27,8 +27,8 @@ import {
   MapState,
   Merge,
   ZoomStopsConfig
-} from '@kepler.gl/types';
-import {findDefaultColorField, DataContainerInterface} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-types';
+import {findDefaultColorField, DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 
 import {
   default as KeplerLayer,

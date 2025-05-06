@@ -3,7 +3,7 @@
 
 import React from 'react';
 import AddByDatasetButton from '../add-by-dataset-button';
-import {Datasets} from '@kepler.gl/table';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 export type AddLayerButtonProps = {
   datasets: Datasets;

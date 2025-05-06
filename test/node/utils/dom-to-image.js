@@ -2,31 +2,31 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {setStyleSheetBaseHref} from '@kepler.gl/utils';
+import {setStyleSheetBaseHref} from '@soft-yyw/kepler.gl-utils';
 
-const MOCK_CSS = `div#header { 
+const MOCK_CSS = `div#header {
     background-image: url('images/header-background.jpg');
 }`;
-const EXPECTED_CSS = `div#header { 
+const EXPECTED_CSS = `div#header {
     background-image: url('http://mock.kepler.com/js/v1.1.1/images/header-background.jpg');
 }`;
-const MOCK_CSS_1 = `div#header { 
+const MOCK_CSS_1 = `div#header {
     background-image: url('./images/header-background.jpg');
 }`;
-const EXPECTED_CSS_1 = `div#header { 
+const EXPECTED_CSS_1 = `div#header {
     background-image: url('http://mock.kepler.com/js/v1.1.1/images/header-background.jpg');
 }`;
-const MOCK_CSS_2 = `div#header { 
+const MOCK_CSS_2 = `div#header {
     background-image: url('../images/header-background.jpg');
 }`;
-const EXPECTED_CSS_2 = `div#header { 
+const EXPECTED_CSS_2 = `div#header {
     background-image: url('http://mock.kepler.com/js/images/header-background.jpg');
 }`;
 
 const MOCK_CSS_3 = `@font-face {
     src: url("data:application/font-woff;base64,d09GRg");
 }`;
-const MOCK_CSS_4 = `div#header { 
+const MOCK_CSS_4 = `div#header {
     background-image: url('http://mock.kepler.com/js/images/header-background.jpg');
 }`;
 const BASE_HREF = 'http://mock.kepler.com/js/v1.1.1/main.css';

@@ -4,7 +4,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 import FieldTokenFactory from '../../common/field-token';
 
 const StyledSyncTimeHeader = styled.div`

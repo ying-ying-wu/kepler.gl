@@ -9,7 +9,7 @@ import CloudHeaderFactory from './cloud-components/cloud-header';
 import LoadStorageMapFactory from './load-storage-map';
 import {renderWithTheme} from 'test/helpers/component-jest-utils';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
-import {dataTestIds} from '@kepler.gl/constants';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
 
 const InfoHelper = InfoHelperFactory();
 const CloudHeader = CloudHeaderFactory(InfoHelper);

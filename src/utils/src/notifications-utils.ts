@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {generateHashId} from '@kepler.gl/common-utils';
+import {generateHashId} from '@soft-yyw/kepler.gl-common-utils';
 
 import {
   DEFAULT_NOTIFICATION_MESSAGE,
@@ -9,7 +9,7 @@ import {
   DEFAULT_NOTIFICATION_TYPES,
   DEFAULT_UUID_COUNT,
   BUG_REPORT_LINK
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 export type Notification = Record<string, any> & {
   id: string;

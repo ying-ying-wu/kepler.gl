@@ -8,20 +8,20 @@ import LayerGroupItemFactory, {LayerGroupItemActionIcons} from './map-layer-grou
 import {EyeSeen, EyeUnseen} from '../../common/icons';
 
 import {PanelLabel, PanelContent} from '../../common/styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {VisibleLayerGroups} from '@kepler.gl/types';
-import {Upload} from '@kepler.gl/cloud-providers';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {VisibleLayerGroups} from '@soft-yyw/kepler.gl-types';
+import {Upload} from '@soft-yyw/kepler.gl-cloud-providers';
 import {
   THREE_D_BUILDING_LAYER_GROUP_SLUG,
   BACKGROUND_LAYER_GROUP_SLUG,
   DEFAULT_LAYER_GROUP
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   MapConfigChangeUpdaterAction,
   Set3dBuildingColorUpdaterAction,
   SetBackgroundColorUpdaterAction
-} from '@kepler.gl/actions';
-import {MapStyle} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-actions';
+import {MapStyle} from '@soft-yyw/kepler.gl-reducers';
 
 function noop() {
   return;

@@ -4,9 +4,9 @@
 import React, {useCallback, useState} from 'react';
 import styled from 'styled-components';
 
-import {getFieldFormatLabels} from '@kepler.gl/utils';
-import {ALL_FIELD_TYPES, TooltipFormat} from '@kepler.gl/constants';
-import {ColMeta, ColMetaProps} from '@kepler.gl/types';
+import {getFieldFormatLabels} from '@soft-yyw/kepler.gl-utils';
+import {ALL_FIELD_TYPES, TooltipFormat} from '@soft-yyw/kepler.gl-constants';
+import {ColMeta, ColMetaProps} from '@soft-yyw/kepler.gl-types';
 
 import {InputLight} from '../../common/styled-components';
 import {FormatterDropdown} from './option-dropdown';

@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import {extent} from 'd3-array';
-import {histogramFromDomain} from '@kepler.gl/utils';
-import {BINS} from '@kepler.gl/constants';
+import {histogramFromDomain} from '@soft-yyw/kepler.gl-utils';
+import {BINS} from '@soft-yyw/kepler.gl-constants';
 
 export const geoJsonDataId = 'ieukmgne';
 

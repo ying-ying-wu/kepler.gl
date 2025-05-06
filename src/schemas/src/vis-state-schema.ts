@@ -3,9 +3,9 @@
 
 import pick from 'lodash/pick';
 import {VERSIONS} from './versions';
-import {LAYER_VIS_CONFIGS, FILTER_VIEW_TYPES} from '@kepler.gl/constants';
-import {colorRangeBackwardCompatibility, isFilterValidToSave, findById} from '@kepler.gl/utils';
-import {notNullorUndefined} from '@kepler.gl/common-utils';
+import {LAYER_VIS_CONFIGS, FILTER_VIEW_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {colorRangeBackwardCompatibility, isFilterValidToSave, findById} from '@soft-yyw/kepler.gl-utils';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 import Schema from './schema';
 import cloneDeep from 'lodash/cloneDeep';
 import {
@@ -29,9 +29,9 @@ import {
   SplitMap,
   ValueOf,
   Effect
-} from '@kepler.gl/types';
-import {Datasets} from '@kepler.gl/table';
-import {Layer, LayerClassesType} from '@kepler.gl/layers';
+} from '@soft-yyw/kepler.gl-types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {Layer, LayerClassesType} from '@soft-yyw/kepler.gl-layers';
 import {Loader} from '@loaders.gl/loader-utils';
 import KeplerGLSchema from './schema-manager';
 

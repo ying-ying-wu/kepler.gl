@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {ActionHandler, addLayer} from '@kepler.gl/actions';
-import {LayerClasses} from '@kepler.gl/layers';
-import KeplerTable, {Datasets} from '@kepler.gl/table';
+import {ActionHandler, addLayer} from '@soft-yyw/kepler.gl-actions';
+import {LayerClasses} from '@soft-yyw/kepler.gl-layers';
+import KeplerTable, {Datasets} from '@soft-yyw/kepler.gl-table';
 import {
   CallbackFunctionProps,
   CustomFunctionCall,
@@ -13,7 +13,7 @@ import {
   RegisterFunctionCallingProps
 } from '@openassistant/core';
 import {checkDatasetNotExists, checkFieldNotExists, interpolateColor} from './utils';
-import {findDefaultLayer} from '@kepler.gl/reducers';
+import {findDefaultLayer} from '@soft-yyw/kepler.gl-reducers';
 import React, {useEffect} from 'react';
 
 export function addLayerFunctionDefinition(

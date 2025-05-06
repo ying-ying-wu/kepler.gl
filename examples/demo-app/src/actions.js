@@ -4,8 +4,8 @@
 import {push} from 'react-router-redux';
 import {fetch} from 'global';
 
-import {loadFiles, toggleModal} from '@kepler.gl/actions';
-import {parseUri} from '@kepler.gl/common-utils';
+import {loadFiles, toggleModal} from '@soft-yyw/kepler.gl-actions';
+import {parseUri} from '@soft-yyw/kepler.gl-common-utils';
 import {load} from '@loaders.gl/core';
 import {CSVLoader} from '@loaders.gl/csv';
 import {GeoArrowLoader} from '@loaders.gl/arrow';

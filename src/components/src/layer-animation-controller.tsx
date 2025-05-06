@@ -2,10 +2,10 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {useCallback} from 'react';
-import {ANIMATION_WINDOW} from '@kepler.gl/constants';
-import {AnimationConfig, Timeline} from '@kepler.gl/types';
-import {snapToMarks, getTimelineFromAnimationConfig} from '@kepler.gl/utils';
-import {toArray} from '@kepler.gl/common-utils';
+import {ANIMATION_WINDOW} from '@soft-yyw/kepler.gl-constants';
+import {AnimationConfig, Timeline} from '@soft-yyw/kepler.gl-types';
+import {snapToMarks, getTimelineFromAnimationConfig} from '@soft-yyw/kepler.gl-utils';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
 import AnimationControllerFactory from './common/animation-control/animation-controller';
 
 interface LayerAnimationControllerProps {

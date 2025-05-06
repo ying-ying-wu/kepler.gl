@@ -8,7 +8,7 @@ import styled, {withTheme, StyleSheetManager, ThemeProvider} from 'styled-compon
 import {createSelector} from 'reselect';
 import {connect as keplerGlConnect} from './connect/keplergl-connect';
 import {IntlProvider} from 'react-intl';
-import {messages} from '@kepler.gl/localization';
+import {messages} from '@soft-yyw/kepler.gl-localization';
 import {RootContext, FeatureFlagsContextProvider, FeatureFlags} from './context';
 import {
   AttributionWithStyle,
@@ -16,7 +16,7 @@ import {
   OnErrorCallBack,
   OnSuccessCallBack,
   Viewport
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 import {
   MapStateActions,
@@ -24,9 +24,9 @@ import {
   ProviderActions,
   UIStateActions,
   VisStateActions
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 
-import {generateHashId} from '@kepler.gl/common-utils';
+import {generateHashId} from '@soft-yyw/kepler.gl-common-utils';
 
 import {shouldForwardProp} from './common/styled-components';
 
@@ -46,7 +46,7 @@ import {
   DEFAULT_MAPBOX_API_URL,
   GEOCODER_DATASET_NAME,
   MISSING_MAPBOX_TOKEN
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import SidePanelFactory from './side-panel';
 import MapContainerFactory from './map-container';
@@ -68,11 +68,11 @@ import {
   unobserveDimensions,
   hasPortableWidth,
   getApplicationConfig
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
-import {theme as basicTheme, themeLT, themeBS, breakPointValues} from '@kepler.gl/styles';
-import {KeplerGlState} from '@kepler.gl/reducers';
-import {Provider} from '@kepler.gl/cloud-providers';
+import {theme as basicTheme, themeLT, themeBS, breakPointValues} from '@soft-yyw/kepler.gl-styles';
+import {KeplerGlState} from '@soft-yyw/kepler.gl-reducers';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 // Maybe we should think about exporting this or creating a variable
 // as part of the base.js theme

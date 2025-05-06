@@ -14,9 +14,9 @@ import {
   pointLayerMeta
 } from 'test/helpers/layer-utils';
 
-import {pointToPolygonGeo, KeplerGlLayers} from '@kepler.gl/layers';
+import {pointToPolygonGeo, KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
 const {GridLayer} = KeplerGlLayers;
-import {INITIAL_MAP_STATE} from '@kepler.gl/reducers';
+import {INITIAL_MAP_STATE} from '@soft-yyw/kepler.gl-reducers';
 
 const columns = {
   lat: 'lat',

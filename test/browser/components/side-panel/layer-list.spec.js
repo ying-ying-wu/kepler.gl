@@ -5,17 +5,17 @@ import React from 'react';
 import cloneDeep from 'lodash/cloneDeep';
 
 import {fireEvent, screen} from '@testing-library/react';
-import {dataTestIds} from '@kepler.gl/constants';
-import {appInjector, LayerListFactory} from '@kepler.gl/components';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {appInjector, LayerListFactory} from '@soft-yyw/kepler.gl-components';
 import {
   VisStateActions,
   UIStateActions,
   MapStateActions,
   addDataToMap,
   keplerGlInit
-} from '@kepler.gl/actions';
-import {processCsvData} from '@kepler.gl/processors';
-import {keplerGlReducerCore as keplerGlReducer} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-actions';
+import {processCsvData} from '@soft-yyw/kepler.gl-processors';
+import {keplerGlReducerCore as keplerGlReducer} from '@soft-yyw/kepler.gl-reducers';
 
 import {renderWithTheme} from '../../../helpers/component-jest-utils';
 import testLayerData from '../../../fixtures/test-layer-data';
@@ -88,7 +88,7 @@ const defaultProps = {
   mapStateActions: MapStateActions
 };
 
-// jest.mock('@kepler.gl/actions');
+// jest.mock('@soft-yyw/kepler.gl-actions');
 
 describe('Components -> SidePanel -> LayerPanel -> LayerList', () => {
   it('render sortable list', () => {

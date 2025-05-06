@@ -7,8 +7,8 @@ import sinon from 'sinon';
 import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 
-import {LIGHT_AND_SHADOW_EFFECT_TIME_MODES} from '@kepler.gl/constants';
-import {appInjector, EffectTimeConfiguratorFactory} from '@kepler.gl/components';
+import {LIGHT_AND_SHADOW_EFFECT_TIME_MODES} from '@soft-yyw/kepler.gl-constants';
+import {appInjector, EffectTimeConfiguratorFactory} from '@soft-yyw/kepler.gl-components';
 
 import {mountWithTheme, IntlWrapper} from 'test/helpers/component-utils';
 

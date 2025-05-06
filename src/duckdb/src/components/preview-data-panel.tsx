@@ -5,9 +5,9 @@ import * as arrow from 'apache-arrow';
 import React, {useCallback, useMemo, useState, CSSProperties} from 'react';
 import {withTheme} from 'styled-components';
 
-import {DataTable, renderedSize} from '@kepler.gl/components';
-import {arrowSchemaToFields} from '@kepler.gl/processors';
-import {parseFieldValue, createDataContainer, DataForm} from '@kepler.gl/utils';
+import {DataTable, renderedSize} from '@soft-yyw/kepler.gl-components';
+import {arrowSchemaToFields} from '@soft-yyw/kepler.gl-processors';
+import {parseFieldValue, createDataContainer, DataForm} from '@soft-yyw/kepler.gl-utils';
 
 type BaseComponentProps = {
   className?: string;

@@ -16,9 +16,9 @@ import {
 } from 'test/helpers/layer-utils';
 import testArcData, {arcFromHex, arcFromNeighbor} from 'test/fixtures/test-arc-data';
 import {StateWArcNeighbors} from 'test/helpers/mock-state';
-import {PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@kepler.gl/constants';
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {copyTableAndUpdate} from '@kepler.gl/table';
+import {PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@soft-yyw/kepler.gl-constants';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
 import {h3ToGeo} from 'h3-js';
 
 const {ArcLayer} = KeplerGlLayers;

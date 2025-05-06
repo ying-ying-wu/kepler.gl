@@ -8,13 +8,13 @@ import {
   EXPORT_HTML_MAP_MODE_OPTIONS,
   EXPORT_HTML_MAP_DOC,
   EXPORT_HTML_MAP_MODES_DOC
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import styled from 'styled-components';
 import {injectIntl} from 'react-intl';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {IntlShape} from 'react-intl';
 
-import {setUserMapboxAccessToken, setExportHTMLMapMode, ActionHandler} from '@kepler.gl/actions';
+import {setUserMapboxAccessToken, setExportHTMLMapMode, ActionHandler} from '@soft-yyw/kepler.gl-actions';
 
 const ExportMapStyledExportSection = styled(StyledExportSection)`
   .disclaimer {

@@ -3,12 +3,12 @@
 
 import WebMercatorViewport from 'viewport-mercator-project';
 
-import {TRANSITION_DURATION} from '@kepler.gl/constants';
+import {TRANSITION_DURATION} from '@soft-yyw/kepler.gl-constants';
 import {
   getMapLayersFromSplitMaps,
   onViewPortChange,
   getViewportFromMapState
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 
 export const INITIAL_MAP_STATE = {
   pitch: 0,

@@ -8,11 +8,11 @@ import {
   TOOLTIP_FORMATS,
   TOOLTIP_KEY,
   COMPARE_TYPES
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
-import {Field, TooltipField, CompareType} from '@kepler.gl/types';
-import {parseFieldValue, getFormatter, isNumber, defaultFormatter} from '@kepler.gl/utils';
-import {notNullorUndefined} from '@kepler.gl/common-utils';
+import {Field, TooltipField, CompareType} from '@soft-yyw/kepler.gl-types';
+import {parseFieldValue, getFormatter, isNumber, defaultFormatter} from '@soft-yyw/kepler.gl-utils';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 
 /**
  * Minus sign used in tooltip formatting.

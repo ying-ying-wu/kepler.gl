@@ -5,7 +5,7 @@ import React, {useCallback} from 'react';
 import styled from 'styled-components';
 import {injectIntl, IntlShape} from 'react-intl';
 
-import {MapStyle, mapStyleLens, visStateLens} from '@kepler.gl/reducers';
+import {MapStyle, mapStyleLens, visStateLens} from '@soft-yyw/kepler.gl-reducers';
 import {
   ActionHandler,
   mapStyleChange,
@@ -17,9 +17,9 @@ import {
   setFilterPlot,
   layerSetIsValid,
   layerVisualChannelConfigChange
-} from '@kepler.gl/actions';
-import {withState, SidePanelTitleFactory, Icons} from '@kepler.gl/components';
-import {VisState} from '@kepler.gl/schemas';
+} from '@soft-yyw/kepler.gl-actions';
+import {withState, SidePanelTitleFactory, Icons} from '@soft-yyw/kepler.gl-components';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
 
 import {AiAssistantState} from '../index';
 import {

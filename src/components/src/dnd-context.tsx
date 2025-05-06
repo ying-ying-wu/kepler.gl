@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import {DndContext as DndKitContext, DragOverlay} from '@dnd-kit/core';
 
 import Console from 'global/console';
-import {VisState} from '@kepler.gl/schemas';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
 
 import LayerPanelHeaderFactory from './side-panel/layer-panel/layer-panel-header';
 import useDndLayers from './hooks/use-dnd-layers';

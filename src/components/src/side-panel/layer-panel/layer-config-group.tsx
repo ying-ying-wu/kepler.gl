@@ -9,8 +9,8 @@ import Switch from '../../common/switch';
 import InfoHelperFactory from '../../common/info-helper';
 import {VertThreeDots} from '../../common/icons';
 import {shouldForwardProp} from '../../common/styled-components';
-import {Layer} from '@kepler.gl/layers';
-import {LayerVisConfig} from '@kepler.gl/types';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {LayerVisConfig} from '@soft-yyw/kepler.gl-types';
 
 export type LayerConfigGroupLabelProps = {
   label?: string;

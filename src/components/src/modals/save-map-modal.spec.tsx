@@ -7,7 +7,7 @@
  * I decided to move the next to the actual file because it makes it
  * extremely easier to mock adn test features.
  * It's easier to mock items with jest using the relative path
- * rather than trying to mock imports like @kepler.gl/components
+ * rather than trying to mock imports like @soft-yyw/kepler.gl-components
  * which creates several side effects.
  * Colocating tests is much easier
  */
@@ -17,7 +17,7 @@ import {fireEvent} from '@testing-library/react';
 import SaveMapModalFactory from './save-map-modal';
 import {renderWithTheme} from 'test/helpers/component-jest-utils';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
-import {dataTestIds} from '@kepler.gl/constants';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
 
 const SaveMapModal = SaveMapModalFactory();
 

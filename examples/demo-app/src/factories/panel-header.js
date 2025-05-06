@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {PanelHeaderFactory, Icons} from '@kepler.gl/components';
-import {BUG_REPORT_LINK, USER_GUIDE_DOC} from '@kepler.gl/constants';
+import {PanelHeaderFactory, Icons} from '@soft-yyw/kepler.gl-components';
+import {BUG_REPORT_LINK, USER_GUIDE_DOC} from '@soft-yyw/kepler.gl-constants';
 
 export function CustomPanelHeaderFactory(...deps) {
   const PanelHeader = PanelHeaderFactory(...deps);

@@ -19,7 +19,7 @@ import {
   Checkbox,
   getLayerFields,
   getLayerDataset
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 import {StateWFiles, StateWTripGeojson, testCsvDataId} from 'test/helpers/mock-state';
 import {

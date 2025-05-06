@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {createSelector} from 'reselect';
-import {CHANNEL_SCALES, ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {CHANNEL_SCALES, ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 import MapboxGLLayer, {MapboxLayerGLConfig} from '../mapboxgl-layer';
 import HeatmapLayerIcon from './heatmap-layer-icon';
 import {LayerBaseConfigPartial, LayerWeightConfig, VisualChannels} from '../base-layer';
@@ -13,9 +13,9 @@ import {
   HexColor,
   Merge,
   LayerColumn
-} from '@kepler.gl/types';
-import {hexToRgb, DataContainerInterface} from '@kepler.gl/utils';
-import {KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-types';
+import {hexToRgb, DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 import {getGeoArrowPointLayerProps, FindDefaultLayerPropsReturnValue} from '../layer-utils';
 

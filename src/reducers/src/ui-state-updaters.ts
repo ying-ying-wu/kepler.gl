@@ -13,9 +13,9 @@ import {
   RESOLUTIONS,
   MAP_CONTROLS,
   ExportImage
-} from '@kepler.gl/constants';
-import {LOCALE_CODES} from '@kepler.gl/localization';
-import {createNotification, errorNotification, calculateExportImageSize} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-constants';
+import {LOCALE_CODES} from '@soft-yyw/kepler.gl-localization';
+import {createNotification, errorNotification, calculateExportImageSize} from '@soft-yyw/kepler.gl-utils';
 import {payload_, apply_, compose_} from './composer-helpers';
 
 import {
@@ -23,7 +23,7 @@ import {
   KeplerGlInitPayload,
   LoadFilesErrUpdaterAction,
   UIStateActions
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {
   ExportData,
   ExportHtml,
@@ -32,7 +32,7 @@ import {
   MapControlItem,
   MapControls,
   UiState
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 export const DEFAULT_ACTIVE_SIDE_PANEL = 'layer';
 export const DEFAULT_MODAL = ADD_DATA_ID;

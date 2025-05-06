@@ -4,9 +4,9 @@
 import {AmbientLight, _SunLight as SunLight} from '@deck.gl/core';
 import moment from 'moment-timezone';
 
-import {LIGHT_AND_SHADOW_EFFECT, DEFAULT_LIGHT_AND_SHADOW_PROPS} from '@kepler.gl/constants';
-import {normalizeColor} from '@kepler.gl/utils';
-import {EffectProps, EffectPropsPartial} from '@kepler.gl/types';
+import {LIGHT_AND_SHADOW_EFFECT, DEFAULT_LIGHT_AND_SHADOW_PROPS} from '@soft-yyw/kepler.gl-constants';
+import {normalizeColor} from '@soft-yyw/kepler.gl-utils';
+import {EffectProps, EffectPropsPartial} from '@soft-yyw/kepler.gl-types';
 
 import Effect from './effect';
 import CustomDeckLightingEffect from './custom-deck-lighting-effect';

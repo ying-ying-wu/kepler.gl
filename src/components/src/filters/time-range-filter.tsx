@@ -3,10 +3,10 @@
 
 import React from 'react';
 import TimeRangeSliderFactory from '../common/time-range-slider';
-import {DEFAULT_TIME_FORMAT, FILTER_VIEW_TYPES} from '@kepler.gl/constants';
-import {TimeRangeFilter} from '@kepler.gl/types';
-import {Datasets} from '@kepler.gl/table';
-import {Layer} from '@kepler.gl/layers';
+import {DEFAULT_TIME_FORMAT, FILTER_VIEW_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {TimeRangeFilter} from '@soft-yyw/kepler.gl-types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
 import {TimeRangeFilterProps} from './types';
 /*
  * TimeRangeFilter -> TimeRangeSlider -> RangeSlider

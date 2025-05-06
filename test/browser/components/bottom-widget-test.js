@@ -9,8 +9,8 @@ import {
   TimeWidgetFactory,
   AnimationControlFactory,
   appInjector
-} from '@kepler.gl/components';
-import {VisStateActions} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-components';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
 
 const BottomWidget = appInjector.get(BottomWidgetFactory);
 const TimeWidget = appInjector.get(TimeWidgetFactory);

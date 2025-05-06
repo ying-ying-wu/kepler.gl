@@ -4,8 +4,8 @@
 import CloudTile from '../cloud-tile';
 import React from 'react';
 import styled from 'styled-components';
-import {Provider} from '@kepler.gl/cloud-providers';
-import {dataTestIds} from '@kepler.gl/constants';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
 
 const StyledProviderSection = styled.div.attrs({
   className: 'provider-selection'

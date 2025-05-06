@@ -12,9 +12,9 @@ import {
   durationYear,
   INTERVAL,
   TickInterval
-} from '@kepler.gl/constants';
-import {toArray} from '@kepler.gl/common-utils';
-import {AnimationConfig, Timeline, TimeRangeFilter, Filter} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
+import {AnimationConfig, Timeline, TimeRangeFilter, Filter} from '@soft-yyw/kepler.gl-types';
 
 import {getFrequency} from './aggregation';
 import {getBinThresholds} from './plot';

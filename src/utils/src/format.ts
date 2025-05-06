@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {TOOLTIP_KEY, TICK_INTERVALS} from '@kepler.gl/constants';
-import {TimeLabelFormat} from '@kepler.gl/types';
+import {TOOLTIP_KEY, TICK_INTERVALS} from '@soft-yyw/kepler.gl-constants';
+import {TimeLabelFormat} from '@soft-yyw/kepler.gl-types';
 
 export function getDefaultTimeFormat(interval?: string): string {
   const timeInterval = interval ? TICK_INTERVALS[interval] : {interval: 'none'};

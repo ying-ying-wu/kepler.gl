@@ -12,8 +12,8 @@ import LoadTilesetFactory from './tilesets-modals/load-tileset';
 import ModalTabsFactory from './modal-tabs';
 import LoadingDialog from './loading-dialog';
 
-import {LOADING_METHODS} from '@kepler.gl/constants';
-import {FileLoading, FileLoadingProgress, LoadFiles} from '@kepler.gl/types';
+import {LOADING_METHODS} from '@soft-yyw/kepler.gl-constants';
+import {FileLoading, FileLoadingProgress, LoadFiles} from '@soft-yyw/kepler.gl-types';
 
 const StyledLoadDataModal = styled.div.attrs({
   className: 'load-data-modal'

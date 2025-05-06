@@ -12,7 +12,7 @@ import {StyledFilterPanel} from '../components';
 
 import get from 'lodash/get';
 import {PolygonFilterPanelComponent} from './types';
-import {KeplerTable} from '@kepler.gl/table';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 PolygonFilterPanelFactory.deps = [
   FilterPanelHeaderFactory,

@@ -16,9 +16,9 @@ import {
   getQuantLabelFormat,
   getHistogramDomain,
   getQuantLegends
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import {StateWFilesFiltersLayerColor} from 'test/helpers/mock-state';
-import {SCALE_FUNC} from '@kepler.gl/constants';
+import {SCALE_FUNC} from '@soft-yyw/kepler.gl-constants';
 
 function numberSort(a, b) {
   return a - b;

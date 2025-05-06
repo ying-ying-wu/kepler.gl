@@ -5,16 +5,16 @@ import React, {useMemo} from 'react';
 import styled from 'styled-components';
 import classnames from 'classnames';
 
-import {Layer, LayerClassesType} from '@kepler.gl/layers';
-import {Datasets} from '@kepler.gl/table';
-import {UIStateActions, VisStateActions, MapStateActions} from '@kepler.gl/actions';
+import {Layer, LayerClassesType} from '@soft-yyw/kepler.gl-layers';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {UIStateActions, VisStateActions, MapStateActions} from '@soft-yyw/kepler.gl-actions';
 
 import {useSortable, SortableContext, verticalListSortingStrategy} from '@dnd-kit/sortable';
 import {CSS} from '@dnd-kit/utilities';
 import LayerPanelFactory from './layer-panel';
-import {findById} from '@kepler.gl/utils';
-import {dataTestIds} from '@kepler.gl/constants';
-import {SplitMap} from '@kepler.gl/types';
+import {findById} from '@soft-yyw/kepler.gl-utils';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {SplitMap} from '@soft-yyw/kepler.gl-types';
 import {SORTABLE_LAYER_TYPE, SORTABLE_SIDE_PANEL_TYPE} from '../../common/dnd-layer-items';
 
 export type LayerListProps = {

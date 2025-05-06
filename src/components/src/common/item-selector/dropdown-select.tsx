@@ -4,8 +4,8 @@
 import React, {ComponentType} from 'react';
 import styled from 'styled-components';
 
-import {notNullorUndefined} from '@kepler.gl/common-utils';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import {ArrowDown, Delete} from '../icons';
 import {ListItem} from './dropdown-list';

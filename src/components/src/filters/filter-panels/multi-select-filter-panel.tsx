@@ -3,7 +3,7 @@
 
 import React, {useCallback} from 'react';
 import MultiSelectFilterFactory from '../multi-select-filter';
-import {MultiSelectFilter} from '@kepler.gl/types';
+import {MultiSelectFilter} from '@soft-yyw/kepler.gl-types';
 import FieldPanelWithFieldSelectFactory from './filter-panel-with-field-select';
 import {FilterPanelComponent} from './types';
 

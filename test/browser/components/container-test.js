@@ -13,11 +13,11 @@ import {console as Console} from 'global/window';
 import {
   keplerGlReducer as rootReducer,
   keplerGlReducerCore as coreReducer
-} from '@kepler.gl/reducers';
-import {keplerGlInit} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-reducers';
+import {keplerGlInit} from '@soft-yyw/kepler.gl-actions';
 
-import Container, {ERROR_MSG} from '@kepler.gl/components';
-import {DEFAULT_MAPBOX_API_URL} from '@kepler.gl/constants';
+import Container, {ERROR_MSG} from '@soft-yyw/kepler.gl-components';
+import {DEFAULT_MAPBOX_API_URL} from '@soft-yyw/kepler.gl-constants';
 const initialCoreState = coreReducer(undefined, keplerGlInit());
 const initialState = {
   keplerGl: {}
@@ -59,7 +59,7 @@ test('Components -> Container -> Mount with mint:true', t => {
   let actions = store.getActions();
 
   let expectedActions0 = {
-    type: '@@kepler.gl/REGISTER_ENTRY',
+    type: '@@soft-yyw/kepler.gl-REGISTER_ENTRY',
     payload: {
       id: 'map',
       mint: true,
@@ -110,7 +110,7 @@ test('Components -> Container -> Mount with mint:true', t => {
   actions = store.getActions();
 
   expectedActions0 = {
-    type: '@@kepler.gl/REGISTER_ENTRY',
+    type: '@@soft-yyw/kepler.gl-REGISTER_ENTRY',
     payload: {
       id: 'milkshake',
       mint: true,
@@ -142,7 +142,7 @@ test('Components -> Container -> Mount with mint:true', t => {
   // unmount
   wrapper.unmount();
   expectedActions0 = {
-    type: '@@kepler.gl/DELETE_ENTRY',
+    type: '@@soft-yyw/kepler.gl-DELETE_ENTRY',
     payload: {
       id: 'milkshake'
     }
@@ -192,7 +192,7 @@ test('Components -> Container -> Mount with mint:false', t => {
   let actions = store.getActions();
 
   const expectedActions0 = {
-    type: '@@kepler.gl/REGISTER_ENTRY',
+    type: '@@soft-yyw/kepler.gl-REGISTER_ENTRY',
     payload: {
       id: 'milkshake',
       mint: false,
@@ -262,7 +262,7 @@ test('Components -> Container -> Mount then rename', t => {
   }, 'Should not throw error when mount');
 
   const expectedActions0 = {
-    type: '@@kepler.gl/REGISTER_ENTRY',
+    type: '@@soft-yyw/kepler.gl-REGISTER_ENTRY',
     payload: {
       id: 'milkshake',
       mint: true,
@@ -303,7 +303,7 @@ test('Components -> Container -> Mount then rename', t => {
   });
 
   const expectedActions1 = {
-    type: '@@kepler.gl/RENAME_ENTRY',
+    type: '@@soft-yyw/kepler.gl-RENAME_ENTRY',
     payload: {oldId: 'milkshake', newId: 'milkshake-2'}
   };
 
@@ -321,7 +321,7 @@ test('Components -> Container -> Mount then rename', t => {
   wrapper.unmount();
 
   const expectedActions2 = {
-    type: '@@kepler.gl/DELETE_ENTRY',
+    type: '@@soft-yyw/kepler.gl-DELETE_ENTRY',
     payload: {
       id: 'milkshake-2'
     }

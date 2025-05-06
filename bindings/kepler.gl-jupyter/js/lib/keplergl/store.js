@@ -3,7 +3,7 @@
 
 import {applyMiddleware, compose, createStore} from 'redux';
 import {combineReducers} from 'redux';
-import {keplerGlReducer, enhanceReduxMiddleware} from '@kepler.gl/reducers';
+import {keplerGlReducer, enhanceReduxMiddleware} from '@soft-yyw/kepler.gl-reducers';
 
 const customizedKeplerGlReducer = keplerGlReducer.initialState({
   uiState: {

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {DEFAULT_TEXT_LABEL, DEFAULT_COLOR_UI} from '@kepler.gl/constants';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {DEFAULT_TEXT_LABEL, DEFAULT_COLOR_UI} from '@soft-yyw/kepler.gl-constants';
 const {PointLayer, HexagonLayer} = KeplerGlLayers;
 
 // saved state v1 with split maps

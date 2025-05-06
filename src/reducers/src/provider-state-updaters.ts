@@ -3,14 +3,14 @@
 
 import Task, {withTask} from 'react-palm/tasks';
 import Console from 'global/console';
-import {getApplicationConfig, getError, isPlainObject} from '@kepler.gl/utils';
-import {generateHashId, toArray} from '@kepler.gl/common-utils';
+import {getApplicationConfig, getError, isPlainObject} from '@soft-yyw/kepler.gl-utils';
+import {generateHashId, toArray} from '@soft-yyw/kepler.gl-common-utils';
 import {
   EXPORT_FILE_TO_CLOUD_TASK,
   ACTION_TASK,
   DELAY_TASK,
   LOAD_CLOUD_MAP_TASK
-} from '@kepler.gl/tasks';
+} from '@soft-yyw/kepler.gl-tasks';
 import {
   exportFileSuccess,
   exportFileError,
@@ -24,18 +24,18 @@ import {
   addNotification,
   addDataToMap,
   ProviderActions
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {
   DEFAULT_NOTIFICATION_TYPES,
   DEFAULT_NOTIFICATION_TOPICS,
   DATASET_FORMATS,
   OVERWRITE_MAP_ID
-} from '@kepler.gl/constants';
-import {AddDataToMapPayload, ExportFileToCloudPayload} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {AddDataToMapPayload, ExportFileToCloudPayload} from '@soft-yyw/kepler.gl-types';
 
-import {FILE_CONFLICT_MSG, MapListItem} from '@kepler.gl/cloud-providers';
-import {DATASET_HANDLERS} from '@kepler.gl/processors';
-import {KeplerTable} from '@kepler.gl/table';
+import {FILE_CONFLICT_MSG, MapListItem} from '@soft-yyw/kepler.gl-cloud-providers';
+import {DATASET_HANDLERS} from '@soft-yyw/kepler.gl-processors';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 type ActionPayload<P> = {
   type?: string;

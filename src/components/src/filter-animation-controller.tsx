@@ -2,11 +2,11 @@
 // Copyright contributors to the kepler.gl project
 
 import React, {useCallback, useMemo} from 'react';
-import {getBinThresholds, getTimelineFromFilter} from '@kepler.gl/utils';
-import {TimeRangeFilter} from '@kepler.gl/types';
-import {ANIMATION_WINDOW} from '@kepler.gl/constants';
+import {getBinThresholds, getTimelineFromFilter} from '@soft-yyw/kepler.gl-utils';
+import {TimeRangeFilter} from '@soft-yyw/kepler.gl-types';
+import {ANIMATION_WINDOW} from '@soft-yyw/kepler.gl-constants';
 import AnimationControllerFactory from './common/animation-control/animation-controller';
-import {Timeline} from '@kepler.gl/types';
+import {Timeline} from '@soft-yyw/kepler.gl-types';
 
 interface FilterAnimationControllerProps {
   filter: TimeRangeFilter & {animationWindow?: string};

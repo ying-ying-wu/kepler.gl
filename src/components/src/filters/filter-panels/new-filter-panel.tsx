@@ -7,8 +7,8 @@ import FilterPanelHeaderFactory from '../../side-panel/filter-panel/filter-panel
 import SourceDataSelectorFactory from '../../side-panel/common/source-data-selector';
 import FieldSelectorFactory from '../../common/field-selector';
 import {FilterPanelComponent} from './types';
-import {KeplerTable} from '@kepler.gl/table';
-import {Field, FilterBase, LineChart} from '@kepler.gl/types';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {Field, FilterBase, LineChart} from '@soft-yyw/kepler.gl-types';
 
 NewFilterPanelFactory.deps = [
   FilterPanelHeaderFactory,

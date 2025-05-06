@@ -4,7 +4,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import classnames from 'classnames';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {ComponentType, MouseEvent} from 'react';
 
 interface StyledDivProps {

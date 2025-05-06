@@ -2,9 +2,9 @@
 // Copyright contributors to the kepler.gl project
 
 import React from 'react';
-import {openDeleteModal, VisStateActions, ActionHandler} from '@kepler.gl/actions';
-import {RGBColor} from '@kepler.gl/types';
-import KeplerTable from '@kepler.gl/table';
+import {openDeleteModal, VisStateActions, ActionHandler} from '@soft-yyw/kepler.gl-actions';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
+import KeplerTable from '@soft-yyw/kepler.gl-table';
 
 export type PanelMeta = {
   id: string;

@@ -4,11 +4,11 @@
     "start:local": "NODE_ENV=local node esbuild.config.mjs --start"
   },
   "dependencies": {
-    "@kepler.gl/actions": "^3.0.0-alpha.1",
-    "@kepler.gl/components": "^3.0.0-alpha.1",
-    "@kepler.gl/reducers": "^3.0.0-alpha.1",
-    "@kepler.gl/schemas": "^3.0.0-alpha.1",
-    "@kepler.gl/styles": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-actions": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-components": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-reducers": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-schemas": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-styles": "^3.0.0-alpha.1",
     "esbuild": "^0.23.1",
     "global": "^4.3.0",
     "react": "^18.2.0",

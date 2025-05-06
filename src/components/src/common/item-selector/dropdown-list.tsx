@@ -4,7 +4,7 @@
 import React, {Component, ElementType} from 'react';
 import classNames from 'classnames';
 import styled, {IStyledComponent} from 'styled-components';
-import {INIT_FILTER_ITEMS_IN_DROPDOWN} from '@kepler.gl/constants';
+import {INIT_FILTER_ITEMS_IN_DROPDOWN} from '@soft-yyw/kepler.gl-constants';
 import {BaseComponentProps} from '../../types';
 
 const LEFT_BUTTON = 0;

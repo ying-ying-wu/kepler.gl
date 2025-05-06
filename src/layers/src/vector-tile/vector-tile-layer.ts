@@ -10,7 +10,7 @@ import {MVTSource, MVTTileSource} from '@loaders.gl/mvt';
 import {PMTilesSource, PMTilesTileSource} from '@loaders.gl/pmtiles';
 import GL from '@luma.gl/constants';
 
-import {notNullorUndefined} from '@kepler.gl/common-utils';
+import {notNullorUndefined} from '@soft-yyw/kepler.gl-common-utils';
 import {
   DatasetType,
   LAYER_TYPES,
@@ -20,7 +20,7 @@ import {
   CHANNEL_SCALES,
   DEFAULT_COLOR_UI,
   LAYER_VIS_CONFIGS
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   getTileUrl,
   getLoaderOptions,
@@ -28,7 +28,7 @@ import {
   Datasets as KeplerDatasets,
   GpuFilter,
   VectorTileMetadata
-} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-table';
 import {
   AnimationConfig,
   Field as KeplerField,
@@ -40,8 +40,8 @@ import {
   VisConfigRange,
   VisConfigNumber,
   DomainStops
-} from '@kepler.gl/types';
-import {DataContainerInterface} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-types';
+import {DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 
 import {MVTLayer as CustomMVTLayer} from './mvt-layer';
 import VectorTileIcon from './vector-tile-icon';

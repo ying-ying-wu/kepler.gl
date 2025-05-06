@@ -3,7 +3,7 @@
 
 import {MapLib, MapRef} from 'react-map-gl';
 
-import type {BaseMapLibraryType} from '@kepler.gl/constants';
+import type {BaseMapLibraryType} from '@soft-yyw/kepler.gl-constants';
 
 import type {DatabaseAdapter} from './application-config-types';
 
@@ -34,7 +34,7 @@ export type KeplerApplicationConfig = {
   baseMapLibraryConfig?: Record<BaseMapLibraryType, BaseMapLibraryConfig>;
   plugins?: any[];
   // KeplerTable alternative
-  // TODO improve typing by exporting KeplerTable interface to @kepler.gl/types
+  // TODO improve typing by exporting KeplerTable interface to @soft-yyw/kepler.gl-types
   table?: any;
   database?: DatabaseAdapter | null;
 
@@ -76,7 +76,7 @@ const DEFAULT_APPLICATION_CONFIG: Required<KeplerApplicationConfig> = {
 
   plugins: [],
   // The default table class is KeplerTable.
-  // TODO include KeplerTable here when the circular dependency with @kepler.gl/table and @kepler.gl/utils are resolved.
+  // TODO include KeplerTable here when the circular dependency with @soft-yyw/kepler.gl-table and @soft-yyw/kepler.gl-utils are resolved.
   table: null,
   database: null,
 

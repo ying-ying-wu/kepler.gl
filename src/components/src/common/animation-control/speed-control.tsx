@@ -4,8 +4,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import IconButton from '../icon-button';
-import {media} from '@kepler.gl/styles';
-import {preciseRound} from '@kepler.gl/utils';
+import {media} from '@soft-yyw/kepler.gl-styles';
+import {preciseRound} from '@soft-yyw/kepler.gl-utils';
 import TippyTooltip from '../tippy-tooltip';
 
 const StyledSpeedControl = styled.div`

@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React from 'react';
-import {Datasets} from '@kepler.gl/table';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 import AddByDatasetButton from '../add-by-dataset-button';
 
 export type AddFilterButtonProps = {

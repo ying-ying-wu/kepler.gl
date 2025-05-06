@@ -3,7 +3,7 @@
 
 import React, {useMemo} from 'react';
 import classnames from 'classnames';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {Tooltip} from '../styled-components';
 import IconButton from '../icon-button';
 

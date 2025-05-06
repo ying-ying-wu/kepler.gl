@@ -4,8 +4,8 @@
     "start-local": "NODE_OPTIONS=--openssl-legacy-provider WEBPACK_ENV=es6 node server.js"
   },
   "dependencies": {
-    "@kepler.gl/components": "^3.0.0-alpha.1",
-    "@kepler.gl/reducers": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-components": "^3.0.0-alpha.1",
+    "@soft-yyw/kepler.gl-reducers": "^3.0.0-alpha.1",
     "express": "^4.17.1",
     "global": "^4.3.0",
     "react": "^18.2.0",

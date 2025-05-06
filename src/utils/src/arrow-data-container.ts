@@ -4,8 +4,8 @@
 import * as arrow from 'apache-arrow';
 import {console as globalConsole} from 'global/window';
 import {DATA_TYPES as AnalyzerDATA_TYPES} from 'type-analyzer';
-import {ProtoDatasetField} from '@kepler.gl/types';
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 import {DataRow, SharedRowOptions} from './data-row';
 import {DataContainerInterface, RangeOptions} from './data-container-interface';

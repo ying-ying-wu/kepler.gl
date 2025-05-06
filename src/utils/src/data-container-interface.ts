@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {ProtoDatasetField} from '@kepler.gl/types';
+import {ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
 import {DataRow, SharedRowOptions} from './data-row';
 
 /**

@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/localization",
+  "name": "@soft-yyw/kepler.gl-localization",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl constants used by kepler.gl components, actions and reducers",

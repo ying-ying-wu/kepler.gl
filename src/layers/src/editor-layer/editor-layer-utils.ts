@@ -2,8 +2,8 @@
 // Copyright contributors to the kepler.gl project
 
 import {PickInfo} from '@deck.gl/core/lib/deck';
-import {Editor, Feature, FeatureSelectionContext} from '@kepler.gl/types';
-import {EDITOR_LAYER_ID, EDITOR_MODES} from '@kepler.gl/constants';
+import {Editor, Feature, FeatureSelectionContext} from '@soft-yyw/kepler.gl-types';
+import {EDITOR_LAYER_ID, EDITOR_MODES} from '@soft-yyw/kepler.gl-constants';
 
 /**
  * Returns true if drawing is active.

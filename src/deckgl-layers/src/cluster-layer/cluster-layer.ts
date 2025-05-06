@@ -14,9 +14,9 @@ import CPUAggregator, {
 import {getDistanceScales} from 'viewport-mercator-project';
 import {max} from 'd3-array';
 
-import {SCALE_TYPES, DEFAULT_COLOR_RANGE, LAYER_VIS_CONFIGS} from '@kepler.gl/constants';
+import {SCALE_TYPES, DEFAULT_COLOR_RANGE, LAYER_VIS_CONFIGS} from '@soft-yyw/kepler.gl-constants';
 import ClusterBuilder, {getGeoJSON} from '../layer-utils/cluster-utils';
-import {RGBAColor} from '@kepler.gl/types';
+import {RGBAColor} from '@soft-yyw/kepler.gl-types';
 import {AggregationLayerProps} from '@deck.gl/aggregation-layers/aggregation-layer';
 
 const defaultRadius = LAYER_VIS_CONFIGS.clusterRadius.defaultValue;

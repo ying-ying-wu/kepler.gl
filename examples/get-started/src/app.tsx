@@ -8,8 +8,8 @@ import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux';
 import document from 'global/document';
 
-import keplerGlReducer, {enhanceReduxMiddleware} from '@kepler.gl/reducers';
-import KeplerGl from '@kepler.gl/components';
+import keplerGlReducer, {enhanceReduxMiddleware} from '@soft-yyw/kepler.gl-reducers';
+import KeplerGl from '@soft-yyw/kepler.gl-components';
 
 const reducers = combineReducers({
   keplerGl: keplerGlReducer.initialState({

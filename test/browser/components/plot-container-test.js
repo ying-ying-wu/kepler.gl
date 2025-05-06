@@ -5,7 +5,7 @@ import React from 'react';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 
 import test from 'tape';
-import {appInjector, PlotContainerFactory, plotContainerSelector} from '@kepler.gl/components';
+import {appInjector, PlotContainerFactory, plotContainerSelector} from '@soft-yyw/kepler.gl-components';
 import {mockKeplerProps} from '../../helpers/mock-state';
 import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';

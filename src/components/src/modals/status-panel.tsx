@@ -6,8 +6,8 @@ import styled from 'styled-components';
 import {MapIcon} from '../common/icons';
 import {StyledExportSection} from '../common/styled-components';
 import ErrorDisplay from './error-display';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {IconProps} from '@kepler.gl/cloud-providers';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {IconProps} from '@soft-yyw/kepler.gl-cloud-providers';
 
 const StyledUploader = styled.div`
   display: flex;

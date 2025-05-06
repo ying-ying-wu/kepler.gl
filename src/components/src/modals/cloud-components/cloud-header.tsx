@@ -5,10 +5,10 @@ import React, {useMemo} from 'react';
 import {Button} from '../../common/styled-components';
 import {ArrowLeft} from '../../common/icons';
 import InfoHelperFactory from '../../common/info-helper';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import styled from 'styled-components';
-import {dataTestIds} from '@kepler.gl/constants';
-import {Provider} from '@kepler.gl/cloud-providers';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 const StyledStorageHeader = styled.div`
   display: flex;

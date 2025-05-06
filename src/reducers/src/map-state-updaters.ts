@@ -13,9 +13,9 @@ import {
   validateBounds,
   MAPBOX_TILE_SIZE,
   validateViewPort
-} from '@kepler.gl/utils';
-import {MapStateActions, ReceiveMapConfigPayload, ActionTypes} from '@kepler.gl/actions';
-import {MapState, Bounds, Viewport} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-utils';
+import {MapStateActions, ReceiveMapConfigPayload, ActionTypes} from '@soft-yyw/kepler.gl-actions';
+import {MapState, Bounds, Viewport} from '@soft-yyw/kepler.gl-types';
 
 /**
  * Updaters for `mapState` reducer. Can be used in your root reducer to directly modify kepler.gl's state.

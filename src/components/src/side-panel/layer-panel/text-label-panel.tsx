@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {ColorRange} from '@kepler.gl/types';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {ColorRange} from '@soft-yyw/kepler.gl-types';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
@@ -22,8 +22,8 @@ import LayerConfigGroupFactory, {
   ConfigGroupCollapsibleHeader
 } from './layer-config-group';
 
-import {LAYER_TEXT_CONFIGS} from '@kepler.gl/constants';
-import {Field, LayerTextLabel, RGBAColor, RGBColor} from '@kepler.gl/types';
+import {LAYER_TEXT_CONFIGS} from '@soft-yyw/kepler.gl-constants';
+import {Field, LayerTextLabel, RGBAColor, RGBColor} from '@soft-yyw/kepler.gl-types';
 import FieldSelectorFactory from '../../common/field-selector';
 import ColorSelectorFactory from './color-selector';
 

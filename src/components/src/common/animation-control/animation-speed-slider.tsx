@@ -5,7 +5,7 @@ import React, {useCallback} from 'react';
 import styled from 'styled-components';
 import {useDismiss, useFloating, useInteractions} from '@floating-ui/react';
 
-import {SPEED_CONTROL_RANGE, SPEED_CONTROL_STEP} from '@kepler.gl/constants';
+import {SPEED_CONTROL_RANGE, SPEED_CONTROL_STEP} from '@soft-yyw/kepler.gl-constants';
 
 import RangeSliderFactory from '../range-slider';
 

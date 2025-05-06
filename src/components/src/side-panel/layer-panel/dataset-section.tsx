@@ -3,13 +3,13 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {Add} from '../../common/icons';
 import {Button} from '../../common/styled-components';
 
 import SourceDataCatalogFactory from '../common/source-data-catalog';
-import {UIStateActions, VisStateActions, ActionHandler} from '@kepler.gl/actions';
-import {Datasets} from '@kepler.gl/table';
+import {UIStateActions, VisStateActions, ActionHandler} from '@soft-yyw/kepler.gl-actions';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 
 type AddDataButtonProps = {
   onClick: () => void;

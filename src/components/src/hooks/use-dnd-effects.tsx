@@ -5,9 +5,9 @@ import {useCallback, useState} from 'react';
 import {useDispatch} from 'react-redux';
 import {DragEndEvent, DragStartEvent} from '@dnd-kit/core';
 
-import {reorderEffect, updateEffect} from '@kepler.gl/actions';
-import {reorderEffectOrder} from '@kepler.gl/utils';
-import {Effect} from '@kepler.gl/types';
+import {reorderEffect, updateEffect} from '@soft-yyw/kepler.gl-actions';
+import {reorderEffectOrder} from '@soft-yyw/kepler.gl-utils';
+import {Effect} from '@soft-yyw/kepler.gl-types';
 import {SORTABLE_EFFECT_PANEL_TYPE, SORTABLE_EFFECT_TYPE} from '../common/dnd-layer-items';
 
 type DndEffectsHook = {

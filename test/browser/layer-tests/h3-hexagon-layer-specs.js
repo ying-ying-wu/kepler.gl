@@ -14,10 +14,10 @@ import {
   preparedFilterDomain0,
   hexagonIdLayerMeta
 } from 'test/helpers/layer-utils';
-import {KeplerGlLayers, h3DefaultElevation as defaultElevation} from '@kepler.gl/layers';
-import {getCentroid, idToPolygonGeo} from '@kepler.gl/common-utils';
+import {KeplerGlLayers, h3DefaultElevation as defaultElevation} from '@soft-yyw/kepler.gl-layers';
+import {getCentroid, idToPolygonGeo} from '@soft-yyw/kepler.gl-common-utils';
 
-import {copyTableAndUpdate} from '@kepler.gl/table';
+import {copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
 
 const {H3Layer} = KeplerGlLayers;
 const columns = {

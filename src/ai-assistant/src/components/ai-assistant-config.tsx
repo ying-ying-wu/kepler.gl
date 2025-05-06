@@ -11,7 +11,7 @@ import {
   RangeSliderFactory,
   Button,
   LoadingSpinner
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {AiAssistantConfig} from '../index';
 import ApiKey from '../icons/api-key';
 import {testApiKey} from '@openassistant/core';

@@ -7,7 +7,7 @@ import {browserHistory} from 'react-router';
 import {createLogger} from 'redux-logger';
 import thunk from 'redux-thunk';
 
-import {enhanceReduxMiddleware} from '@kepler.gl/reducers';
+import {enhanceReduxMiddleware} from '@soft-yyw/kepler.gl-reducers';
 
 // eslint-disable-next-line no-unused-vars
 import Window from 'global/window';
@@ -43,9 +43,9 @@ let composeEnhancers = compose;
 if (Window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) {
   composeEnhancers = Window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
     actionsBlacklist: [
-      '@@kepler.gl/MOUSE_MOVE',
-      '@@kepler.gl/UPDATE_MAP',
-      '@@kepler.gl/LAYER_HOVER'
+      '@@soft-yyw/kepler.gl-MOUSE_MOVE',
+      '@@soft-yyw/kepler.gl-UPDATE_MAP',
+      '@@soft-yyw/kepler.gl-LAYER_HOVER'
     ]
   });
 }

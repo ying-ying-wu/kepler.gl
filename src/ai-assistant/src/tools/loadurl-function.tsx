@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {addDataToMap, loadFiles} from '@kepler.gl/actions';
-import {ActionHandler} from '@kepler.gl/actions';
+import {addDataToMap, loadFiles} from '@soft-yyw/kepler.gl-actions';
+import {ActionHandler} from '@soft-yyw/kepler.gl-actions';
 import {
   FileCacheItem,
   processFileData,
   ProcessFileDataContent,
   readFileInBatches
-} from '@kepler.gl/processors';
+} from '@soft-yyw/kepler.gl-processors';
 import {Loader} from '@loaders.gl/loader-utils';
 import React, {ReactNode, useEffect} from 'react';
 import {

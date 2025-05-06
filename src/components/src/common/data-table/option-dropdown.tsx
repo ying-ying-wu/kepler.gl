@@ -11,9 +11,9 @@ import {
   TABLE_OPTION_LIST,
   TooltipFormat,
   TableOption
-} from '@kepler.gl/constants';
-import {getFieldFormatLabels} from '@kepler.gl/utils';
-import {ColMeta} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-constants';
+import {getFieldFormatLabels} from '@soft-yyw/kepler.gl-utils';
+import {ColMeta} from '@soft-yyw/kepler.gl-types';
 import {ArrowDown, ArrowUp, Clipboard, Pin, Cancel, Hash} from '../icons';
 
 const ListItem = ({value}) => (

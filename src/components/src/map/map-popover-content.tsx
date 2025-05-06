@@ -3,7 +3,7 @@
 
 import React from 'react';
 import {injectIntl, IntlShape} from 'react-intl';
-import {LayerHoverProp} from '@kepler.gl/reducers';
+import {LayerHoverProp} from '@soft-yyw/kepler.gl-reducers';
 import LayerHoverInfoFactory from './layer-hover-info';
 import CoordinateInfoFactory from './coordinate-info';
 

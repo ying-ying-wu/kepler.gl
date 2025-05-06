@@ -2,34 +2,34 @@
 // Copyright contributors to the kepler.gl project
 
 // Reducers
-export * from '@kepler.gl/reducers';
+export * from '@soft-yyw/kepler.gl-reducers';
 
 // Schemas
-export * from '@kepler.gl/schemas';
+export * from '@soft-yyw/kepler.gl-schemas';
 
 // Actions
-export * from '@kepler.gl/actions';
+export * from '@soft-yyw/kepler.gl-actions';
 
 // Constants
-export * from '@kepler.gl/constants';
+export * from '@soft-yyw/kepler.gl-constants';
 
 // Processors
-export * from '@kepler.gl/processors';
+export * from '@soft-yyw/kepler.gl-processors';
 
 // Components
-export * from '@kepler.gl/components';
+export * from '@soft-yyw/kepler.gl-components';
 
 // Layers
-export * from '@kepler.gl/layers';
+export * from '@soft-yyw/kepler.gl-layers';
 
 // Styles
-export * from '@kepler.gl/styles';
+export * from '@soft-yyw/kepler.gl-styles';
 
 // Utils
-export * from '@kepler.gl/utils';
+export * from '@soft-yyw/kepler.gl-utils';
 
 // AI Assistant
-export * from '@kepler.gl/ai-assistant';
+export * from '@soft-yyw/kepler.gl-ai-assistant';
 
 // Default export
-export {default} from '@kepler.gl/components';
+export {default} from '@soft-yyw/kepler.gl-components';

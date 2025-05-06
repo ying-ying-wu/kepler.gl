@@ -9,8 +9,8 @@ import {console as Console} from 'global/window';
 import {drainTasksForTesting, succeedTaskInTest, errorTaskInTest} from 'react-palm/tasks';
 import CloneDeep from 'lodash/cloneDeep';
 
-import SchemaManager from '@kepler.gl/schemas';
-import {VisStateActions, MapStateActions} from '@kepler.gl/actions';
+import SchemaManager from '@soft-yyw/kepler.gl-schemas';
+import {VisStateActions, MapStateActions} from '@soft-yyw/kepler.gl-actions';
 import {
   visStateReducer as reducer,
   INITIAL_VIS_STATE,
@@ -23,11 +23,11 @@ import {
   setTimeFilterTimelineModeUpdater,
   setFilterAnimationTimeUpdater,
   setFilterAnimationWindowUpdater
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 
-import {processCsvData, processGeojson} from '@kepler.gl/processors';
-import {Layer, KeplerGlLayers, COLUMN_MODE_TABLE} from '@kepler.gl/layers';
-import {maybeToDate} from '@kepler.gl/table';
+import {processCsvData, processGeojson} from '@soft-yyw/kepler.gl-processors';
+import {Layer, KeplerGlLayers, COLUMN_MODE_TABLE} from '@soft-yyw/kepler.gl-layers';
+import {maybeToDate} from '@soft-yyw/kepler.gl-table';
 import {
   createDataContainer,
   applyFilterFieldName,
@@ -35,7 +35,7 @@ import {
   getDefaultFilter,
   histogramFromDomain,
   TileTimeInterval
-} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
 import {
   ALL_FIELD_TYPES,
   EDITOR_MODES,
@@ -51,7 +51,7 @@ import {
   SYNC_TIMELINE_MODES,
   KEPLER_COLOR_PALETTES,
   colorPaletteToColorRange
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 const {ArcLayer, PointLayer, GeojsonLayer, LineLayer, TripLayer} = KeplerGlLayers;
 

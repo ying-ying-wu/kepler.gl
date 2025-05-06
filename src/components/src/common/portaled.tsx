@@ -10,7 +10,7 @@ import {withTheme} from 'styled-components';
 import {RootContext} from '../context';
 import Modal from 'react-modal';
 import Window from 'global/window';
-import {theme} from '@kepler.gl/styles';
+import {theme} from '@soft-yyw/kepler.gl-styles';
 
 const listeners = {};
 

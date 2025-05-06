@@ -5,7 +5,7 @@
 import React, {useState, forwardRef} from 'react';
 import Tippy from '@tippyjs/react/headless';
 import type {TippyProps} from '@tippyjs/react';
-import {isTest} from '@kepler.gl/utils';
+import {isTest} from '@soft-yyw/kepler.gl-utils';
 
 const isTestEnv = isTest();
 

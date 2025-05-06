@@ -12,7 +12,7 @@ import {
   appInjector,
   LayerHoverInfoFactory,
   CoordinateInfoFactory
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {
   expectedLayerHoverProp as layerHoverProp,
   expectedGeojsonLayerHoverProp as geojsonLayerHoverProp

@@ -5,7 +5,7 @@ import React from 'react';
 import test from 'tape';
 import {mountWithTheme} from 'test/helpers/component-utils';
 
-import {ColorLegendFactory, LegendRowFactory, appInjector} from '@kepler.gl/components';
+import {ColorLegendFactory, LegendRowFactory, appInjector} from '@soft-yyw/kepler.gl-components';
 import {StateWLayerCustomColorBreaks} from 'test/helpers/mock-state';
 
 const ColorLegend = appInjector.get(ColorLegendFactory);

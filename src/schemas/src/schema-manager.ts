@@ -3,7 +3,7 @@
 
 import {console as Console} from 'global/window';
 
-import {Datasets} from '@kepler.gl/table';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
 import datasetSchema from './dataset-schema';
 import mapStyleSchema from './map-style-schema';
 import mapStateSchema from './map-state-schema';
@@ -12,9 +12,9 @@ import {visStateSchema} from './vis-state-schema';
 import uiStateSchema from './ui-state-schema';
 
 import {CURRENT_VERSION, VERSIONS} from './versions';
-import {isPlainObject} from '@kepler.gl/utils';
+import {isPlainObject} from '@soft-yyw/kepler.gl-utils';
 
-import {MapInfo, SavedVisState, SavedMapStyle, ParsedConfig, BaseMapStyle} from '@kepler.gl/types';
+import {MapInfo, SavedVisState, SavedMapStyle, ParsedConfig, BaseMapStyle} from '@soft-yyw/kepler.gl-types';
 
 export type SavedMapState = {
   bearing: number;

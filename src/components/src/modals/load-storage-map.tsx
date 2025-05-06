@@ -7,7 +7,7 @@ import {CloudMaps} from './cloud-components/cloud-maps';
 import {useCloudListProvider} from '../hooks/use-cloud-list-provider';
 import {ProviderSelect} from './cloud-components/provider-select';
 import {FlexColContainer} from '../common/flex-container';
-import {Provider, MapListItem} from '@kepler.gl/cloud-providers';
+import {Provider, MapListItem} from '@soft-yyw/kepler.gl-cloud-providers';
 
 LoadStorageMapFactory.deps = [CloudHeaderFactory];
 

@@ -8,8 +8,8 @@ import {
   ExportFileToCloudPayload,
   OnErrorCallBack,
   OnSuccessCallBack
-} from '@kepler.gl/types';
-import {Provider} from '@kepler.gl/cloud-providers';
+} from '@soft-yyw/kepler.gl-types';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 // eslint-disable-next-line prettier/prettier
 const assignType = <T>(obj: T): {[K in keyof T]: `${typeof ACTION_PREFIX}${string & K}`} =>

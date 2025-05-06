@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import Task, {taskCreator} from 'react-palm/tasks';
-import {readFileInBatches, processFileData} from '@kepler.gl/processors';
+import {readFileInBatches, processFileData} from '@soft-yyw/kepler.gl-processors';
 
 export const LOAD_FILE_TASK = Task.fromPromise(
   ({file, fileCache, loaders, loadOptions}) =>

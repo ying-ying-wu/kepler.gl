@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {handleActions} from 'redux-actions';
-import {ActionTypes} from '@kepler.gl/actions';
+import {ActionTypes} from '@soft-yyw/kepler.gl-actions';
 import * as mapStyleUpdaters from './map-style-updaters';
 
 /**

@@ -7,8 +7,8 @@ import React, {useCallback, useState} from 'react';
 import {sortableContainer, sortableElement, sortableHandle} from 'react-sortable-hoc';
 import styled, {css} from 'styled-components';
 
-import {ZoomStops, ZoomStopsConfig} from '@kepler.gl/types';
-import {arrayMove} from '@kepler.gl/common-utils';
+import {ZoomStops, ZoomStopsConfig} from '@soft-yyw/kepler.gl-types';
+import {arrayMove} from '@soft-yyw/kepler.gl-common-utils';
 
 import {Icons, Input, PanelLabel, Button} from '../../common';
 

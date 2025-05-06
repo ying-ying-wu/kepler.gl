@@ -6,12 +6,12 @@ import {drainTasksForTesting, succeedTaskInTest, errorTaskInTest} from 'react-pa
 import sinon from 'sinon';
 import {default as Console} from 'global/console';
 
-import {ActionTypes, exportFileToCloud, resetProviderStatus} from '@kepler.gl/actions';
+import {ActionTypes, exportFileToCloud, resetProviderStatus} from '@soft-yyw/kepler.gl-actions';
 import {
   providerReducer as reducer,
   providerStateReducerFactory,
   INITIAL_PROVIDER_STATE
-} from '@kepler.gl/reducers';
+} from '@soft-yyw/kepler.gl-reducers';
 import MockProvider from 'test/helpers/mock-provider';
 
 test('#providerStateReducer', t => {

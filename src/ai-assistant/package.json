@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/ai-assistant",
+  "name": "@soft-yyw/kepler.gl-ai-assistant",
   "author": "Xun Li<lixun910@gmail.com>",
   "version": "3.1.4",
   "description": "kepler.gl AI assistant",
@@ -19,7 +19,7 @@
     "url": "https://github.com/keplergl/kepler.gl.git"
   },
   "scripts": {
-    "build": "rm -fr dist && babel src --out-dir dist --source-maps inline --extensions '.ts,.tsx,.js,.jsx' --ignore '**/*.d.ts'",
+    "build": "rm -fr dist && babel src --out-dir dist --source-maps inline --extensions '.ts,.tsx,.js,.jsx' --ignore '**/*.d.ts' && cp src/config/models.json dist/config/models.json",
     "build:umd": "NODE_OPTIONS=--openssl-legacy-provider webpack --config ./webpack/umd.js --progress --env.prod",
     "build:types": "tsc --project ./tsconfig.production.json",
     "prepublishOnly": "babel-node ../../scripts/license-header/bin --license ../../FILE-HEADER && yarn build && yarn build:types",
@@ -30,16 +30,16 @@
     "umd"
   ],
   "dependencies": {
-    "@kepler.gl/components": "3.1.4",
-    "@kepler.gl/constants": "3.1.4",
-    "@kepler.gl/layers": "3.1.4",
-    "@kepler.gl/table": "3.1.4",
-    "@kepler.gl/types": "3.1.4",
-    "@kepler.gl/utils": "3.1.4",
     "@openassistant/core": "^0.0.7",
     "@openassistant/echarts": "^0.0.6",
     "@openassistant/geoda": "^0.0.6",
     "@openassistant/ui": "^0.0.7",
+    "@soft-yyw/kepler.gl-components": "3.1.4",
+    "@soft-yyw/kepler.gl-constants": "3.1.4",
+    "@soft-yyw/kepler.gl-layers": "3.1.4",
+    "@soft-yyw/kepler.gl-table": "3.1.4",
+    "@soft-yyw/kepler.gl-types": "3.1.4",
+    "@soft-yyw/kepler.gl-utils": "3.1.4",
     "color-interpolate": "^1.0.5",
     "echarts": "^5.5.1",
     "global": "^4.3.0",

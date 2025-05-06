@@ -3,7 +3,7 @@
 
 import React, {useCallback} from 'react';
 import SingleSelectFilterFactory from '../single-select-filter';
-import {SelectFilter} from '@kepler.gl/types';
+import {SelectFilter} from '@soft-yyw/kepler.gl-types';
 import FieldPanelWithFieldSelectFactory from './filter-panel-with-field-select';
 import {FilterPanelComponent} from './types';
 

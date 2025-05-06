@@ -4,7 +4,7 @@
 import Console from 'global/console';
 import Window from 'global/window';
 import document from 'global/document';
-import {IMAGE_EXPORT_ERRORS} from '@kepler.gl/constants';
+import {IMAGE_EXPORT_ERRORS} from '@soft-yyw/kepler.gl-constants';
 
 export function processClone(original, clone) {
   if (!(clone instanceof Window.Element)) {

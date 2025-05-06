@@ -5,8 +5,8 @@ import React from 'react';
 import RangeSliderFactory from '../../common/range-slider';
 
 import {PanelLabel, SidePanelSection} from '../../common/styled-components';
-import {BRUSH_CONFIG} from '@kepler.gl/reducers';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {BRUSH_CONFIG} from '@soft-yyw/kepler.gl-reducers';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 BrushConfigFactory.deps = [RangeSliderFactory];
 

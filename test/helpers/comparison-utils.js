@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {FILTER_TYPES} from '@kepler.gl/constants';
-import {toArray} from '@kepler.gl/common-utils';
-import {KeplerTable} from '@kepler.gl/table';
+import {FILTER_TYPES} from '@soft-yyw/kepler.gl-constants';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 export function cmpObjectKeys(t, expectedObj, actualObj, name) {
   t.deepEqual(

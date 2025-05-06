@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import keplerGlReducer from '@kepler.gl/reducers';
+import keplerGlReducer from '@soft-yyw/kepler.gl-reducers';
 import {
   registerEntry,
   resetMapConfig,
@@ -12,7 +12,7 @@ import {
   layerTypeChange,
   addDataToMap,
   ActionTypes
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {createAction, handleActions} from 'redux-actions';
 import {applyActions} from 'test/helpers/mock-state';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/table",
+  "name": "@soft-yyw/kepler.gl-table",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl constants used by kepler.gl components, actions and reducers",
@@ -30,12 +30,12 @@
     "umd"
   ],
   "dependencies": {
-    "@kepler.gl/common-utils": "3.1.4",
-    "@kepler.gl/constants": "3.1.4",
-    "@kepler.gl/types": "3.1.4",
-    "@kepler.gl/utils": "3.1.4",
     "@loaders.gl/mvt": "^4.3.2",
     "@loaders.gl/pmtiles": "^4.3.2",
+    "@soft-yyw/kepler.gl-common-utils": "3.1.4",
+    "@soft-yyw/kepler.gl-constants": "3.1.4",
+    "@soft-yyw/kepler.gl-types": "3.1.4",
+    "@soft-yyw/kepler.gl-utils": "3.1.4",
     "@types/d3-array": "^2.8.0",
     "@types/lodash": "4.17.5",
     "d3-array": "^2.8.0",

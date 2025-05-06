@@ -5,9 +5,9 @@ import React, {useCallback, useMemo} from 'react';
 import styled from 'styled-components';
 import {injectIntl, IntlShape} from 'react-intl';
 
-import {LIGHT_AND_SHADOW_EFFECT} from '@kepler.gl/constants';
-import {isNumber} from '@kepler.gl/utils';
-import {Effect, EffectUpdateProps} from '@kepler.gl/types';
+import {LIGHT_AND_SHADOW_EFFECT} from '@soft-yyw/kepler.gl-constants';
+import {isNumber} from '@soft-yyw/kepler.gl-utils';
+import {Effect, EffectUpdateProps} from '@soft-yyw/kepler.gl-types';
 
 import RangeSliderFactory from '../common/range-slider';
 import {ArrowDownSmall} from '../common/icons';

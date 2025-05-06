@@ -2,10 +2,10 @@
 // Copyright contributors to the kepler.gl project
 
 import {getGlobalTaskQueue} from 'react-palm/tasks';
-import {isObject} from '@kepler.gl/utils';
-import {toArray} from '@kepler.gl/common-utils';
-import {ValueOf} from '@kepler.gl/types';
-import {VisState, Merger, PostMergerPayload} from '@kepler.gl/schemas';
+import {isObject} from '@soft-yyw/kepler.gl-utils';
+import {toArray} from '@soft-yyw/kepler.gl-common-utils';
+import {ValueOf} from '@soft-yyw/kepler.gl-types';
+import {VisState, Merger, PostMergerPayload} from '@soft-yyw/kepler.gl-schemas';
 
 export function isValidMerger(merger: Merger<any>): boolean {
   return (

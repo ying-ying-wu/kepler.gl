@@ -8,7 +8,7 @@ import React from 'react';
 import sinon from 'sinon';
 import test from 'tape';
 
-import {appInjector, Button, ColorPalette} from '@kepler.gl/components';
+import {appInjector, Button, ColorPalette} from '@soft-yyw/kepler.gl-components';
 
 import {
   AddColorStop,
@@ -28,11 +28,11 @@ import {
   PaletteConfig,
   Portaled,
   SingleColorPalette
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
-import {KEPLER_COLOR_PALETTES} from '@kepler.gl/constants';
+import {KEPLER_COLOR_PALETTES} from '@soft-yyw/kepler.gl-constants';
 
-import {hexToRgb} from '@kepler.gl/utils';
+import {hexToRgb} from '@soft-yyw/kepler.gl-utils';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 import {StateWFilesFiltersLayerColor, StateWTrips} from 'test/helpers/mock-state';
 import {clickItemSelector} from '../../../helpers/component-utils';

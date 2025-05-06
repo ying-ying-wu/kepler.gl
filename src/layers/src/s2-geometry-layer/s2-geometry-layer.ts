@@ -7,8 +7,8 @@ import {
   CHANNEL_SCALES,
   LAYER_VIS_CONFIGS,
   DEFAULT_COLOR_UI
-} from '@kepler.gl/constants';
-import {default as KeplerTable} from '@kepler.gl/table';
+} from '@soft-yyw/kepler.gl-constants';
+import {default as KeplerTable} from '@soft-yyw/kepler.gl-table';
 import Layer, {
   LayerBaseConfig,
   LayerBaseConfigPartial,
@@ -27,10 +27,10 @@ import {
   VisConfigNumber,
   VisConfigRange,
   LayerColumn
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import S2LayerIcon from './s2-layer-icon';
 import {getS2Center, validS2Token} from './s2-utils';
-import {DataContainerInterface, createDataContainer} from '@kepler.gl/utils';
+import {DataContainerInterface, createDataContainer} from '@soft-yyw/kepler.gl-utils';
 
 export type S2GeometryLayerVisConfigSettings = {
   opacity: VisConfigNumber;

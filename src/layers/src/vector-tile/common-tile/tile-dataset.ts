@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {Field as KeplerField} from '@kepler.gl/types';
-import {quickInsertionSort} from '@kepler.gl/utils';
+import {Field as KeplerField} from '@soft-yyw/kepler.gl-types';
+import {quickInsertionSort} from '@soft-yyw/kepler.gl-utils';
 
 import IterableTileSet, {RowCountAccessor} from './iterable-tile-set';
 import {pruneQuantiles} from './tile-utils';

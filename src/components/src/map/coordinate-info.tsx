@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import React from 'react';
-import {preciseRound} from '@kepler.gl/utils';
+import {preciseRound} from '@soft-yyw/kepler.gl-utils';
 import {CursorClick} from '../common/icons';
 import {StyledLayerName} from './layer-hover-info';
 

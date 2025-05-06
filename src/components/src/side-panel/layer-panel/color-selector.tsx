@@ -6,9 +6,9 @@ import {FormattedMessage} from 'react-intl';
 import styled from 'styled-components';
 import {useDismiss, useFloating, useInteractions} from '@floating-ui/react';
 
-import {ColorRange} from '@kepler.gl/types';
-import {ColorUI, NestedPartial, RGBAColor, RGBColor} from '@kepler.gl/types';
-import {rgbToHex} from '@kepler.gl/utils';
+import {ColorRange} from '@soft-yyw/kepler.gl-types';
+import {ColorUI, NestedPartial, RGBAColor, RGBColor} from '@soft-yyw/kepler.gl-types';
+import {rgbToHex} from '@soft-yyw/kepler.gl-utils';
 
 import RangeSliderFactory from '../../common/range-slider';
 import {PanelLabel, shouldForwardProp, StyledPanelDropdown} from '../../common/styled-components';

@@ -6,9 +6,9 @@ import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 import test from 'tape';
 
-import {appInjector, EffectConfiguratorFactory} from '@kepler.gl/components';
-import {VisStateActions} from '@kepler.gl/actions';
-import {visStateReducer} from '@kepler.gl/reducers';
+import {appInjector, EffectConfiguratorFactory} from '@soft-yyw/kepler.gl-components';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
+import {visStateReducer} from '@soft-yyw/kepler.gl-reducers';
 
 import {mountWithTheme, IntlWrapper} from 'test/helpers/component-utils';
 import {StateWEffects, InitialState} from 'test/helpers/mock-state';

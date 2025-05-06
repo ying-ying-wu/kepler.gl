@@ -6,7 +6,7 @@ import {Dropbox} from 'dropbox';
 import Window from 'global/window';
 import DropboxIcon from './dropbox-icon';
 import {MAP_URI} from '../../constants/default-settings';
-import {KEPLER_FORMAT, Provider} from '@kepler.gl/cloud-providers';
+import {KEPLER_FORMAT, Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 const NAME = 'dropbox';
 const DISPLAY_NAME = 'Dropbox';

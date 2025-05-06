@@ -3,10 +3,10 @@
 
 import {GeoJsonLayer} from '@deck.gl/layers';
 import AggregationLayer, {AggregationLayerConfig} from '../aggregation-layer';
-import {EnhancedHexagonLayer} from '@kepler.gl/deckgl-layers';
+import {EnhancedHexagonLayer} from '@soft-yyw/kepler.gl-deckgl-layers';
 import {hexagonToPolygonGeo} from './hexagon-utils';
 import HexagonLayerIcon from './hexagon-layer-icon';
-import {clamp} from '@kepler.gl/utils';
+import {clamp} from '@soft-yyw/kepler.gl-utils';
 import {
   ColorRange,
   VisConfigBoolean,
@@ -15,8 +15,8 @@ import {
   VisConfigRange,
   VisConfigSelection,
   Merge
-} from '@kepler.gl/types';
-import {AggregationTypes} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-types';
+import {AggregationTypes} from '@soft-yyw/kepler.gl-constants';
 
 export type HexagonLayerVisConfigSettings = {
   opacity: VisConfigNumber;

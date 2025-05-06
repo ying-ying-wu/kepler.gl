@@ -6,8 +6,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import {Button} from '@kepler.gl/components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {Button} from '@soft-yyw/kepler.gl-components';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 import {CORS_LINK} from '../../constants/default-settings';
 import {validateUrl} from '../../utils/url';

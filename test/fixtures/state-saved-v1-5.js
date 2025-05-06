@@ -6,8 +6,8 @@ import tripGeojson, {
   tripBounds,
   dataToTimeStamp
 } from 'test/fixtures/trip-geojson';
-import {KeplerGlLayers} from '@kepler.gl/layers';
-import {DEFAULT_LAYER_OPACITY, DEFAULT_TEXT_LABEL, DEFAULT_COLOR_UI} from '@kepler.gl/constants';
+import {KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {DEFAULT_LAYER_OPACITY, DEFAULT_TEXT_LABEL, DEFAULT_COLOR_UI} from '@soft-yyw/kepler.gl-constants';
 const {TripLayer} = KeplerGlLayers;
 
 export const savedStateV1TripGeoJson = {

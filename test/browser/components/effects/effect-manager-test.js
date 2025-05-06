@@ -12,7 +12,7 @@ import {
   SidePanelTitleFactory,
   EffectTypeSelectorFactory,
   appInjector
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 import {mountWithTheme, IntlWrapper} from 'test/helpers/component-utils';
 import {StateWEffects} from 'test/helpers/mock-state';

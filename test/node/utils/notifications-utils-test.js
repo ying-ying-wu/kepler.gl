@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {errorNotification, successNotification} from '@kepler.gl/utils';
+import {errorNotification, successNotification} from '@soft-yyw/kepler.gl-utils';
 
 test('#notificationsUtils -> errorNotification', t => {
   const notification = errorNotification({message: 'test', id: 'test-1'});

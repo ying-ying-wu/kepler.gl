@@ -24,7 +24,7 @@ const VERSIONS = {
   reactIntl: '4.7.6',
   reactCopyToClipboard: clearCarats(dependencies['react-copy-to-clipboard']),
   styledComponents: clearCarats(dependencies['styled-components']),
-  keplergl: clearCarats(dependencies['@kepler.gl/components'])
+  keplergl: clearCarats(dependencies['@soft-yyw/kepler.gl-components'])
 };
 
 const externals = [

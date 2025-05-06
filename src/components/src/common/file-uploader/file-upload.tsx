@@ -8,14 +8,14 @@ import UploadButton from './upload-button';
 import {DragNDrop, FileType} from '../icons';
 import FileUploadProgress from './file-upload-progress';
 import FileDrop from './file-drop';
-import {FileLoading, FileLoadingProgress} from '@kepler.gl/types';
+import {FileLoading, FileLoadingProgress} from '@soft-yyw/kepler.gl-types';
 
-import {isChrome} from '@kepler.gl/utils';
-import {GUIDES_FILE_FORMAT_DOC} from '@kepler.gl/constants';
+import {isChrome} from '@soft-yyw/kepler.gl-utils';
+import {GUIDES_FILE_FORMAT_DOC} from '@soft-yyw/kepler.gl-constants';
 import ReactMarkdown from 'react-markdown';
 // Breakpoints
-import {FormattedMessage} from '@kepler.gl/localization';
-import {media} from '@kepler.gl/styles';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {media} from '@soft-yyw/kepler.gl-styles';
 
 const fileIconColor = '#D3D8E0';
 

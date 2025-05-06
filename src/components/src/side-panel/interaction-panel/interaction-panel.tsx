@@ -6,12 +6,12 @@ import styled from 'styled-components';
 import Switch from '../../common/switch';
 import BrushConfigFactory from './brush-config';
 import TooltipConfigFactory from './tooltip-config';
-import {Datasets} from '@kepler.gl/table';
-import {InteractionConfig, ValueOf} from '@kepler.gl/types';
+import {Datasets} from '@soft-yyw/kepler.gl-table';
+import {InteractionConfig, ValueOf} from '@soft-yyw/kepler.gl-types';
 import {
   setColumnDisplayFormat as setColumnDisplayFormatAction,
   ActionHandler
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 
 import {
   StyledPanelHeader,
@@ -21,7 +21,7 @@ import {
 } from '../../common/styled-components';
 import {Messages, Crosshairs, CursorClick, Pin} from '../../common/icons';
 
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 
 interface InteractionPanelProps {
   datasets: Datasets;

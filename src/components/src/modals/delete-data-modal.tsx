@@ -4,9 +4,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import DatasetLabel from '../common/dataset-label';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {Layer} from '@kepler.gl/layers';
-import {KeplerTable} from '@kepler.gl/table';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {Layer} from '@soft-yyw/kepler.gl-layers';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 
 const StyledMsg = styled.div`
   margin-top: 24px;

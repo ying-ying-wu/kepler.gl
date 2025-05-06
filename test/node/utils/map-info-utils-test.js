@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import test from 'tape';
-import {isValidMapInfo} from '@kepler.gl/utils';
+import {isValidMapInfo} from '@soft-yyw/kepler.gl-utils';
 
 test('mapInfoUtils -> isValidMapInfo', t => {
   t.equal(

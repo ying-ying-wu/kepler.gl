@@ -8,10 +8,10 @@ import {ThemeProvider} from 'styled-components';
 import {IntlProvider} from 'react-intl';
 
 import {render} from '@testing-library/react';
-import {theme} from '@kepler.gl/styles';
-import {messages} from '@kepler.gl/localization';
-import {keplerGlReducerCore as coreReducer} from '@kepler.gl/reducers';
-import {keplerGlInit} from '@kepler.gl/actions';
+import {theme} from '@soft-yyw/kepler.gl-styles';
+import {messages} from '@soft-yyw/kepler.gl-localization';
+import {keplerGlReducerCore as coreReducer} from '@soft-yyw/kepler.gl-reducers';
+import {keplerGlInit} from '@soft-yyw/kepler.gl-actions';
 
 const mockStore = configureStore();
 const initialCoreState = coreReducer(undefined, keplerGlInit({}));

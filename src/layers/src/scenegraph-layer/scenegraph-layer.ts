@@ -8,16 +8,16 @@ import {GLTFLoader, postProcessGLTF} from '@loaders.gl/gltf';
 import Layer, {LayerBaseConfig} from '../base-layer';
 import ScenegraphLayerIcon from './scenegraph-layer-icon';
 import ScenegraphInfoModalFactory from './scenegraph-info-modal';
-import {LAYER_VIS_CONFIGS} from '@kepler.gl/constants';
+import {LAYER_VIS_CONFIGS} from '@soft-yyw/kepler.gl-constants';
 import {
   ColorRange,
   Merge,
   VisConfigColorRange,
   VisConfigNumber,
   LayerColumn
-} from '@kepler.gl/types';
-import {default as KeplerTable} from '@kepler.gl/table';
-import {DataContainerInterface} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-types';
+import {default as KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 
 export type ScenegraphLayerVisConfigSettings = {
   opacity: VisConfigNumber;

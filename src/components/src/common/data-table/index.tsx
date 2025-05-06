@@ -15,11 +15,11 @@ import {CellSizeCache} from './cell-size';
 import Grid from './grid';
 import HeaderCellFactory from './header-cell';
 
-import {ColMeta} from '@kepler.gl/types';
-import {parseFieldValue, getColumnFormatter, DataContainerInterface} from '@kepler.gl/utils';
+import {ColMeta} from '@soft-yyw/kepler.gl-types';
+import {parseFieldValue, getColumnFormatter, DataContainerInterface} from '@soft-yyw/kepler.gl-utils';
 import {adjustCellsToContainer} from './cell-size';
 
-import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
+import {ALL_FIELD_TYPES} from '@soft-yyw/kepler.gl-constants';
 
 const defaultHeaderRowHeight = 55;
 const defaultHeaderStatsControlHeight = 40;
@@ -624,7 +624,7 @@ function DataTableFactory(
                   return (
                     <div className="results-table-wrapper">
                       {hasPinnedColumns && (
-                        <div key="pinned-columns" className="pinned-columns grid-row">
+                        <div key="pinned-columns" className="grid-row pinned-columns">
                           <TableSection
                             classList={pinnedClassList}
                             isPinned
@@ -653,7 +653,7 @@ function DataTableFactory(
                         style={{
                           marginLeft: `${hasPinnedColumns ? `${pinnedColumnsWidth}px` : '0'}`
                         }}
-                        className="unpinned-columns grid-column"
+                        className="grid-column unpinned-columns"
                       >
                         <TableSection
                           classList={unpinnedClassList}

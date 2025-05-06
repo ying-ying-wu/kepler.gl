@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {VIS_STATE_MERGERS} from '@kepler.gl/reducers';
+import {VIS_STATE_MERGERS} from '@soft-yyw/kepler.gl-reducers';
 
 const TEST_CASES = [
   {

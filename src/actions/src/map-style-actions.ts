@@ -11,7 +11,7 @@ import {
   MapState,
   VisibleLayerGroups,
   LayerGroup
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 
 /**
  * Add map style from user input to reducer and set it to current style

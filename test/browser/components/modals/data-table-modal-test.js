@@ -9,10 +9,10 @@ import sinon from 'sinon';
 import flatten from 'lodash/flattenDeep';
 import {IntlWrapper, mountWithTheme} from 'test/helpers/component-utils';
 import CloneDeep from 'lodash/cloneDeep';
-import {VisStateActions} from '@kepler.gl/actions';
-import {visStateReducer} from '@kepler.gl/reducers';
+import {VisStateActions} from '@soft-yyw/kepler.gl-actions';
+import {visStateReducer} from '@soft-yyw/kepler.gl-reducers';
 
-import {TOOLTIP_FORMATS} from '@kepler.gl/constants';
+import {TOOLTIP_FORMATS} from '@soft-yyw/kepler.gl-constants';
 import {
   FieldTokenFactory,
   Icons,
@@ -26,13 +26,13 @@ import {
   InputLight,
   DataTableConfigFactory,
   NumberFormatConfig
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 import {testFields, testAllData} from 'test/fixtures/test-csv-data';
 import {geoStyleFields, geoStyleRows} from 'test/fixtures/geojson';
 import {StateWFiles, testCsvDataId, testGeoJsonDataId} from 'test/helpers/mock-state';
 import {STYLED_COMPONENTS_DUPLICATED_ENTRIES} from '../../../helpers/utils';
 
-import {createDataContainer, getFieldFormatLabels} from '@kepler.gl/utils';
+import {createDataContainer, getFieldFormatLabels} from '@soft-yyw/kepler.gl-utils';
 
 const {VertThreeDots} = Icons;
 const DataTableModal = appInjector.get(DataTableModalFactory);

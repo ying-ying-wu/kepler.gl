@@ -15,7 +15,7 @@ import {
   LayerTextLabel,
   LayerVisConfigSettings,
   RGBAColor
-} from '@kepler.gl/types';
+} from '@soft-yyw/kepler.gl-types';
 import {ColorPalette, KEPLER_COLOR_PALETTES, colorPaletteToColorRange} from './color-palettes';
 
 export type AggregationTypes = keyof typeof AGGREGATION_TYPES;

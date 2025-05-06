@@ -20,8 +20,8 @@ import {
   hexagonalPixelate
 } from '@luma.gl/shadertools';
 
-import {POSTPROCESSING_EFFECTS, DEFAULT_POST_PROCESSING_EFFECT_TYPE} from '@kepler.gl/constants';
-import {EffectPropsPartial, EffectParameterDescription} from '@kepler.gl/types';
+import {POSTPROCESSING_EFFECTS, DEFAULT_POST_PROCESSING_EFFECT_TYPE} from '@soft-yyw/kepler.gl-constants';
+import {EffectPropsPartial, EffectParameterDescription} from '@soft-yyw/kepler.gl-types';
 
 import Effect from './effect';
 

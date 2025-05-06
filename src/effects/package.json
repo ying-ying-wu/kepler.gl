@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/effects",
+  "name": "@soft-yyw/kepler.gl-effects",
   "author": "Shan He <shan@uber.com>",
   "version": "3.1.4",
   "description": "kepler.gl viaual effects",
@@ -31,12 +31,12 @@
   ],
   "dependencies": {
     "@deck.gl/core": "^8.9.27",
-    "@kepler.gl/common-utils": "3.1.4",
-    "@kepler.gl/constants": "3.1.4",
-    "@kepler.gl/types": "3.1.4",
-    "@kepler.gl/utils": "3.1.4",
     "@luma.gl/core": "^8.5.20",
     "@luma.gl/shadertools": "^8.5.20",
+    "@soft-yyw/kepler.gl-common-utils": "3.1.4",
+    "@soft-yyw/kepler.gl-constants": "3.1.4",
+    "@soft-yyw/kepler.gl-types": "3.1.4",
+    "@soft-yyw/kepler.gl-utils": "3.1.4",
     "moment-timezone": "^0.5.35",
     "suncalc": "^1.9.0"
   },

@@ -8,7 +8,7 @@ import {
   DATASET_FORMATS,
   GEOARROW_EXTENSIONS,
   GEOARROW_METADATA_KEY
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {
   arrowSchemaToFields,
   isArrowData,
@@ -16,10 +16,10 @@ import {
   isKeplerGlMap,
   isRowObject,
   processArrowBatches
-} from '@kepler.gl/processors';
-import {KeplerTable} from '@kepler.gl/table';
-import {Field} from '@kepler.gl/types';
-import {getApplicationConfig, DatabaseAdapter, DatabaseConnection} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-processors';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {Field} from '@soft-yyw/kepler.gl-types';
+import {getApplicationConfig, DatabaseAdapter, DatabaseConnection} from '@soft-yyw/kepler.gl-utils';
 
 import {
   processCsvRowObject,
@@ -138,7 +138,7 @@ export class KeplerGlDuckDbTable extends KeplerTable {
       const createTableSql = `
         install spatial;
         load spatial;
-        CREATE TABLE '${this.label}' AS 
+        CREATE TABLE '${this.label}' AS
         SELECT *
         FROM ST_READ('${this.id}', keep_wkb = TRUE);
         ALTER TABLE '${this.label}' RENAME '${DUCKDB_WKB_COLUMN}' TO '${KEPLER_GEOM_FROM_GEOJSON_COLUMN}';

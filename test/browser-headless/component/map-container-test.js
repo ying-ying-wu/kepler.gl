@@ -13,7 +13,7 @@ import {
   MapPopoverFactory,
   mapFieldsSelector,
   MapViewStateContextProvider
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 // import {Map} from 'react-map-gl'; // see other TODO below
 import {gl, InteractionTestRunner} from '@deck.gl/test-utils';
 

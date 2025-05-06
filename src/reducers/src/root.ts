@@ -8,7 +8,7 @@ import {
   _updateProperty,
   RegisterEntryUpdaterAction,
   RenameEntryUpdaterAction
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 import {handleActions} from 'redux-actions';
 
 import {coreReducerFactory, KeplerGlState} from './core';

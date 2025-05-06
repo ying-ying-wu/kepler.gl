@@ -13,15 +13,15 @@ import {
   StyledModalVerticalPanel,
   StyledModalSection
 } from '../common/styled-components';
-import {media} from '@kepler.gl/styles';
+import {media} from '@soft-yyw/kepler.gl-styles';
 
 // Utils
-import {getApplicationConfig, getBaseMapLibrary, transformRequest} from '@kepler.gl/utils';
+import {getApplicationConfig, getBaseMapLibrary, transformRequest} from '@soft-yyw/kepler.gl-utils';
 import {injectIntl, IntlShape} from 'react-intl';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {NO_BASEMAP_ICON} from '@kepler.gl/constants';
-import {InputStyle, MapState} from '@kepler.gl/types';
-import {ActionHandler, inputMapStyle, loadCustomMapStyle} from '@kepler.gl/actions';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {NO_BASEMAP_ICON} from '@soft-yyw/kepler.gl-constants';
+import {InputStyle, MapState} from '@soft-yyw/kepler.gl-types';
+import {ActionHandler, inputMapStyle, loadCustomMapStyle} from '@soft-yyw/kepler.gl-actions';
 
 const MapH = 190;
 const MapW = 264;

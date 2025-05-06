@@ -7,12 +7,12 @@ import {useDispatch} from 'react-redux';
 import styled from 'styled-components';
 import {Panel, PanelGroup, PanelResizeHandle} from 'react-resizable-panels';
 
-import {addDataToMap} from '@kepler.gl/actions';
-import {generateHashId} from '@kepler.gl/common-utils';
-import {Button, FileDrop, IconButton, Icons, LoadingSpinner, Tooltip} from '@kepler.gl/components';
-import {arrowSchemaToFields} from '@kepler.gl/processors';
-import {sidePanelBg, panelBorderColor} from '@kepler.gl/styles';
-import {isAppleDevice, getApplicationConfig} from '@kepler.gl/utils';
+import {addDataToMap} from '@soft-yyw/kepler.gl-actions';
+import {generateHashId} from '@soft-yyw/kepler.gl-common-utils';
+import {Button, FileDrop, IconButton, Icons, LoadingSpinner, Tooltip} from '@soft-yyw/kepler.gl-components';
+import {arrowSchemaToFields} from '@soft-yyw/kepler.gl-processors';
+import {sidePanelBg, panelBorderColor} from '@soft-yyw/kepler.gl-styles';
+import {isAppleDevice, getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
 import MonacoEditor from './monaco-editor';
 import {SchemaPanel, SchemaSuggestion} from './schema-panel';

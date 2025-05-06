@@ -5,9 +5,9 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 
 import NotificationItemFactory from './notification-panel/notification-item';
-import {DEFAULT_NOTIFICATION_TOPICS} from '@kepler.gl/constants';
-import {Notifications} from '@kepler.gl/types';
-import {removeNotification} from '@kepler.gl/actions';
+import {DEFAULT_NOTIFICATION_TOPICS} from '@soft-yyw/kepler.gl-constants';
+import {Notifications} from '@soft-yyw/kepler.gl-types';
+import {removeNotification} from '@soft-yyw/kepler.gl-actions';
 
 const NotificationPanelContent = styled.div`
   background: transparent;

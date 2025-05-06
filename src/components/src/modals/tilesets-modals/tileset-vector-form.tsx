@@ -9,11 +9,11 @@ import {
   RemoteTileFormat,
   VectorTileDatasetMetadata,
   REMOTE_TILE
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 import {TileJSON} from '@loaders.gl/mvt';
 import {PMTilesMetadata} from '@loaders.gl/pmtiles';
-import {getMetaUrl, parseVectorMetadata, VectorTileMetadata} from '@kepler.gl/table';
-import {Merge} from '@kepler.gl/types';
+import {getMetaUrl, parseVectorMetadata, VectorTileMetadata} from '@soft-yyw/kepler.gl-table';
+import {Merge} from '@soft-yyw/kepler.gl-types';
 
 import {default as useFetchVectorTileMetadata} from '../../hooks/use-fetch-vector-tile-metadata';
 import {DatasetCreationAttributes, MetaResponse} from './common';

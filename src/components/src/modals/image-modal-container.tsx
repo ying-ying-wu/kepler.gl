@@ -4,9 +4,9 @@
 import React, {useEffect} from 'react';
 import get from 'lodash/get';
 
-import {MAP_THUMBNAIL_DIMENSION, EXPORT_IMG_RATIOS} from '@kepler.gl/constants';
-import {SetExportImageSettingUpdaterAction} from '@kepler.gl/actions';
-import {Provider} from '@kepler.gl/cloud-providers';
+import {MAP_THUMBNAIL_DIMENSION, EXPORT_IMG_RATIOS} from '@soft-yyw/kepler.gl-constants';
+import {SetExportImageSettingUpdaterAction} from '@soft-yyw/kepler.gl-actions';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
 
 export type ImageModalContainerProps = {
   provider?: Provider | null;

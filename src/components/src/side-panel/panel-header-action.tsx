@@ -5,7 +5,7 @@ import React, {ComponentType, MouseEventHandler} from 'react';
 import {TooltipProps} from 'react-tooltip';
 import classnames from 'classnames';
 import styled from 'styled-components';
-import {FormattedMessage} from '@kepler.gl/localization';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
 import {Tooltip} from '../common/styled-components';
 import {BaseProps} from '../common/icons';
 import {BaseComponentProps} from '../types';

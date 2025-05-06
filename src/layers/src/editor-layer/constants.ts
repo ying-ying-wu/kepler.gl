@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright contributors to the kepler.gl project
 
-import {RGBColor} from '@kepler.gl/types';
+import {RGBColor} from '@soft-yyw/kepler.gl-types';
 
 export const COLORS = {
   // blue

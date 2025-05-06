@@ -1,5 +1,5 @@
 {
-  "name": "@soft-kepler.gl/duckdb",
+  "name": "@soft-yyw/kepler.gl-duckdb",
   "author": "Shan He <heshan0131@gmail.com>",
   "version": "3.1.4",
   "description": "DuckDB plugin for Kepler.gl",
@@ -26,13 +26,13 @@
   ],
   "dependencies": {
     "@duckdb/duckdb-wasm": "^1.28.0",
-    "@kepler.gl/common-utils": "3.1.4",
-    "@kepler.gl/constants": "3.1.4",
-    "@kepler.gl/processors": "3.1.4",
-    "@kepler.gl/table": "3.1.4",
-    "@kepler.gl/types": "3.1.4",
     "@monaco-editor/react": "^4.6.0",
     "@radix-ui/react-collapsible": "^1.1.0",
+    "@soft-yyw/kepler.gl-common-utils": "3.1.4",
+    "@soft-yyw/kepler.gl-constants": "3.1.4",
+    "@soft-yyw/kepler.gl-processors": "3.1.4",
+    "@soft-yyw/kepler.gl-table": "3.1.4",
+    "@soft-yyw/kepler.gl-types": "3.1.4",
     "apache-arrow": ">=15.0.0",
     "monaco-editor": "^0.52.0",
     "react-resizable-panels": "^2.1.7"

@@ -7,16 +7,16 @@ import classnames from 'classnames';
 import {CSS} from '@dnd-kit/utilities';
 import {useSortable, SortableContext, verticalListSortingStrategy} from '@dnd-kit/sortable';
 
-import {dataTestIds} from '@kepler.gl/constants';
-import {findById} from '@kepler.gl/utils';
-import {Effect} from '@kepler.gl/types';
+import {dataTestIds} from '@soft-yyw/kepler.gl-constants';
+import {findById} from '@soft-yyw/kepler.gl-utils';
+import {Effect} from '@soft-yyw/kepler.gl-types';
 import {
   addEffect,
   updateEffect,
   removeEffect,
   reorderEffect,
   ActionHandler
-} from '@kepler.gl/actions';
+} from '@soft-yyw/kepler.gl-actions';
 
 import {SORTABLE_EFFECT_TYPE, SORTABLE_EFFECT_PANEL_TYPE} from '../common/dnd-layer-items';
 import EffectPanelFactory from './effect-panel';

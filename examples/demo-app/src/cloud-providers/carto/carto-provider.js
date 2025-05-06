@@ -4,9 +4,9 @@
 import {OAuthApp} from '@carto/toolkit';
 import Console from 'global/console';
 import CartoIcon from './carto-icon';
-import {Provider} from '@kepler.gl/cloud-providers';
-import {createDataContainer} from '@kepler.gl/utils';
-import {formatCsv} from '@kepler.gl/reducers';
+import {Provider} from '@soft-yyw/kepler.gl-cloud-providers';
+import {createDataContainer} from '@soft-yyw/kepler.gl-utils';
+import {formatCsv} from '@soft-yyw/kepler.gl-reducers';
 
 const NAME = 'carto';
 const DISPLAY_NAME = 'CARTO';

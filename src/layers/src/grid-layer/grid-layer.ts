@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {GeoJsonLayer} from '@deck.gl/layers';
-import {EnhancedGridLayer} from '@kepler.gl/deckgl-layers';
+import {EnhancedGridLayer} from '@soft-yyw/kepler.gl-deckgl-layers';
 import AggregationLayer, {AggregationLayerConfig} from '../aggregation-layer';
 import {pointToPolygonGeo} from './grid-utils';
 import GridLayerIcon from './grid-layer-icon';
@@ -14,8 +14,8 @@ import {
   VisConfigRange,
   VisConfigSelection,
   Merge
-} from '@kepler.gl/types';
-import {AggregationTypes} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-types';
+import {AggregationTypes} from '@soft-yyw/kepler.gl-constants';
 
 export type GridLayerVisConfigSettings = {
   opacity: VisConfigNumber;

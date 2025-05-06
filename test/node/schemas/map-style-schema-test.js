@@ -3,7 +3,7 @@
 
 import test from 'tape';
 import cloneDeep from 'lodash/cloneDeep';
-import SchemaManager from '@kepler.gl/schemas';
+import SchemaManager from '@soft-yyw/kepler.gl-schemas';
 import {
   InitialState,
   StateWCustomMapStyleLocal,

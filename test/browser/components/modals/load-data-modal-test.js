@@ -10,7 +10,7 @@ import {
   ModalTabItem,
   LoadStorageMapFactory,
   appInjector
-} from '@kepler.gl/components';
+} from '@soft-yyw/kepler.gl-components';
 
 const LoadDataModal = appInjector.get(LoadDataModalFactory);
 const LoadStorageMap = appInjector.get(LoadStorageMapFactory);

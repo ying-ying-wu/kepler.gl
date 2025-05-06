@@ -11,11 +11,11 @@ import {
   removeEffect,
   reorderEffect,
   ActionHandler
-} from '@kepler.gl/actions';
-import {LIGHT_AND_SHADOW_EFFECT, EFFECT_DESCRIPTIONS} from '@kepler.gl/constants';
-import {visStateLens} from '@kepler.gl/reducers';
-import {Effect} from '@kepler.gl/types';
-import {VisState} from '@kepler.gl/schemas';
+} from '@soft-yyw/kepler.gl-actions';
+import {LIGHT_AND_SHADOW_EFFECT, EFFECT_DESCRIPTIONS} from '@soft-yyw/kepler.gl-constants';
+import {visStateLens} from '@soft-yyw/kepler.gl-reducers';
+import {Effect} from '@soft-yyw/kepler.gl-types';
+import {VisState} from '@soft-yyw/kepler.gl-schemas';
 
 import {withState} from '../injector';
 import SidePanelTitleFactory from './side-panel-title';

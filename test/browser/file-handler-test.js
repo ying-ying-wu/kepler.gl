@@ -3,8 +3,8 @@
 
 /* eslint-disable max-statements */
 import test from 'tape';
-import {generateHashIdFromString} from '@kepler.gl/utils';
-import {processFileData, readFileInBatches, csvWithNull} from '@kepler.gl/processors';
+import {generateHashIdFromString} from '@soft-yyw/kepler.gl-utils';
+import {processFileData, readFileInBatches, csvWithNull} from '@soft-yyw/kepler.gl-processors';
 import {dataWithNulls, testFields, parsedDataWithNulls} from 'test/fixtures/test-csv-data';
 import geojsonString, {
   featureString,

@@ -13,9 +13,9 @@ import * as arrow from 'apache-arrow';
 import {DataType} from 'apache-arrow/type';
 import {DuckDBDataProtocol} from '@duckdb/duckdb-wasm';
 
-import {GEOARROW_EXTENSIONS, GEOARROW_METADATA_KEY} from '@kepler.gl/constants';
-import {ProtoDatasetField} from '@kepler.gl/types';
-import {DatabaseConnection, getApplicationConfig} from '@kepler.gl/utils';
+import {GEOARROW_EXTENSIONS, GEOARROW_METADATA_KEY} from '@soft-yyw/kepler.gl-constants';
+import {ProtoDatasetField} from '@soft-yyw/kepler.gl-types';
+import {DatabaseConnection, getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
 export const SUPPORTED_DUCKDB_DROP_EXTENSIONS = ['arrow', 'csv', 'geojson', 'json', 'parquet'];
 

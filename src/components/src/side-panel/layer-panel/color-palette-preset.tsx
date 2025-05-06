@@ -5,8 +5,8 @@ import React from 'react';
 import styled from 'styled-components';
 import {range} from 'd3-array';
 
-import {ColorsByTheme} from '@kepler.gl/constants';
-import {HexColor} from '@kepler.gl/types';
+import {ColorsByTheme} from '@soft-yyw/kepler.gl-constants';
+import {HexColor} from '@soft-yyw/kepler.gl-types';
 
 const PALETTE_HEIGHT = '8px';
 const ROWS = 22;

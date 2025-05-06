@@ -3,16 +3,16 @@
 
 import test from 'tape';
 
-import {registerEntry} from '@kepler.gl/actions';
-import keplerGlReducer from '@kepler.gl/reducers';
+import {registerEntry} from '@soft-yyw/kepler.gl-actions';
+import keplerGlReducer from '@soft-yyw/kepler.gl-reducers';
 import {
   getMapJSON,
   exportToJsonString,
   getScaleFromImageSize,
   isMSEdge,
   calculateExportImageSize
-} from '@kepler.gl/utils';
-import {EXPORT_IMG_RATIOS, RESOLUTIONS} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-utils';
+import {EXPORT_IMG_RATIOS, RESOLUTIONS} from '@soft-yyw/kepler.gl-constants';
 
 test('exportUtils -> ExportJson', t => {
   const state = keplerGlReducer(undefined, registerEntry({id: 'test'})).test;

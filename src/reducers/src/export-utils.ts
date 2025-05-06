@@ -4,17 +4,17 @@
 import {Blob} from 'global/window';
 import {csvFormatRows} from 'd3-dsv';
 
-import {EXPORT_DATA_TYPE} from '@kepler.gl/constants';
-import {Field} from '@kepler.gl/types';
-import KeplerTable, {Datasets} from '@kepler.gl/table';
+import {EXPORT_DATA_TYPE} from '@soft-yyw/kepler.gl-constants';
+import {Field} from '@soft-yyw/kepler.gl-types';
+import KeplerTable, {Datasets} from '@soft-yyw/kepler.gl-table';
 
 import {
   createIndexedDataContainer,
   DataContainerInterface,
   parseFieldValue,
   downloadFile
-} from '@kepler.gl/utils';
-import {getApplicationConfig} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-utils';
+import {getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
 interface StateType {
   visState: {datasets: Datasets};

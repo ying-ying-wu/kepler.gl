@@ -13,8 +13,8 @@ import {
   testRows,
   preparedFilterDomain0
 } from 'test/helpers/layer-utils';
-import {s2DefaultElevation as defaultElevation, KeplerGlLayers} from '@kepler.gl/layers';
-import {copyTableAndUpdate} from '@kepler.gl/table';
+import {s2DefaultElevation as defaultElevation, KeplerGlLayers} from '@soft-yyw/kepler.gl-layers';
+import {copyTableAndUpdate} from '@soft-yyw/kepler.gl-table';
 
 const {S2GeometryLayer} = KeplerGlLayers;
 

@@ -5,8 +5,8 @@ import * as arrow from 'apache-arrow';
 import {Feature, BBox} from 'geojson';
 import {getGeoMetadata} from '@loaders.gl/gis';
 
-import {GEOARROW_EXTENSIONS, GEOARROW_METADATA_KEY} from '@kepler.gl/constants';
-import {KeplerTable} from '@kepler.gl/table';
+import {GEOARROW_EXTENSIONS, GEOARROW_METADATA_KEY} from '@soft-yyw/kepler.gl-constants';
+import {KeplerTable} from '@soft-yyw/kepler.gl-table';
 import {
   Field,
   ProtoDatasetField,
@@ -15,8 +15,8 @@ import {
   LayerColumn,
   LayerColumns,
   RGBColor
-} from '@kepler.gl/types';
-import {DataContainerInterface, ArrowDataContainer} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-types';
+import {DataContainerInterface, ArrowDataContainer} from '@soft-yyw/kepler.gl-utils';
 import {
   getBinaryGeometriesFromArrow,
   parseGeometryFromArrow,

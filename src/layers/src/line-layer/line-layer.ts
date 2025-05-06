@@ -5,13 +5,13 @@ import * as arrow from 'apache-arrow';
 
 import {BrushingExtension} from '@deck.gl/extensions';
 
-import {GeoArrowArcLayer} from '@kepler.gl/deckgl-arrow-layers';
-import {FilterArrowExtension} from '@kepler.gl/deckgl-layers';
-import {EnhancedLineLayer} from '@kepler.gl/deckgl-layers';
+import {GeoArrowArcLayer} from '@soft-yyw/kepler.gl-deckgl-arrow-layers';
+import {FilterArrowExtension} from '@soft-yyw/kepler.gl-deckgl-layers';
+import {EnhancedLineLayer} from '@soft-yyw/kepler.gl-deckgl-layers';
 import LineLayerIcon from './line-layer-icon';
 import {VisualChannel} from '../base-layer';
 import ArcLayer, {ArcLayerConfig} from '../arc-layer/arc-layer';
-import {LAYER_VIS_CONFIGS, PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@kepler.gl/constants';
+import {LAYER_VIS_CONFIGS, PROJECTED_PIXEL_SIZE_MULTIPLIER} from '@soft-yyw/kepler.gl-constants';
 import {
   ColorRange,
   Merge,
@@ -21,9 +21,9 @@ import {
   VisConfigNumber,
   VisConfigRange,
   LayerColumn
-} from '@kepler.gl/types';
-import {default as KeplerTable} from '@kepler.gl/table';
-import {DataContainerInterface, maybeHexToGeo} from '@kepler.gl/utils';
+} from '@soft-yyw/kepler.gl-types';
+import {default as KeplerTable} from '@soft-yyw/kepler.gl-table';
+import {DataContainerInterface, maybeHexToGeo} from '@soft-yyw/kepler.gl-utils';
 
 export type LineLayerVisConfigSettings = {
   opacity: VisConfigNumber;

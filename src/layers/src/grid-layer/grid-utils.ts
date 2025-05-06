@@ -2,7 +2,7 @@
 // Copyright contributors to the kepler.gl project
 
 import {WebMercatorViewport} from '@deck.gl/core';
-import {MapState} from '@kepler.gl/types';
+import {MapState} from '@soft-yyw/kepler.gl-types';
 
 /**
  * top left of the grid to a square polygon for the hover layer

@@ -7,8 +7,8 @@ import ReactMarkdown from 'react-markdown';
 import styled from 'styled-components';
 import {useLocalStorage} from 'usehooks-ts';
 
-import {Icons, IconRoundSmall, MapControlButton} from '@kepler.gl/components';
-import {getApplicationConfig} from '@kepler.gl/utils';
+import {Icons, IconRoundSmall, MapControlButton} from '@soft-yyw/kepler.gl-components';
+import {getApplicationConfig} from '@soft-yyw/kepler.gl-utils';
 
 const StyledFloatingPanel = styled.div`
   margin-right: 12px;

@@ -3,7 +3,7 @@
 
 import test from 'tape';
 
-import {createNewDataEntry} from '@kepler.gl/table';
+import {createNewDataEntry} from '@soft-yyw/kepler.gl-table';
 
 test('Dataset Utils -> createNewDataEntry', t => {
   const task = createNewDataEntry({

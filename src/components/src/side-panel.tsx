@@ -13,7 +13,7 @@ import {
   EXPORT_IMAGE_ID,
   ADD_DATA_ID,
   ADD_MAP_STYLE_ID
-} from '@kepler.gl/constants';
+} from '@soft-yyw/kepler.gl-constants';
 
 import {BaseMap, Layers, FilterFunnel, PointerClick} from './common/icons';
 

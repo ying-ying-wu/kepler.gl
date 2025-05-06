@@ -5,9 +5,9 @@
 import {AGGREGATION_OPERATION, _BinSorter as BinSorter} from '@deck.gl/aggregation-layers';
 import {console as Console} from 'global/window';
 
-import {aggregate} from '@kepler.gl/utils';
-import {AGGREGATION_TYPES, SCALE_FUNC} from '@kepler.gl/constants';
-import {RGBAColor} from '@kepler.gl/types';
+import {aggregate} from '@soft-yyw/kepler.gl-utils';
+import {AGGREGATION_TYPES, SCALE_FUNC} from '@soft-yyw/kepler.gl-constants';
+import {RGBAColor} from '@soft-yyw/kepler.gl-types';
 
 export type UpdaterType = (this: CPUAggregator, step, props, dimensionUpdater) => void;
 export type BindedUpdaterType = () => void;

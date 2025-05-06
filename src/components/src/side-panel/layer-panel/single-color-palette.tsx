@@ -5,10 +5,10 @@ import React, {MouseEvent, useCallback, useState} from 'react';
 import styled from 'styled-components';
 import classnames from 'classnames';
 
-import {hexToRgb} from '@kepler.gl/utils';
-import {FormattedMessage} from '@kepler.gl/localization';
-import {Themes} from '@kepler.gl/constants';
-import {ColorRange, HexColor, RGBColor} from '@kepler.gl/types';
+import {hexToRgb} from '@soft-yyw/kepler.gl-utils';
+import {FormattedMessage} from '@soft-yyw/kepler.gl-localization';
+import {Themes} from '@soft-yyw/kepler.gl-constants';
+import {ColorRange, HexColor, RGBColor} from '@soft-yyw/kepler.gl-types';
 
 import CustomPicker from './custom-picker';
 import PresetColorPalette from './color-palette-preset';

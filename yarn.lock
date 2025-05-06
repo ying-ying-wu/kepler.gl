@@ -3126,166 +3126,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kepler.gl/actions@npm:3.1.4, @kepler.gl/actions@workspace:src/actions":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/actions@workspace:src/actions"
-  dependencies:
-    "@deck.gl/core": "npm:^8.9.27"
-    "@kepler.gl/cloud-providers": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/layers": "npm:3.1.4"
-    "@kepler.gl/processors": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@reduxjs/toolkit": "npm:^1.7.2"
-    "@types/lodash": "npm:4.17.5"
-    "@types/react-redux": "npm:^7.1.23"
-    "@types/redux-actions": "npm:^2.6.2"
-    lodash: "npm:4.17.21"
-    react-palm: "npm:^3.3.8"
-    react-redux: "npm:^8.0.5"
-    redux: "npm:^4.2.1"
-    redux-actions: "npm:^2.2.1"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/ai-assistant@workspace:src/ai-assistant":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/ai-assistant@workspace:src/ai-assistant"
-  dependencies:
-    "@kepler.gl/components": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/layers": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@openassistant/core": "npm:^0.0.7"
-    "@openassistant/echarts": "npm:^0.0.6"
-    "@openassistant/geoda": "npm:^0.0.6"
-    "@openassistant/ui": "npm:^0.0.7"
-    color-interpolate: "npm:^1.0.5"
-    echarts: "npm:^5.5.1"
-    global: "npm:^4.3.0"
-    react-intl: "npm:^6.3.0"
-    usehooks-ts: "npm:^3.1.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/cloud-providers@npm:3.1.4, @kepler.gl/cloud-providers@workspace:src/cloud-providers":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/cloud-providers@workspace:src/cloud-providers"
-  dependencies:
-    "@kepler.gl/types": "npm:3.1.4"
-    react: "npm:^18.2.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/common-utils@npm:3.1.4, @kepler.gl/common-utils@workspace:src/common-utils":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/common-utils@workspace:src/common-utils"
-  dependencies:
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    d3-array: "npm:^2.8.0"
-    global: "npm:^4.3.0"
-    h3-js: "npm:^3.1.0"
-    type-analyzer: "npm:0.4.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/components@npm:3.1.4, @kepler.gl/components@workspace:src/components":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/components@workspace:src/components"
-  dependencies:
-    "@deck.gl/core": "npm:^8.9.27"
-    "@deck.gl/react": "npm:^8.9.27"
-    "@dnd-kit/core": "npm:^6.1.0"
-    "@dnd-kit/modifiers": "npm:^7.0.0"
-    "@dnd-kit/sortable": "npm:^8.0.0"
-    "@dnd-kit/utilities": "npm:^3.2.2"
-    "@emotion/is-prop-valid": "npm:^1.2.1"
-    "@floating-ui/react": "npm:0.25.1"
-    "@kepler.gl/actions": "npm:3.1.4"
-    "@kepler.gl/cloud-providers": "npm:3.1.4"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/effects": "npm:3.1.4"
-    "@kepler.gl/layers": "npm:3.1.4"
-    "@kepler.gl/localization": "npm:3.1.4"
-    "@kepler.gl/processors": "npm:3.1.4"
-    "@kepler.gl/reducers": "npm:3.1.4"
-    "@kepler.gl/schemas": "npm:3.1.4"
-    "@kepler.gl/styles": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@loaders.gl/mvt": "npm:^4.3.2"
-    "@loaders.gl/pmtiles": "npm:^4.3.2"
-    "@mapbox/mapbox-sdk": "npm:^0.15.3"
-    "@nebula.gl/edit-modes": "npm:1.0.2-alpha.1"
-    "@tippyjs/react": "npm:^4.2.0"
-    "@types/classnames": "npm:^2.3.1"
-    "@types/d3-array": "npm:^2.8.0"
-    "@types/d3-brush": "npm:^3.0.1"
-    "@types/d3-scale": "npm:^3.2.2"
-    "@types/d3-selection": "npm:^3.0.2"
-    "@types/exenv": "npm:^1.2.0"
-    "@types/lodash": "npm:4.17.5"
-    "@types/react": "npm:^18.0.28"
-    "@types/react-copy-to-clipboard": "npm:^5.0.2"
-    "@types/react-dom": "npm:^18.0.11"
-    "@types/react-lifecycles-compat": "npm:^3.0.1"
-    "@types/react-map-gl": "npm:^6.1.3"
-    "@types/react-modal": "npm:^3.13.1"
-    "@types/react-redux": "npm:^7.1.23"
-    "@types/react-virtualized": "npm:^9.21.30"
-    "@types/react-vis": "npm:1.11.7"
-    "@types/styled-components": "npm:^5.1.32"
-    classnames: "npm:^2.2.1"
-    copy-to-clipboard: "npm:^3.3.1"
-    d3-array: "npm:^2.8.0"
-    d3-axis: "npm:^2.0.0"
-    d3-brush: "npm:^2.1.0"
-    d3-color: "npm:^2.0.0"
-    d3-format: "npm:^2.0.0"
-    d3-scale: "npm:^3.2.3"
-    d3-selection: "npm:^2.0.0"
-    exenv: "npm:^1.2.2"
-    fuzzy: "npm:^0.1.3"
-    global: "npm:^4.3.0"
-    lodash: "npm:4.17.21"
-    mapbox-gl: "npm:1.13.1"
-    maplibre-gl: "npm:^3.6.2"
-    mjolnir.js: "npm:^2.7.0"
-    moment: "npm:^2.10.6"
-    moment-timezone: "npm:^0.5.35"
-    prop-types: "npm:^15.6.0"
-    react: "npm:^18.2.0"
-    react-color: "npm:^2.19.3"
-    react-copy-to-clipboard: "npm:^5.0.2"
-    react-date-picker: "npm:^10.2.0"
-    react-dom: "npm:^18.2.0"
-    react-intl: "npm:^6.3.0"
-    react-json-pretty: "npm:^2.2.0"
-    react-lifecycles-compat: "npm:^3.0.4"
-    react-map-gl: "npm:^7.1.6"
-    react-markdown: "npm:^10.0.0"
-    react-modal: "npm:^3.12.1"
-    react-redux: "npm:^8.0.5"
-    react-sortable-hoc: "npm:^1.8.3"
-    react-time-picker: "npm:^6.2.0"
-    react-tooltip: "npm:^4.2.17"
-    react-virtualized: "npm:^9.22.5"
-    react-vis: "npm:1.11.7"
-    redux: "npm:^4.2.1"
-    reselect: "npm:^4.1.0"
-    styled-components: "npm:6.1.8"
-    suncalc: "npm:^1.9.0"
-    viewport-mercator-project: "npm:^6.0.0"
-  languageName: unknown
-  linkType: soft
-
 "@kepler.gl/constants@npm:3.1.0":
   version: 3.1.0
   resolution: "@kepler.gl/constants@npm:3.1.0"
@@ -3308,360 +3148,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kepler.gl/constants@npm:3.1.4, @kepler.gl/constants@npm:^3.1.3, @kepler.gl/constants@workspace:src/constants":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/constants@workspace:src/constants"
-  dependencies:
-    "@kepler.gl/types": "npm:3.1.4"
-    "@types/d3-scale": "npm:^3.2.2"
-    "@types/d3-time": "npm:^2"
-    "@types/keymirror": "npm:^0.1.1"
-    chroma-js: "npm:2.1.2"
-    colorbrewer: "npm:^1.5.0"
-    d3-array: "npm:^2.8.0"
-    d3-color: "npm:^2.0.0"
-    d3-scale: "npm:^3.2.3"
-    d3-scale-chromatic: "npm:2.0.0"
-    d3-time: "npm:^2.0.0"
-    global: "npm:^4.3.0"
-    keymirror: "npm:^0.1.1"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/deckgl-arrow-layers@npm:3.1.4, @kepler.gl/deckgl-arrow-layers@workspace:src/deckgl-arrow-layers":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/deckgl-arrow-layers@workspace:src/deckgl-arrow-layers"
-  dependencies:
-    "@geoarrow/geoarrow-js": "npm:^0.3.0"
-    "@kepler.gl/constants": "npm:^3.1.3"
-    "@math.gl/core": "npm:^4.0.0"
-    "@math.gl/polygon": "npm:^4.0.0"
-    "@math.gl/types": "npm:^4.0.0"
-    apache-arrow: "npm:>=15"
-    threads: "npm:^1.7.0"
-  peerDependencies:
-    "@deck.gl/aggregation-layers": ^8.9.27
-    "@deck.gl/core": ^8.9.27
-    "@deck.gl/geo-layers": ^8.9.27
-    "@deck.gl/layers": ^8.9.27
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/deckgl-layers@npm:3.1.4, @kepler.gl/deckgl-layers@workspace:src/deckgl-layers":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/deckgl-layers@workspace:src/deckgl-layers"
-  dependencies:
-    "@danmarshall/deckgl-typings": "npm:4.9.22"
-    "@deck.gl/aggregation-layers": "npm:^8.9.27"
-    "@deck.gl/core": "npm:^8.9.27"
-    "@deck.gl/geo-layers": "npm:^8.9.27"
-    "@deck.gl/layers": "npm:^8.9.27"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@luma.gl/constants": "npm:^8.5.20"
-    "@luma.gl/core": "npm:^8.5.20"
-    "@mapbox/geo-viewport": "npm:^0.4.1"
-    "@mapbox/vector-tile": "npm:^1.3.1"
-    "@types/d3-array": "npm:^2.8.0"
-    "@types/geojson": "npm:^7946.0.8"
-    "@types/lodash": "npm:4.17.5"
-    "@types/supercluster": "npm:^7.1.0"
-    d3-array: "npm:^2.8.0"
-    global: "npm:^4.3.0"
-    lodash: "npm:4.17.21"
-    pbf: "npm:^3.1.0"
-    supercluster: "npm:^7.1.0"
-    viewport-mercator-project: "npm:^6.0.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/duckdb@workspace:src/duckdb":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/duckdb@workspace:src/duckdb"
-  dependencies:
-    "@duckdb/duckdb-wasm": "npm:^1.28.0"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/processors": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@monaco-editor/react": "npm:^4.6.0"
-    "@radix-ui/react-collapsible": "npm:^1.1.0"
-    apache-arrow: "npm:>=15.0.0"
-    monaco-editor: "npm:^0.52.0"
-    react-resizable-panels: "npm:^2.1.7"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/effects@npm:3.1.4, @kepler.gl/effects@workspace:src/effects":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/effects@workspace:src/effects"
-  dependencies:
-    "@deck.gl/core": "npm:^8.9.27"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@luma.gl/core": "npm:^8.5.20"
-    "@luma.gl/shadertools": "npm:^8.5.20"
-    moment-timezone: "npm:^0.5.35"
-    suncalc: "npm:^1.9.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/layers@npm:3.1.4, @kepler.gl/layers@workspace:src/layers":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/layers@workspace:src/layers"
-  dependencies:
-    "@danmarshall/deckgl-typings": "npm:4.9.22"
-    "@deck.gl/core": "npm:^8.9.27"
-    "@deck.gl/extensions": "npm:^8.9.27"
-    "@deck.gl/geo-layers": "npm:^8.9.27"
-    "@deck.gl/layers": "npm:^8.9.27"
-    "@deck.gl/mesh-layers": "npm:^8.9.27"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/deckgl-arrow-layers": "npm:3.1.4"
-    "@kepler.gl/deckgl-layers": "npm:3.1.4"
-    "@kepler.gl/localization": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@loaders.gl/arrow": "npm:^4.3.2"
-    "@loaders.gl/core": "npm:^4.3.2"
-    "@loaders.gl/gis": "npm:^4.3.2"
-    "@loaders.gl/gltf": "npm:^4.3.2"
-    "@loaders.gl/mvt": "npm:^4.3.2"
-    "@loaders.gl/parquet": "npm:^4.3.2"
-    "@loaders.gl/pmtiles": "npm:^4.3.2"
-    "@loaders.gl/schema": "npm:^4.3.2"
-    "@loaders.gl/wkt": "npm:^4.3.2"
-    "@luma.gl/constants": "npm:^8.5.20"
-    "@mapbox/geojson-normalize": "npm:0.0.1"
-    "@nebula.gl/edit-modes": "npm:1.0.2-alpha.1"
-    "@nebula.gl/layers": "npm:1.0.2-alpha.1"
-    "@turf/bbox": "npm:^6.0.1"
-    "@turf/boolean-within": "npm:^6.0.1"
-    "@turf/center": "npm:^6.0.1"
-    "@turf/helpers": "npm:^6.1.4"
-    "@types/geojson": "npm:^7946.0.8"
-    "@types/keymirror": "npm:^0.1.1"
-    "@types/lodash": "npm:4.17.5"
-    "@types/styled-components": "npm:^5.1.32"
-    apache-arrow: "npm:>=15.0.0"
-    buffer: "npm:6.0.3"
-    d3-array: "npm:^2.8.0"
-    d3-shape: "npm:^1.2.0"
-    global: "npm:^4.3.0"
-    keymirror: "npm:^0.1.1"
-    lodash: "npm:4.17.21"
-    long: "npm:^4.0.0"
-    prop-types: "npm:^15.6.0"
-    react: "npm:^18.2.0"
-    react-intl: "npm:^6.3.0"
-    react-markdown: "npm:^10.0.0"
-    reselect: "npm:^4.1.0"
-    s2-geometry: "npm:^1.2.10"
-    styled-components: "npm:6.1.8"
-    type-analyzer: "npm:0.4.0"
-    viewport-mercator-project: "npm:^6.0.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/localization@npm:3.1.4, @kepler.gl/localization@workspace:src/localization":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/localization@workspace:src/localization"
-  dependencies:
-    react: "npm:^18.2.0"
-    react-intl: "npm:^6.3.0"
-    redux: "npm:^4.2.1"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/processors@npm:3.1.4, @kepler.gl/processors@workspace:src/processors":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/processors@workspace:src/processors"
-  dependencies:
-    "@danmarshall/deckgl-typings": "npm:4.9.22"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/schemas": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@loaders.gl/arrow": "npm:^4.3.2"
-    "@loaders.gl/core": "npm:^4.3.2"
-    "@loaders.gl/csv": "npm:^4.3.2"
-    "@loaders.gl/gis": "npm:^4.3.2"
-    "@loaders.gl/json": "npm:^4.3.2"
-    "@loaders.gl/loader-utils": "npm:^4.3.2"
-    "@loaders.gl/parquet": "npm:^4.3.2"
-    "@loaders.gl/schema": "npm:^4.3.2"
-    "@loaders.gl/wkt": "npm:^4.3.2"
-    "@mapbox/geojson-normalize": "npm:0.0.1"
-    "@nebula.gl/edit-modes": "npm:1.0.2-alpha.1"
-    "@turf/helpers": "npm:^6.1.4"
-    apache-arrow: "npm:>=15.0.0"
-    d3-dsv: "npm:^2.0.0"
-    type-analyzer: "npm:0.4.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/reducers@npm:3.1.4, @kepler.gl/reducers@workspace:src/reducers":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/reducers@workspace:src/reducers"
-  dependencies:
-    "@kepler.gl/actions": "npm:3.1.4"
-    "@kepler.gl/cloud-providers": "npm:3.1.4"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/deckgl-arrow-layers": "npm:3.1.4"
-    "@kepler.gl/deckgl-layers": "npm:3.1.4"
-    "@kepler.gl/effects": "npm:3.1.4"
-    "@kepler.gl/layers": "npm:3.1.4"
-    "@kepler.gl/localization": "npm:3.1.4"
-    "@kepler.gl/processors": "npm:3.1.4"
-    "@kepler.gl/schemas": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/tasks": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@loaders.gl/loader-utils": "npm:^4.3.2"
-    "@mapbox/geo-viewport": "npm:^0.4.1"
-    "@math.gl/web-mercator": "npm:^3.6.2"
-    "@turf/bbox": "npm:^6.0.1"
-    "@turf/bbox-polygon": "npm:^6.0.1"
-    "@turf/boolean-within": "npm:^6.0.1"
-    "@types/lodash": "npm:4.17.5"
-    "@types/redux-actions": "npm:^2.6.2"
-    copy-to-clipboard: "npm:^3.3.1"
-    d3-color: "npm:^2.0.0"
-    d3-dsv: "npm:^2.0.0"
-    deepmerge: "npm:^4.2.2"
-    global: "npm:^4.3.0"
-    lodash: "npm:4.17.21"
-    react-palm: "npm:^3.3.8"
-    redux: "npm:^4.2.1"
-    redux-actions: "npm:^2.2.1"
-    reselect: "npm:^4.1.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/schemas@npm:3.1.4, @kepler.gl/schemas@workspace:src/schemas":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/schemas@workspace:src/schemas"
-  dependencies:
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/layers": "npm:3.1.4"
-    "@kepler.gl/table": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@loaders.gl/loader-utils": "npm:^4.3.2"
-    "@types/keymirror": "npm:^0.1.1"
-    "@types/lodash": "npm:4.17.5"
-    apache-arrow: "npm:>=15.0.0"
-    global: "npm:^4.3.0"
-    keymirror: "npm:^0.1.1"
-    lodash: "npm:4.17.21"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/styles@npm:3.1.4, @kepler.gl/styles@workspace:src/styles":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/styles@workspace:src/styles"
-  dependencies:
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@types/styled-components": "npm:^5.1.32"
-    styled-components: "npm:6.1.8"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/table@npm:3.1.4, @kepler.gl/table@workspace:src/table":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/table@workspace:src/table"
-  dependencies:
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@kepler.gl/utils": "npm:3.1.4"
-    "@loaders.gl/mvt": "npm:^4.3.2"
-    "@loaders.gl/pmtiles": "npm:^4.3.2"
-    "@types/d3-array": "npm:^2.8.0"
-    "@types/lodash": "npm:4.17.5"
-    d3-array: "npm:^2.8.0"
-    global: "npm:^4.3.0"
-    lodash: "npm:4.17.21"
-    moment: "npm:^2.10.6"
-    react-palm: "npm:^3.3.8"
-    type-analyzer: "npm:0.4.0"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/tasks@npm:3.1.4, @kepler.gl/tasks@workspace:src/tasks":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/tasks@workspace:src/tasks"
-  dependencies:
-    "@kepler.gl/processors": "npm:3.1.4"
-    react-palm: "npm:^3.3.8"
-  languageName: unknown
-  linkType: soft
-
 "@kepler.gl/types@npm:3.1.0":
   version: 3.1.0
   resolution: "@kepler.gl/types@npm:3.1.0"
   checksum: 10c0/af3e25cf6d04b264f46c9e303f3f0da1a4f9ad993a13ca67ffb7f7e24ead552f48b8a6139b7e58c2e9f39ca8582c7b0b7a370b55ba5783a62a98a0af7250dcca
   languageName: node
   linkType: hard
-
-"@kepler.gl/types@npm:3.1.4, @kepler.gl/types@workspace:src/types":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/types@workspace:src/types"
-  languageName: unknown
-  linkType: soft
-
-"@kepler.gl/utils@npm:3.1.4, @kepler.gl/utils@workspace:src/utils":
-  version: 0.0.0-use.local
-  resolution: "@kepler.gl/utils@workspace:src/utils"
-  dependencies:
-    "@deck.gl/core": "npm:^8.9.27"
-    "@kepler.gl/common-utils": "npm:3.1.4"
-    "@kepler.gl/constants": "npm:3.1.4"
-    "@kepler.gl/types": "npm:3.1.4"
-    "@loaders.gl/arrow": "npm:^4.3.2"
-    "@luma.gl/constants": "npm:^8.5.20"
-    "@luma.gl/core": "npm:^8.5.20"
-    "@mapbox/geo-viewport": "npm:^0.4.1"
-    "@turf/boolean-within": "npm:^6.0.1"
-    "@turf/helpers": "npm:^6.1.4"
-    "@types/d3-array": "npm:^2.8.0"
-    "@types/keymirror": "npm:^0.1.1"
-    "@types/lodash": "npm:4.17.5"
-    apache-arrow: "npm:>=15.0.0"
-    d3-array: "npm:^2.8.0"
-    d3-color: "npm:^2.0.0"
-    d3-format: "npm:^2.0.0"
-    d3-interpolate: "npm:^2.0.1"
-    decimal.js: "npm:^10.2.0"
-    global: "npm:^4.3.0"
-    h3-js: "npm:^3.1.0"
-    keymirror: "npm:^0.1.1"
-    lodash: "npm:4.17.21"
-    mapbox-gl: "npm:^1.13.1"
-    maplibre-gl: "npm:^3.6.2"
-    maplibregl-mapbox-request-transformer: "npm:^0.0.2"
-    mini-svg-data-uri: "npm:^1.0.3"
-    moment: "npm:^2.10.6"
-    moment-timezone: "npm:^0.5.35"
-    react: "npm:^18.2.0"
-    react-map-gl: "npm:^7.1.6"
-    resize-observer-polyfill: "npm:^1.5.1"
-    suncalc: "npm:^1.9.0"
-    type-analyzer: "npm:0.4.0"
-    viewport-mercator-project: "npm:^6.0.0"
-  languageName: unknown
-  linkType: soft
 
 "@langchain/core@npm:^0.3.26":
   version: 0.3.33
@@ -8518,6 +8010,642 @@ __metadata:
   checksum: 10c0/2e2fb6cc57f227912814085b7b01fede050cd4746ea8d49a1e44d5a0e56a804663b0340ae2f11af7559ea9bf4d087a11f2f646197a660ea3cb04e19efc04aa63
   languageName: node
   linkType: hard
+
+"@soft-yyw/kepler.gl-actions@npm:3.1.4, @soft-yyw/kepler.gl-actions@workspace:src/actions":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-actions@workspace:src/actions"
+  dependencies:
+    "@deck.gl/core": "npm:^8.9.27"
+    "@reduxjs/toolkit": "npm:^1.7.2"
+    "@soft-yyw/kepler.gl-cloud-providers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-processors": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@types/lodash": "npm:4.17.5"
+    "@types/react-redux": "npm:^7.1.23"
+    "@types/redux-actions": "npm:^2.6.2"
+    lodash: "npm:4.17.21"
+    react-palm: "npm:^3.3.8"
+    react-redux: "npm:^8.0.5"
+    redux: "npm:^4.2.1"
+    redux-actions: "npm:^2.2.1"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-ai-assistant@workspace:src/ai-assistant":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-ai-assistant@workspace:src/ai-assistant"
+  dependencies:
+    "@openassistant/core": "npm:^0.0.7"
+    "@openassistant/echarts": "npm:^0.0.6"
+    "@openassistant/geoda": "npm:^0.0.6"
+    "@openassistant/ui": "npm:^0.0.7"
+    "@soft-yyw/kepler.gl-components": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    color-interpolate: "npm:^1.0.5"
+    echarts: "npm:^5.5.1"
+    global: "npm:^4.3.0"
+    react-intl: "npm:^6.3.0"
+    usehooks-ts: "npm:^3.1.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-cloud-providers@npm:3.1.4, @soft-yyw/kepler.gl-cloud-providers@workspace:src/cloud-providers":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-cloud-providers@workspace:src/cloud-providers"
+  dependencies:
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    react: "npm:^18.2.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-common-utils@npm:3.1.4, @soft-yyw/kepler.gl-common-utils@workspace:src/common-utils":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-common-utils@workspace:src/common-utils"
+  dependencies:
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    d3-array: "npm:^2.8.0"
+    global: "npm:^4.3.0"
+    h3-js: "npm:^3.1.0"
+    type-analyzer: "npm:0.4.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-components@npm:3.1.4, @soft-yyw/kepler.gl-components@workspace:src/components":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-components@workspace:src/components"
+  dependencies:
+    "@deck.gl/core": "npm:^8.9.27"
+    "@deck.gl/react": "npm:^8.9.27"
+    "@dnd-kit/core": "npm:^6.1.0"
+    "@dnd-kit/modifiers": "npm:^7.0.0"
+    "@dnd-kit/sortable": "npm:^8.0.0"
+    "@dnd-kit/utilities": "npm:^3.2.2"
+    "@emotion/is-prop-valid": "npm:^1.2.1"
+    "@floating-ui/react": "npm:0.25.1"
+    "@loaders.gl/mvt": "npm:^4.3.2"
+    "@loaders.gl/pmtiles": "npm:^4.3.2"
+    "@mapbox/mapbox-sdk": "npm:^0.15.3"
+    "@nebula.gl/edit-modes": "npm:1.0.2-alpha.1"
+    "@soft-yyw/kepler.gl-actions": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-cloud-providers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-effects": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-localization": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-processors": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-reducers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-schemas": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-styles": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@tippyjs/react": "npm:^4.2.0"
+    "@types/classnames": "npm:^2.3.1"
+    "@types/d3-array": "npm:^2.8.0"
+    "@types/d3-brush": "npm:^3.0.1"
+    "@types/d3-scale": "npm:^3.2.2"
+    "@types/d3-selection": "npm:^3.0.2"
+    "@types/exenv": "npm:^1.2.0"
+    "@types/lodash": "npm:4.17.5"
+    "@types/react": "npm:^18.0.28"
+    "@types/react-copy-to-clipboard": "npm:^5.0.2"
+    "@types/react-dom": "npm:^18.0.11"
+    "@types/react-lifecycles-compat": "npm:^3.0.1"
+    "@types/react-map-gl": "npm:^6.1.3"
+    "@types/react-modal": "npm:^3.13.1"
+    "@types/react-redux": "npm:^7.1.23"
+    "@types/react-virtualized": "npm:^9.21.30"
+    "@types/react-vis": "npm:1.11.7"
+    "@types/styled-components": "npm:^5.1.32"
+    classnames: "npm:^2.2.1"
+    copy-to-clipboard: "npm:^3.3.1"
+    d3-array: "npm:^2.8.0"
+    d3-axis: "npm:^2.0.0"
+    d3-brush: "npm:^2.1.0"
+    d3-color: "npm:^2.0.0"
+    d3-format: "npm:^2.0.0"
+    d3-scale: "npm:^3.2.3"
+    d3-selection: "npm:^2.0.0"
+    exenv: "npm:^1.2.2"
+    fuzzy: "npm:^0.1.3"
+    global: "npm:^4.3.0"
+    lodash: "npm:4.17.21"
+    mapbox-gl: "npm:1.13.1"
+    maplibre-gl: "npm:^3.6.2"
+    mjolnir.js: "npm:^2.7.0"
+    moment: "npm:^2.10.6"
+    moment-timezone: "npm:^0.5.35"
+    prop-types: "npm:^15.6.0"
+    react: "npm:^18.2.0"
+    react-color: "npm:^2.19.3"
+    react-copy-to-clipboard: "npm:^5.0.2"
+    react-date-picker: "npm:^10.2.0"
+    react-dom: "npm:^18.2.0"
+    react-intl: "npm:^6.3.0"
+    react-json-pretty: "npm:^2.2.0"
+    react-lifecycles-compat: "npm:^3.0.4"
+    react-map-gl: "npm:^7.1.6"
+    react-markdown: "npm:^10.0.0"
+    react-modal: "npm:^3.12.1"
+    react-redux: "npm:^8.0.5"
+    react-sortable-hoc: "npm:^1.8.3"
+    react-time-picker: "npm:^6.2.0"
+    react-tooltip: "npm:^4.2.17"
+    react-virtualized: "npm:^9.22.5"
+    react-vis: "npm:1.11.7"
+    redux: "npm:^4.2.1"
+    reselect: "npm:^4.1.0"
+    styled-components: "npm:6.1.8"
+    suncalc: "npm:^1.9.0"
+    viewport-mercator-project: "npm:^6.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-constants@npm:3.1.4, @soft-yyw/kepler.gl-constants@npm:^3.1.4, @soft-yyw/kepler.gl-constants@workspace:src/constants":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-constants@workspace:src/constants"
+  dependencies:
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@types/d3-scale": "npm:^3.2.2"
+    "@types/d3-time": "npm:^2"
+    "@types/keymirror": "npm:^0.1.1"
+    chroma-js: "npm:2.1.2"
+    colorbrewer: "npm:^1.5.0"
+    d3-array: "npm:^2.8.0"
+    d3-color: "npm:^2.0.0"
+    d3-scale: "npm:^3.2.3"
+    d3-scale-chromatic: "npm:2.0.0"
+    d3-time: "npm:^2.0.0"
+    global: "npm:^4.3.0"
+    keymirror: "npm:^0.1.1"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-deckgl-arrow-layers@npm:3.1.4, @soft-yyw/kepler.gl-deckgl-arrow-layers@workspace:src/deckgl-arrow-layers":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-deckgl-arrow-layers@workspace:src/deckgl-arrow-layers"
+  dependencies:
+    "@geoarrow/geoarrow-js": "npm:^0.3.0"
+    "@math.gl/core": "npm:^4.0.0"
+    "@math.gl/polygon": "npm:^4.0.0"
+    "@math.gl/types": "npm:^4.0.0"
+    "@soft-yyw/kepler.gl-constants": "npm:^3.1.4"
+    apache-arrow: "npm:>=15"
+    threads: "npm:^1.7.0"
+  peerDependencies:
+    "@deck.gl/aggregation-layers": ^8.9.27
+    "@deck.gl/core": ^8.9.27
+    "@deck.gl/geo-layers": ^8.9.27
+    "@deck.gl/layers": ^8.9.27
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-deckgl-layers@npm:3.1.4, @soft-yyw/kepler.gl-deckgl-layers@workspace:src/deckgl-layers":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-deckgl-layers@workspace:src/deckgl-layers"
+  dependencies:
+    "@danmarshall/deckgl-typings": "npm:4.9.22"
+    "@deck.gl/aggregation-layers": "npm:^8.9.27"
+    "@deck.gl/core": "npm:^8.9.27"
+    "@deck.gl/geo-layers": "npm:^8.9.27"
+    "@deck.gl/layers": "npm:^8.9.27"
+    "@luma.gl/constants": "npm:^8.5.20"
+    "@luma.gl/core": "npm:^8.5.20"
+    "@mapbox/geo-viewport": "npm:^0.4.1"
+    "@mapbox/vector-tile": "npm:^1.3.1"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@types/d3-array": "npm:^2.8.0"
+    "@types/geojson": "npm:^7946.0.8"
+    "@types/lodash": "npm:4.17.5"
+    "@types/supercluster": "npm:^7.1.0"
+    d3-array: "npm:^2.8.0"
+    global: "npm:^4.3.0"
+    lodash: "npm:4.17.21"
+    pbf: "npm:^3.1.0"
+    supercluster: "npm:^7.1.0"
+    viewport-mercator-project: "npm:^6.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-duckdb@workspace:src/duckdb":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-duckdb@workspace:src/duckdb"
+  dependencies:
+    "@duckdb/duckdb-wasm": "npm:^1.28.0"
+    "@monaco-editor/react": "npm:^4.6.0"
+    "@radix-ui/react-collapsible": "npm:^1.1.0"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-processors": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    apache-arrow: "npm:>=15.0.0"
+    monaco-editor: "npm:^0.52.0"
+    react-resizable-panels: "npm:^2.1.7"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-effects@npm:3.1.4, @soft-yyw/kepler.gl-effects@workspace:src/effects":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-effects@workspace:src/effects"
+  dependencies:
+    "@deck.gl/core": "npm:^8.9.27"
+    "@luma.gl/core": "npm:^8.5.20"
+    "@luma.gl/shadertools": "npm:^8.5.20"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    moment-timezone: "npm:^0.5.35"
+    suncalc: "npm:^1.9.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-layers@npm:3.1.4, @soft-yyw/kepler.gl-layers@workspace:src/layers":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-layers@workspace:src/layers"
+  dependencies:
+    "@danmarshall/deckgl-typings": "npm:4.9.22"
+    "@deck.gl/core": "npm:^8.9.27"
+    "@deck.gl/extensions": "npm:^8.9.27"
+    "@deck.gl/geo-layers": "npm:^8.9.27"
+    "@deck.gl/layers": "npm:^8.9.27"
+    "@deck.gl/mesh-layers": "npm:^8.9.27"
+    "@loaders.gl/arrow": "npm:^4.3.2"
+    "@loaders.gl/core": "npm:^4.3.2"
+    "@loaders.gl/gis": "npm:^4.3.2"
+    "@loaders.gl/gltf": "npm:^4.3.2"
+    "@loaders.gl/mvt": "npm:^4.3.2"
+    "@loaders.gl/parquet": "npm:^4.3.2"
+    "@loaders.gl/pmtiles": "npm:^4.3.2"
+    "@loaders.gl/schema": "npm:^4.3.2"
+    "@loaders.gl/wkt": "npm:^4.3.2"
+    "@luma.gl/constants": "npm:^8.5.20"
+    "@mapbox/geojson-normalize": "npm:0.0.1"
+    "@nebula.gl/edit-modes": "npm:1.0.2-alpha.1"
+    "@nebula.gl/layers": "npm:1.0.2-alpha.1"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-deckgl-arrow-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-deckgl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-localization": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@turf/bbox": "npm:^6.0.1"
+    "@turf/boolean-within": "npm:^6.0.1"
+    "@turf/center": "npm:^6.0.1"
+    "@turf/helpers": "npm:^6.1.4"
+    "@types/geojson": "npm:^7946.0.8"
+    "@types/keymirror": "npm:^0.1.1"
+    "@types/lodash": "npm:4.17.5"
+    "@types/styled-components": "npm:^5.1.32"
+    apache-arrow: "npm:>=15.0.0"
+    buffer: "npm:6.0.3"
+    d3-array: "npm:^2.8.0"
+    d3-shape: "npm:^1.2.0"
+    global: "npm:^4.3.0"
+    keymirror: "npm:^0.1.1"
+    lodash: "npm:4.17.21"
+    long: "npm:^4.0.0"
+    prop-types: "npm:^15.6.0"
+    react: "npm:^18.2.0"
+    react-intl: "npm:^6.3.0"
+    react-markdown: "npm:^10.0.0"
+    reselect: "npm:^4.1.0"
+    s2-geometry: "npm:^1.2.10"
+    styled-components: "npm:6.1.8"
+    type-analyzer: "npm:0.4.0"
+    viewport-mercator-project: "npm:^6.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-localization@npm:3.1.4, @soft-yyw/kepler.gl-localization@workspace:src/localization":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-localization@workspace:src/localization"
+  dependencies:
+    react: "npm:^18.2.0"
+    react-intl: "npm:^6.3.0"
+    redux: "npm:^4.2.1"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-processors@npm:3.1.4, @soft-yyw/kepler.gl-processors@workspace:src/processors":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-processors@workspace:src/processors"
+  dependencies:
+    "@danmarshall/deckgl-typings": "npm:4.9.22"
+    "@loaders.gl/arrow": "npm:^4.3.2"
+    "@loaders.gl/core": "npm:^4.3.2"
+    "@loaders.gl/csv": "npm:^4.3.2"
+    "@loaders.gl/gis": "npm:^4.3.2"
+    "@loaders.gl/json": "npm:^4.3.2"
+    "@loaders.gl/loader-utils": "npm:^4.3.2"
+    "@loaders.gl/parquet": "npm:^4.3.2"
+    "@loaders.gl/schema": "npm:^4.3.2"
+    "@loaders.gl/wkt": "npm:^4.3.2"
+    "@mapbox/geojson-normalize": "npm:0.0.1"
+    "@nebula.gl/edit-modes": "npm:1.0.2-alpha.1"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-schemas": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@turf/helpers": "npm:^6.1.4"
+    apache-arrow: "npm:>=15.0.0"
+    d3-dsv: "npm:^2.0.0"
+    type-analyzer: "npm:0.4.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-reducers@npm:3.1.4, @soft-yyw/kepler.gl-reducers@workspace:src/reducers":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-reducers@workspace:src/reducers"
+  dependencies:
+    "@loaders.gl/loader-utils": "npm:^4.3.2"
+    "@mapbox/geo-viewport": "npm:^0.4.1"
+    "@math.gl/web-mercator": "npm:^3.6.2"
+    "@soft-yyw/kepler.gl-actions": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-cloud-providers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-deckgl-arrow-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-deckgl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-effects": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-localization": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-processors": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-schemas": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-tasks": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@turf/bbox": "npm:^6.0.1"
+    "@turf/bbox-polygon": "npm:^6.0.1"
+    "@turf/boolean-within": "npm:^6.0.1"
+    "@types/lodash": "npm:4.17.5"
+    "@types/redux-actions": "npm:^2.6.2"
+    copy-to-clipboard: "npm:^3.3.1"
+    d3-color: "npm:^2.0.0"
+    d3-dsv: "npm:^2.0.0"
+    deepmerge: "npm:^4.2.2"
+    global: "npm:^4.3.0"
+    lodash: "npm:4.17.21"
+    react-palm: "npm:^3.3.8"
+    redux: "npm:^4.2.1"
+    redux-actions: "npm:^2.2.1"
+    reselect: "npm:^4.1.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-schemas@npm:3.1.4, @soft-yyw/kepler.gl-schemas@workspace:src/schemas":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-schemas@workspace:src/schemas"
+  dependencies:
+    "@loaders.gl/loader-utils": "npm:^4.3.2"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-layers": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-table": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@types/keymirror": "npm:^0.1.1"
+    "@types/lodash": "npm:4.17.5"
+    apache-arrow: "npm:>=15.0.0"
+    global: "npm:^4.3.0"
+    keymirror: "npm:^0.1.1"
+    lodash: "npm:4.17.21"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-styles@npm:3.1.4, @soft-yyw/kepler.gl-styles@workspace:src/styles":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-styles@workspace:src/styles"
+  dependencies:
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@types/styled-components": "npm:^5.1.32"
+    styled-components: "npm:6.1.8"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-table@npm:3.1.4, @soft-yyw/kepler.gl-table@workspace:src/table":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-table@workspace:src/table"
+  dependencies:
+    "@loaders.gl/mvt": "npm:^4.3.2"
+    "@loaders.gl/pmtiles": "npm:^4.3.2"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-utils": "npm:3.1.4"
+    "@types/d3-array": "npm:^2.8.0"
+    "@types/lodash": "npm:4.17.5"
+    d3-array: "npm:^2.8.0"
+    global: "npm:^4.3.0"
+    lodash: "npm:4.17.21"
+    moment: "npm:^2.10.6"
+    react-palm: "npm:^3.3.8"
+    type-analyzer: "npm:0.4.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-tasks@npm:3.1.4, @soft-yyw/kepler.gl-tasks@workspace:src/tasks":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-tasks@workspace:src/tasks"
+  dependencies:
+    "@soft-yyw/kepler.gl-processors": "npm:3.1.4"
+    react-palm: "npm:^3.3.8"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-types@npm:3.1.4, @soft-yyw/kepler.gl-types@workspace:src/types":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-types@workspace:src/types"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl-utils@npm:3.1.4, @soft-yyw/kepler.gl-utils@workspace:src/utils":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl-utils@workspace:src/utils"
+  dependencies:
+    "@deck.gl/core": "npm:^8.9.27"
+    "@loaders.gl/arrow": "npm:^4.3.2"
+    "@luma.gl/constants": "npm:^8.5.20"
+    "@luma.gl/core": "npm:^8.5.20"
+    "@mapbox/geo-viewport": "npm:^0.4.1"
+    "@soft-yyw/kepler.gl-common-utils": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-constants": "npm:3.1.4"
+    "@soft-yyw/kepler.gl-types": "npm:3.1.4"
+    "@turf/boolean-within": "npm:^6.0.1"
+    "@turf/helpers": "npm:^6.1.4"
+    "@types/d3-array": "npm:^2.8.0"
+    "@types/keymirror": "npm:^0.1.1"
+    "@types/lodash": "npm:4.17.5"
+    apache-arrow: "npm:>=15.0.0"
+    d3-array: "npm:^2.8.0"
+    d3-color: "npm:^2.0.0"
+    d3-format: "npm:^2.0.0"
+    d3-interpolate: "npm:^2.0.1"
+    decimal.js: "npm:^10.2.0"
+    global: "npm:^4.3.0"
+    h3-js: "npm:^3.1.0"
+    keymirror: "npm:^0.1.1"
+    lodash: "npm:4.17.21"
+    mapbox-gl: "npm:^1.13.1"
+    maplibre-gl: "npm:^3.6.2"
+    maplibregl-mapbox-request-transformer: "npm:^0.0.2"
+    mini-svg-data-uri: "npm:^1.0.3"
+    moment: "npm:^2.10.6"
+    moment-timezone: "npm:^0.5.35"
+    react: "npm:^18.2.0"
+    react-map-gl: "npm:^7.1.6"
+    resize-observer-polyfill: "npm:^1.5.1"
+    suncalc: "npm:^1.9.0"
+    type-analyzer: "npm:0.4.0"
+    viewport-mercator-project: "npm:^6.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@soft-yyw/kepler.gl@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@soft-yyw/kepler.gl@workspace:."
+  dependencies:
+    "@babel/cli": "npm:^7.12.1"
+    "@babel/core": "npm:^7.12.1"
+    "@babel/eslint-parser": "npm:^7.17.0"
+    "@babel/node": "npm:^7.12.1"
+    "@babel/parser": "npm:^7.12.1"
+    "@babel/plugin-transform-class-properties": "npm:^7.12.1"
+    "@babel/plugin-transform-export-namespace-from": "npm:^7.12.1"
+    "@babel/plugin-transform-logical-assignment-operators": "npm:^7.12.1"
+    "@babel/plugin-transform-modules-commonjs": "npm:^7.12.1"
+    "@babel/plugin-transform-nullish-coalescing-operator": "npm:^7.12.1"
+    "@babel/plugin-transform-optional-chaining": "npm:^7.12.1"
+    "@babel/plugin-transform-runtime": "npm:^7.12.1"
+    "@babel/plugin-transform-typescript": "npm:^7.16.8"
+    "@babel/polyfill": "npm:^7.12.1"
+    "@babel/preset-env": "npm:^7.12.1"
+    "@babel/preset-react": "npm:^7.12.1"
+    "@babel/preset-typescript": "npm:^7.16.7"
+    "@babel/register": "npm:^7.12.1"
+    "@babel/runtime": "npm:^7.12.1"
+    "@babel/traverse": "npm:^7.12.1"
+    "@cfaester/enzyme-adapter-react-18": "npm:^0.7.0"
+    "@deck.gl/mapbox": "npm:^8.9.27"
+    "@deck.gl/test-utils": "npm:^8.9.27"
+    "@hubble.gl/core": "npm:1.4.0"
+    "@hubble.gl/react": "npm:1.4.0"
+    "@loaders.gl/polyfills": "npm:^4.3.2"
+    "@luma.gl/test-utils": "npm:^8.5.20"
+    "@nebula.gl/layers": "npm:1.0.2-alpha.1"
+    "@open-wc/webpack-import-meta-loader": "npm:0.4.7"
+    "@probe.gl/env": "npm:^3.5.0"
+    "@probe.gl/test-utils": "npm:^3.5.0"
+    "@soft-yyw/kepler.gl-components": "npm:3.1.4"
+    "@testing-library/dom": "npm:^9.0.1"
+    "@testing-library/jest-dom": "npm:^5.16.5"
+    "@testing-library/react": "npm:^14.0.0"
+    "@testing-library/user-event": "npm:^14.4.3"
+    "@types/d3-array": "npm:^2.8.0"
+    "@types/d3-scale": "npm:^3.2.2"
+    "@types/geojson": "npm:^7946.0.8"
+    "@types/jsdom": "npm:^21.1.1"
+    "@types/mapbox__geo-viewport": "npm:^0.4.1"
+    "@types/redux-actions": "npm:^2.6.2"
+    "@types/redux-logger": "npm:^3"
+    "@types/supercluster": "npm:^7.1.0"
+    "@typescript-eslint/eslint-plugin": "npm:5.57.0"
+    "@typescript-eslint/parser": "npm:^5.57.1"
+    babel-loader: "npm:^8.0.0"
+    babel-plugin-istanbul: "npm:^6.0.0"
+    babel-plugin-module-resolver: "npm:^4.0.0"
+    babel-plugin-search-and-replace: "npm:^1.0.0"
+    babel-plugin-styled-components: "npm:^2.1.4"
+    babel-plugin-transform-builtin-extend: "npm:^1.1.0"
+    babelify: "npm:^10.0.0"
+    css-loader: "npm:5.2.7"
+    documentation: "npm:^9.1.1"
+    dts-bundle-webpack: "npm:^1.0.2"
+    enzyme: "npm:^3.11.0"
+    esbuild: "npm:^0.23.1"
+    esbuild-plugin-replace: "npm:^1.4.0"
+    esbuild-plugin-umd-wrapper: "npm:3.0.0"
+    eslint: "npm:~8.53.0"
+    eslint-config-developit: "npm:^1.2.0"
+    eslint-config-prettier: "npm:8.5.0"
+    eslint-import-resolver-typescript: "npm:3.6.1"
+    eslint-plugin-babel: "npm:^5.3.0"
+    eslint-plugin-enzyme-deprecation: "npm:^0.7.7"
+    eslint-plugin-import: "npm:2.29.1"
+    eslint-plugin-jest: "npm:^27.2.1"
+    eslint-plugin-prettier: "npm:4.2.1"
+    eslint-plugin-react: "npm:^7.35.0"
+    eslint-plugin-react-hooks: "npm:^4.6.2"
+    gl: "npm:^6.0.2"
+    global: "npm:^4.4.0"
+    html-webpack-plugin: "npm:^4.3.0"
+    istanbul-merge: "npm:^2.0.0"
+    jest: "npm:^29.5.0"
+    jest-environment-jsdom: "npm:^29.5.0"
+    jsdom: "npm:^24.1.1"
+    json-loader: "npm:^0.5.4"
+    mapbox-gl: "npm:1.13.1"
+    maplibre-gl: "npm:^3.6.2"
+    minimist: "npm:^1.2.6"
+    monaco-editor: "npm:^0.52.0"
+    nyc: "npm:^15.1.0"
+    prettier: "npm:2.8.8"
+    progress-bar-webpack-plugin: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-hot-loader: "npm:^4.13.0"
+    readdirp: "npm:^2.1.0"
+    redux-logger: "npm:^3.0.6"
+    redux-mock-store: "npm:^1.2.1"
+    sinon: "npm:^2.4.1"
+    sinon-stub-promise: "npm:^4.0.0"
+    source-map-loader: "npm:^1.1.1"
+    style-loader: "npm:2.0.0"
+    styled-components: "npm:6.1.8"
+    stylelint: "npm:^13.6.1"
+    stylelint-config-recommended: "npm:^3.0.0"
+    stylelint-config-styled-components: "npm:^0.1.1"
+    stylelint-processor-styled-components: "npm:^1.10.0"
+    tap-spec: "npm:^5.0.0"
+    tape: "npm:^4.9.2"
+    tape-catch: "npm:^1.0.6"
+    typedoc: "npm:^0.19.2"
+    typedoc-plugin-markdown: "npm:^3.0.11"
+    typescript: "npm:4.7.2"
+    url-loader: "npm:^4.1.1"
+    usehooks-ts: "npm:^3.1.0"
+    watchify: "npm:^3.6.1"
+    webpack: "npm:^4.29.0"
+    webpack-bundle-analyzer: "npm:^3.3.2"
+    webpack-cli: "npm:^3.2.1"
+    webpack-dev-middleware: "npm:^3.5.1"
+    webpack-dev-server: "npm:^3.1.14"
+    webpack-hot-middleware: "npm:^2.24.3"
+    webpack-stats-plugin: "npm:^0.2.1"
+  peerDependencies:
+    react: ">=18.2"
+    react-dom: ">=18.2"
+    styled-components: 6.1.8
+  languageName: unknown
+  linkType: soft
 
 "@stylelint/postcss-css-in-js@npm:^0.37.2":
   version: 0.37.3
@@ -20491,134 +20619,6 @@ __metadata:
   checksum: 10c0/d50183b299c57e2573114e902ab47aed7494be3ca41b66d456779ecc3b2f153f491de341f9609965414784f728894f9a9001152eb9f3a40cd3755521c06a45a3
   languageName: node
   linkType: hard
-
-"kepler.gl@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "kepler.gl@workspace:."
-  dependencies:
-    "@babel/cli": "npm:^7.12.1"
-    "@babel/core": "npm:^7.12.1"
-    "@babel/eslint-parser": "npm:^7.17.0"
-    "@babel/node": "npm:^7.12.1"
-    "@babel/parser": "npm:^7.12.1"
-    "@babel/plugin-transform-class-properties": "npm:^7.12.1"
-    "@babel/plugin-transform-export-namespace-from": "npm:^7.12.1"
-    "@babel/plugin-transform-logical-assignment-operators": "npm:^7.12.1"
-    "@babel/plugin-transform-modules-commonjs": "npm:^7.12.1"
-    "@babel/plugin-transform-nullish-coalescing-operator": "npm:^7.12.1"
-    "@babel/plugin-transform-optional-chaining": "npm:^7.12.1"
-    "@babel/plugin-transform-runtime": "npm:^7.12.1"
-    "@babel/plugin-transform-typescript": "npm:^7.16.8"
-    "@babel/polyfill": "npm:^7.12.1"
-    "@babel/preset-env": "npm:^7.12.1"
-    "@babel/preset-react": "npm:^7.12.1"
-    "@babel/preset-typescript": "npm:^7.16.7"
-    "@babel/register": "npm:^7.12.1"
-    "@babel/runtime": "npm:^7.12.1"
-    "@babel/traverse": "npm:^7.12.1"
-    "@cfaester/enzyme-adapter-react-18": "npm:^0.7.0"
-    "@deck.gl/mapbox": "npm:^8.9.27"
-    "@deck.gl/test-utils": "npm:^8.9.27"
-    "@hubble.gl/core": "npm:1.4.0"
-    "@hubble.gl/react": "npm:1.4.0"
-    "@kepler.gl/components": "npm:3.1.4"
-    "@loaders.gl/polyfills": "npm:^4.3.2"
-    "@luma.gl/test-utils": "npm:^8.5.20"
-    "@nebula.gl/layers": "npm:1.0.2-alpha.1"
-    "@open-wc/webpack-import-meta-loader": "npm:0.4.7"
-    "@probe.gl/env": "npm:^3.5.0"
-    "@probe.gl/test-utils": "npm:^3.5.0"
-    "@testing-library/dom": "npm:^9.0.1"
-    "@testing-library/jest-dom": "npm:^5.16.5"
-    "@testing-library/react": "npm:^14.0.0"
-    "@testing-library/user-event": "npm:^14.4.3"
-    "@types/d3-array": "npm:^2.8.0"
-    "@types/d3-scale": "npm:^3.2.2"
-    "@types/geojson": "npm:^7946.0.8"
-    "@types/jsdom": "npm:^21.1.1"
-    "@types/mapbox__geo-viewport": "npm:^0.4.1"
-    "@types/redux-actions": "npm:^2.6.2"
-    "@types/redux-logger": "npm:^3"
-    "@types/supercluster": "npm:^7.1.0"
-    "@typescript-eslint/eslint-plugin": "npm:5.57.0"
-    "@typescript-eslint/parser": "npm:^5.57.1"
-    babel-loader: "npm:^8.0.0"
-    babel-plugin-istanbul: "npm:^6.0.0"
-    babel-plugin-module-resolver: "npm:^4.0.0"
-    babel-plugin-search-and-replace: "npm:^1.0.0"
-    babel-plugin-styled-components: "npm:^2.1.4"
-    babel-plugin-transform-builtin-extend: "npm:^1.1.0"
-    babelify: "npm:^10.0.0"
-    css-loader: "npm:5.2.7"
-    documentation: "npm:^9.1.1"
-    dts-bundle-webpack: "npm:^1.0.2"
-    enzyme: "npm:^3.11.0"
-    esbuild: "npm:^0.23.1"
-    esbuild-plugin-replace: "npm:^1.4.0"
-    esbuild-plugin-umd-wrapper: "npm:3.0.0"
-    eslint: "npm:~8.53.0"
-    eslint-config-developit: "npm:^1.2.0"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-import-resolver-typescript: "npm:3.6.1"
-    eslint-plugin-babel: "npm:^5.3.0"
-    eslint-plugin-enzyme-deprecation: "npm:^0.7.7"
-    eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-jest: "npm:^27.2.1"
-    eslint-plugin-prettier: "npm:4.2.1"
-    eslint-plugin-react: "npm:^7.35.0"
-    eslint-plugin-react-hooks: "npm:^4.6.2"
-    gl: "npm:^6.0.2"
-    global: "npm:^4.4.0"
-    html-webpack-plugin: "npm:^4.3.0"
-    istanbul-merge: "npm:^2.0.0"
-    jest: "npm:^29.5.0"
-    jest-environment-jsdom: "npm:^29.5.0"
-    jsdom: "npm:^24.1.1"
-    json-loader: "npm:^0.5.4"
-    mapbox-gl: "npm:1.13.1"
-    maplibre-gl: "npm:^3.6.2"
-    minimist: "npm:^1.2.6"
-    monaco-editor: "npm:^0.52.0"
-    nyc: "npm:^15.1.0"
-    prettier: "npm:2.8.8"
-    progress-bar-webpack-plugin: "npm:^2.1.0"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    react-hot-loader: "npm:^4.13.0"
-    readdirp: "npm:^2.1.0"
-    redux-logger: "npm:^3.0.6"
-    redux-mock-store: "npm:^1.2.1"
-    sinon: "npm:^2.4.1"
-    sinon-stub-promise: "npm:^4.0.0"
-    source-map-loader: "npm:^1.1.1"
-    style-loader: "npm:2.0.0"
-    styled-components: "npm:6.1.8"
-    stylelint: "npm:^13.6.1"
-    stylelint-config-recommended: "npm:^3.0.0"
-    stylelint-config-styled-components: "npm:^0.1.1"
-    stylelint-processor-styled-components: "npm:^1.10.0"
-    tap-spec: "npm:^5.0.0"
-    tape: "npm:^4.9.2"
-    tape-catch: "npm:^1.0.6"
-    typedoc: "npm:^0.19.2"
-    typedoc-plugin-markdown: "npm:^3.0.11"
-    typescript: "npm:4.7.2"
-    url-loader: "npm:^4.1.1"
-    usehooks-ts: "npm:^3.1.0"
-    watchify: "npm:^3.6.1"
-    webpack: "npm:^4.29.0"
-    webpack-bundle-analyzer: "npm:^3.3.2"
-    webpack-cli: "npm:^3.2.1"
-    webpack-dev-middleware: "npm:^3.5.1"
-    webpack-dev-server: "npm:^3.1.14"
-    webpack-hot-middleware: "npm:^2.24.3"
-    webpack-stats-plugin: "npm:^0.2.1"
-  peerDependencies:
-    react: ">=18.2"
-    react-dom: ">=18.2"
-    styled-components: 6.1.8
-  languageName: unknown
-  linkType: soft
 
 "keymirror@npm:^0.1.1":
   version: 0.1.1
